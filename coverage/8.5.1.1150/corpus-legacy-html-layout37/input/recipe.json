@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "profile": "managed-form-container2-root37-html-field32",
+  "origin": "minimized sanitized historical record; original writer build unknown; accepted and retained by the named native oracle",
+  "target_form": "CovContextHTMLBound",
+  "entry": "6d75a4a3-012a-5cdf-820b-a99041ff5b0b.0",
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset <entry>=input/body.txt; native load/export/save/load/export",
+  "fragment_sha256": "aa488441241c67afe2b5bfe78803702161315a844a5668719572322cf6c1c1c5",
+  "native_retained_fragment_sha256": "aa488441241c67afe2b5bfe78803702161315a844a5668719572322cf6c1c1c5",
+  "features": {
+    "field": "HTMLDocumentField",
+    "name": "Probe",
+    "Width": "90",
+    "Height": "40"
+  },
+  "scope": "one legacy field and empty command bar; no module; primitive string attribute; other source variants retained"
+}
