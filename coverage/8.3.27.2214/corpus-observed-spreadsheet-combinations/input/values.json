@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "collection": "CommonTemplates",
+  "properties": [],
+  "template_files": {
+    "Ext/Template.xml": "bodies/CovObservedMergeDescendingColumns.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovObservedMergeDescendingColumns",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedMergeDescendingColumns.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedMergeMixedRows",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedMergeMixedRows.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedMergeRowColumnDefault",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedMergeRowColumnDefault.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont0",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont0.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont1",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont1.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont2",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont2.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont3",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont3.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont4",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont4.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont5",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont5.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont6",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont6.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont7",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont7.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont8",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont8.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont9",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont9.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont10",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont10.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFont11",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFont11.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetFontTable",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetFontTable.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetGroupColours",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetGroupColours.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetAutomaticColours",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetAutomaticColours.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetAbsoluteColours",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetAbsoluteColours.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    },
+    {
+      "name": "CovObservedSheetDrawingBorder",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovObservedSheetDrawingBorder.xml"
+      },
+      "source": "generated:independent observed spreadsheet property/value combinations"
+    }
+  ]
+}

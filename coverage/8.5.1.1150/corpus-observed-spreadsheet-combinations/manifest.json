@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-observed-spreadsheet-combinations",
+  "collection": "CommonTemplates",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "2f27a9bff1494a7b1ce1b28755020a7022d438e296e54d659ab249995c53461b",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 107233,
+    "decoded_sha256": "2cfeff6204faba5a267eeefe2fc9a7e56a325f3bdf9aff57a9a7592d10f6d8ff",
+    "encoded_sha256": "3fe052e21c58666602bb85a23a18414540dc9e70594372808d4272e5b288ae37"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 12374,
+          "sha256": "25bcdac8337bfbd3bbaa6a213dfb1b3708344c7a85d27943aecd1452b0f830d1"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "360bc02505becb921463299bef36a4b1c53a336f815ae1517a56e96287cb5013"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetTemplate/Ext/Template.xml",
+          "size": 1612,
+          "sha256": "12f42bb5d03d51988c084ee9101b54ede0df8f06c56f255d09eb425605363ca7"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetTemplate.xml",
+          "size": 1226,
+          "sha256": "e22c0a5c31a0c7e93a30f7a04457fceb5e764aa387561a9826503b0803651e0a"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedMergeDescendingColumns",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedMergeDescendingColumns/Ext/Template.xml",
+          "size": 1612,
+          "sha256": "12f42bb5d03d51988c084ee9101b54ede0df8f06c56f255d09eb425605363ca7"
+        },
+        {
+          "path": "CommonTemplates/CovObservedMergeDescendingColumns.xml",
+          "size": 1235,
+          "sha256": "a6883a10dc5a35d111e9548d66e300b04ac14ab40093e1bfb0228b6e56bfe498"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedMergeMixedRows",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedMergeMixedRows/Ext/Template.xml",
+          "size": 1579,
+          "sha256": "4650d0640d04926e8403d7d5439568655bdb553a1b4ec96615bf48160a33597b"
+        },
+        {
+          "path": "CommonTemplates/CovObservedMergeMixedRows.xml",
+          "size": 1227,
+          "sha256": "84140e6396358402bc8be8c985fa1648451f2b920447375e897c12f0559cb3db"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedMergeRowColumnDefault",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedMergeRowColumnDefault/Ext/Template.xml",
+          "size": 1497,
+          "sha256": "e5d83cf49a27a3de8172a04857cbd0b4144616af4429e5b46921e1b4a15eb973"
+        },
+        {
+          "path": "CommonTemplates/CovObservedMergeRowColumnDefault.xml",
+          "size": 1234,
+          "sha256": "63ac766364700ef93ffef10f5bd5f67d58af39605655f20d9e59ee8590040444"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont0",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont0/Ext/Template.xml",
+          "size": 1325,
+          "sha256": "6642622a0799c3d6ba0c97162e9c981d9e24d0dbbe96fec24ab62cce21c30062"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont0.xml",
+          "size": 1223,
+          "sha256": "75b3296f4070ac02800b7ca33b166a897129dcd1a00a8e8dbe8eb3a8d159022e"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont1/Ext/Template.xml",
+          "size": 1325,
+          "sha256": "8aea1a4743f0acae5d26ba0ce0c3564b6392d4ee02e8838acbe33f0d33bd2cab"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont1.xml",
+          "size": 1223,
+          "sha256": "c7d3885fdc0181104abebb699ac898fd74e89f70615cd36dbc24cec91e85cbb1"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont2/Ext/Template.xml",
+          "size": 1323,
+          "sha256": "81784e676c06c06ad4fcf51290e8ad00a52960cff96f416ac83cc279e558d58b"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont2.xml",
+          "size": 1223,
+          "sha256": "7d1ebd70f967b394018c82d7d0c139a698db9ea7d59f24a4d97a4be2f9427e41"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont3",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont3/Ext/Template.xml",
+          "size": 1324,
+          "sha256": "703fb26558a3add0be4d3fec905831e52a3417180194f34ea012854fe3b17d6c"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont3.xml",
+          "size": 1223,
+          "sha256": "244c1790becd127a16a005f112cb45c5c0da907b3c5fd01483d77fb530df50d6"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont4",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont4/Ext/Template.xml",
+          "size": 1324,
+          "sha256": "a0d2176f12e85da9aebc93b289664ed0a56cdf97c349d7934c7fcb26934b9ece"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont4.xml",
+          "size": 1223,
+          "sha256": "9c20332826f9ff408e2cd967fc27337dcede6624dd5956e6298daec24de7c76a"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont5",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont5/Ext/Template.xml",
+          "size": 1322,
+          "sha256": "ee95b4ed4935d7fbd8bbdc528080939bcdfb8d63ac948e3a9009c03aaae8903d"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont5.xml",
+          "size": 1223,
+          "sha256": "0b1a3717444b1755799a617d363afcd1cab40ebca315dbd6b9c42cd903fa1535"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont6",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont6/Ext/Template.xml",
+          "size": 1322,
+          "sha256": "550781cba0b47b66efe25748b4362260653e0ef6e2400f8a37bf9399f4339394"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont6.xml",
+          "size": 1223,
+          "sha256": "6d7ad8e2c37d74b77672a084808af1bba28a8fd0aefe1345235a924f02954dde"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont7",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont7/Ext/Template.xml",
+          "size": 1322,
+          "sha256": "10ddc69bb478d54454fb457d5906ef509e37e1ed2701bae1c1a09e1ee5886dd2"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont7.xml",
+          "size": 1223,
+          "sha256": "c4fcb6aaa3fe705996c67626ee1eb3a17df59e4a5798153f0d2f263dacd2ed2c"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont8",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont8/Ext/Template.xml",
+          "size": 1323,
+          "sha256": "113ee47754383f475cffd5ef4262c88cad309047827a8741fa50ce20727941b0"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont8.xml",
+          "size": 1223,
+          "sha256": "6f222b2aa06deb3a30eca340d0051c685256f689437bf8dd7e9208ad72981d17"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont9",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont9/Ext/Template.xml",
+          "size": 1325,
+          "sha256": "c7cfaf1cd528d4e9d58a0cbde1da5d2be94f1c3ad4e33a0505c4a4dfe7ff718a"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont9.xml",
+          "size": 1223,
+          "sha256": "2ce0038ad10a6be584835ec75dc9dfdc4348551c3a3434098704763cc2539334"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont10/Ext/Template.xml",
+          "size": 1325,
+          "sha256": "e335fb8db2360dcdecbc78bc160da4a815cab06c7c44e4b61f6c49ddfdc0d58a"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont10.xml",
+          "size": 1224,
+          "sha256": "33101c4901e5194c1a579c348684ce153b198965a619878a489abea4360e5f4d"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFont11",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFont11/Ext/Template.xml",
+          "size": 1323,
+          "sha256": "59f562ea8b8a24ddecfba4b79556682e19c3274fda304ab1554e7b2b79f10cb1"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFont11.xml",
+          "size": 1224,
+          "sha256": "f7ba0783a31ef21d3d24a00d204002dd5eb247d481d8d0085f899eca5629d416"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetFontTable",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetFontTable/Ext/Template.xml",
+          "size": 6280,
+          "sha256": "3c9a03a16344042b430a7ca6065eb98bf901d60db71866da535cb1566173ec0f"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetFontTable.xml",
+          "size": 1227,
+          "sha256": "e08d0834875c2513a0e8ca11e492df0a300925ee0dad19846350341251a57169"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetGroupColours",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetGroupColours/Ext/Template.xml",
+          "size": 1520,
+          "sha256": "f7dd3c15fbfbf3d291e988e8cab74bb5a288497c0b7b421a517e0062f627b2ab"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetGroupColours.xml",
+          "size": 1230,
+          "sha256": "7a9f5f40713028f82dd1a39ec7bf32875aa2ce0ab7540d9210aa7aa7d6267944"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetAutomaticColours",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetAutomaticColours/Ext/Template.xml",
+          "size": 1421,
+          "sha256": "46bf2ff96b95339b3ebe064bad459fdd1819987b2c6cf4c870dcb544c3343e80"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetAutomaticColours.xml",
+          "size": 1234,
+          "sha256": "f1ee6f15f0ae68193cd56d90066537e83527d8ddacb585db3f1ab53637161292"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetAbsoluteColours",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetAbsoluteColours/Ext/Template.xml",
+          "size": 1430,
+          "sha256": "8e908fc8925a73a7225630895804b2dfe9d94abad4ed47ff34d8950a0ac0e03f"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetAbsoluteColours.xml",
+          "size": 1233,
+          "sha256": "cd80ceec084ceff0a5aa343a6deba0afd20cdec3936aed7c4fc50f640229bc0e"
+        }
+      ]
+    },
+    {
+      "name": "CovObservedSheetDrawingBorder",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent observed spreadsheet property/value combinations",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovObservedSheetDrawingBorder/Ext/Template.xml",
+          "size": 1479,
+          "sha256": "07a1812bdddc339a9d64197ff1fb4255e37842459cc8acb9c91b825fc3f432af"
+        },
+        {
+          "path": "CommonTemplates/CovObservedSheetDrawingBorder.xml",
+          "size": 1231,
+          "sha256": "be0a4b4696f10e39bf67d33ef0b1f9c6cf5fda520f443d43cf527a3e803890f0"
+        }
+      ]
+    }
+  ]
+}

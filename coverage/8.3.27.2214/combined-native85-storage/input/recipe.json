@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "method": "regenerate original input recipes; promote only XML format attributes; native 8.5 import/save; target native load/export/save/load/export",
+  "producer_platform": "8.5.1.1150",
+  "producer_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+  "promoted_format_headers": 2324,
+  "generated_input_tree_sha256": "7a5b796c7836ab8858267fe9d0ffc07b9ef04e3aeb75c430bfb4abd59c727083"
+}

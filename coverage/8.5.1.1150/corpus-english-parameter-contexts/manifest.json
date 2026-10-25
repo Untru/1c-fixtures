@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-english-parameter-contexts",
+  "collection": "CommonTemplates",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "2cf2f597a7e2f1fe38dc0a63cd1532bb23270bd829531bdb993eb7970ed29b23",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 89721,
+    "decoded_sha256": "005127ae73d6d3e475c12cb90d8d6f7148093542f1d3bb212945bd29b01dcec4",
+    "encoded_sha256": "1104e25ff0b64ea3a2469123a6b298d9755759689d389e88f2e28f935c8d5df5"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11584,
+          "sha256": "ff3c83b5696543488fa2ea89917c44a4f1d6a19febe8672fa5493523ee33ed34"
+        },
+        {
+          "path": "Languages/English.xml",
+          "size": 1292,
+          "sha256": "14fd6dfa6268f7820a015dabf9fffa9d4f12c474f5a04670b0fc9c7d1d4e1ee3"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "360bc02505becb921463299bef36a4b1c53a336f815ae1517a56e96287cb5013"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishRulesTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishRulesTemplate/Ext/Template.xml",
+          "size": 4542,
+          "sha256": "b694ff4c4e2dc4784371e11136be427c1e7456d5e459c2cbda3874ed092fd88e"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishRulesTemplate.xml",
+          "size": 1227,
+          "sha256": "020820ce617d1025d265edbda0c183ce49478208f9752db891954d59d5d6a5d3"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersOutput/Ext/Template.xml",
+          "size": 4542,
+          "sha256": "b694ff4c4e2dc4784371e11136be427c1e7456d5e459c2cbda3874ed092fd88e"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersOutput.xml",
+          "size": 1230,
+          "sha256": "652110119bfb6ed0354e2caf1d80bd3dd059a921cf5fac090582ccd34189f702"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersFieldAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersFieldAppearance/Ext/Template.xml",
+          "size": 8531,
+          "sha256": "b475c50664c232fd6bc79763570aee568b23256d99e288efec19c9af7397e4bf"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersFieldAppearance.xml",
+          "size": 1239,
+          "sha256": "b9b6267c8bc093f830feba1f86dce168bbba39601868c1c3f1e6518219f7733e"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersFieldInput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersFieldInput/Ext/Template.xml",
+          "size": 2672,
+          "sha256": "e9d89b5deb9bfcf212b338f72b87d5d9e644852c44c6c32c2a9bc9e974151195"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersFieldInput.xml",
+          "size": 1234,
+          "sha256": "032b3b6c247ceb49a12b118ed4ad5514f8dbcf81cf8bfe38ecd0fe8a47425a3f"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersCalculatedAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersCalculatedAppearance/Ext/Template.xml",
+          "size": 8235,
+          "sha256": "b5e7571341c99209e379377bce45ecf5055c4e7b1468f14b2a28ff8642e1f8de"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersCalculatedAppearance.xml",
+          "size": 1244,
+          "sha256": "03b75d9e37fb06c6a79e52f132946dc40210b7a09a0791153446984b01ad782c"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersParameterInput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersParameterInput/Ext/Template.xml",
+          "size": 2702,
+          "sha256": "34491e21a4e5d65a655479cd24381e274fa26a91a4357bf31c48af3efd67242d"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersParameterInput.xml",
+          "size": 1238,
+          "sha256": "c348f2b4a44e59db9ed910e141e9daef725b0ca5ffe0be174775199646e9dbcb"
+        }
+      ]
+    },
+    {
+      "name": "CovEnglishParametersConditionalAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed public parameter keys in independent English-script composition contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovEnglishParametersConditionalAppearance/Ext/Template.xml",
+          "size": 8655,
+          "sha256": "bd9399d7056a4c62c4a505d491a06fb7c1971f4ad5749b07ff00157dd1b94006"
+        },
+        {
+          "path": "CommonTemplates/CovEnglishParametersConditionalAppearance.xml",
+          "size": 1245,
+          "sha256": "97890316a5078de72d6321813b8793cee538e6ef009afe9958b6da41b3c4ea91"
+        }
+      ]
+    }
+  ]
+}

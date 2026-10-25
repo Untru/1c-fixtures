@@ -1,0 +1,233 @@
+[
+  {
+    "id": "0365cb28dc31",
+    "kind": "GraphicalSchemaField",
+    "property": "BorderColor",
+    "xml": "<ns0:BorderColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:FormBackColor</ns0:BorderColor>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "05ef0a3d94ff",
+    "kind": "LabelDecoration",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:CornFlowerBlue</ns0:TextColor>\n\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "06e0082249eb",
+    "kind": "Button",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"sys:DefaultGUIFont\" kind=\"WindowsFont\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "12684bcf3818",
+    "kind": "LabelDecoration",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:Brown</ns0:TextColor>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "14717535474a",
+    "kind": "InputField",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:AliceBlue</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "23d763ecff98",
+    "kind": "LabelField",
+    "property": "Border",
+    "xml": "<ns0:Border xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:ControlBorder\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "29a15d31da94",
+    "kind": "LabelDecoration",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:SpecialTextColor</ns0:TextColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "36d558302a14",
+    "kind": "InputField",
+    "property": "FooterFont",
+    "xml": "<ns0:FooterFont xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"sys:DefaultGUIFont\" bold=\"true\" italic=\"false\" underline=\"false\" strikeout=\"false\" kind=\"WindowsFont\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "5254b71fa291",
+    "kind": "HTMLDocumentField",
+    "property": "Border",
+    "xml": "<ns0:Border xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" xmlns:ns1=\"http://v8.1c.ru/8.1/data/ui\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" width=\"1\">\n\t\t\t\t\t\t\t\t<ns1:style xsi:type=\"v8ui:ControlBorderType\">Single</ns1:style>\n\t\t\t\t\t\t\t</ns0:Border>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "5747a0aa7553",
+    "kind": "LabelField",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:TitleLevel4\" kind=\"StyleItem\" />\n\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "5be5224c3ca1",
+    "kind": "LabelDecoration",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:TitleLevel1\" bold=\"true\" italic=\"false\" underline=\"false\" strikeout=\"false\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "5f7b3807c46b",
+    "kind": "UsualGroup",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:ToolTipBackColor</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "601b47f044f4",
+    "kind": "LabelField",
+    "property": "TitleTextColor",
+    "xml": "<ns0:TitleTextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:FormTextColor</ns0:TitleTextColor>\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "6351b0913aeb",
+    "kind": "LabelDecoration",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:SubtitleLevel2\" height=\"1\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "6acd95475d1b",
+    "kind": "LabelDecoration",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:TitleLevel1\" kind=\"StyleItem\" scale=\"110\" />\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "7248b6a44595",
+    "kind": "UsualGroup",
+    "property": "TitleTextColor",
+    "xml": "<ns0:TitleTextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">#333333</ns0:TitleTextColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "79e7d5490618",
+    "kind": "InputField",
+    "property": "ChoiceButtonPicture",
+    "xml": "<ns0:ChoiceButtonPicture xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" xmlns:ns1=\"http://v8.1c.ru/8.3/xcf/readable\">\n\t\t\t\t\t\t\t\t\t\t\t\t<ns1:Ref>StdPicture.InputFieldCalendar</ns1:Ref>\n\t\t\t\t\t\t\t\t\t\t\t\t<ns1:LoadTransparent>true</ns1:LoadTransparent>\n\t\t\t\t\t\t\t\t\t\t\t</ns0:ChoiceButtonPicture>\n\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "7e2d4a4f491b",
+    "kind": "InputField",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:ToolTipBackColor</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "806a28ec2195",
+    "kind": "LabelDecoration",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:TitleLevel1\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "80b5f7fb6981",
+    "kind": "UsualGroup",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">win:InactiveBorder</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "8fef89f2f50b",
+    "kind": "LabelField",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:NormalTextFont\" bold=\"false\" italic=\"false\" underline=\"true\" strikeout=\"false\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "900d6361efb2",
+    "kind": "InputField",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:HoneyDew</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "99e20e36451f",
+    "kind": "Button",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:SpecialTextColor</ns0:TextColor>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "9a5b8315d03b",
+    "kind": "LabelField",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">#162779</ns0:TextColor>\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "a79201fc6d20",
+    "kind": "Button",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:NormalTextFont\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "b14664294682",
+    "kind": "LabelField",
+    "property": "TitleTextColor",
+    "xml": "<ns0:TitleTextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:SpecialTextColor</ns0:TitleTextColor>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "c210628e0abb",
+    "kind": "LabelField",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:SandyBrown</ns0:TextColor>\n\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "c7cb4e395323",
+    "kind": "LabelDecoration",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:TitleLevel1\" kind=\"StyleItem\" scale=\"200\" />\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "d0b19def54a8",
+    "kind": "LabelField",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"sys:DefaultGUIFont\" bold=\"true\" italic=\"false\" underline=\"false\" strikeout=\"false\" kind=\"WindowsFont\" />\n\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "d5f89199443c",
+    "kind": "UsualGroup",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">style:FormBackColor</ns0:BackColor>\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "e0bd259606ab",
+    "kind": "LabelField",
+    "property": "Font",
+    "xml": "<ns0:Font xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\" ref=\"style:NormalTextFont\" bold=\"true\" italic=\"false\" underline=\"false\" strikeout=\"false\" kind=\"StyleItem\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "ee07b2501001",
+    "kind": "UsualGroup",
+    "property": "BackColor",
+    "xml": "<ns0:BackColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">win:ToolTip</ns0:BackColor>\n\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  },
+  {
+    "id": "fd147c35c1cc",
+    "kind": "LabelDecoration",
+    "property": "TextColor",
+    "xml": "<ns0:TextColor xmlns:ns0=\"http://v8.1c.ru/8.3/xcf/logform\">web:FireBrick</ns0:TextColor>\n\t\t\t\t\t\t\t\t\t\t\t",
+    "source": "observed:independent visual-property reproduction"
+  }
+]

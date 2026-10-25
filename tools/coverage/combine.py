@@ -58,6 +58,25 @@ def merge_root_files(source, target):
         destination.write_bytes(path.read_bytes())
 
 
+def merge_object_inputs(metadata, source, target):
+    """Union compatible declarations/sidecars; reject any contradictory bytes.
+
+    Sibling-build sets can declare the same logical case. A missing sidecar
+    contributes no file; it never deletes another set's explicit input.
+    """
+    files = [(target, metadata)]
+    if source.is_dir():
+        files.extend((target.with_suffix("") / item.relative_to(source), item.read_bytes())
+                     for item in sorted(source.rglob("*")) if item.is_file())
+    for destination, data in files:
+        if destination.exists() and destination.read_bytes() != data:
+            raise ValueError(f"two sets disagree on logical object input {destination.name}")
+    for destination, data in files:
+        if not destination.exists():
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(data)
+
+
 def declared_configuration_properties(set_dir):
     space = json.loads((set_dir / "input" / "values.json").read_text(encoding="utf-8"))
     text = (set_dir / "input" / "base" / "Configuration.xml").read_text(encoding="utf-8-sig")
@@ -82,22 +101,7 @@ def configuration_base(text):
     return result
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--ibcmd", required=True)
-    parser.add_argument("--platform", required=True)
-    parser.add_argument("--xml-version", required=True)
-    parser.add_argument("--root", required=True, type=pathlib.Path)
-    parser.add_argument("--include-root", action="append", default=[], type=pathlib.Path,
-                        help="Also combine proven class sets of a sibling platform build with the same XML version")
-    parser.add_argument("--work", required=True, type=pathlib.Path)
-    parser.add_argument("--locale", default="ru_RU")
-    args = parser.parse_args()
-
-    work = args.work
-    if work.exists():
-        shutil.rmtree(work)
-    work.mkdir(parents=True)
+def assemble_tree(args, work, selected_sets=None):
     tree = work / "combined"
     sources, objects, aux = [], [], []
     renamed, references, root_properties = {}, {}, {}
@@ -105,7 +109,7 @@ def main():
     for include in roots:
         if include.resolve().parent != args.root.resolve().parent:
             raise SystemExit("included sets must be sibling builds under the same coverage root")
-    sets = [(directory, manifest) for root in roots for directory, manifest in configuration_sets(root)]
+    sets = selected_sets if selected_sets is not None else [(directory, manifest) for root in roots for directory, manifest in configuration_sets(root)]
     for set_dir, manifest in sets:
         if manifest["evidence"]["source_version"] != args.xml_version:
             raise SystemExit(f"{set_dir}: source XML version differs from the combined target")
@@ -166,10 +170,11 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             # Variant names repeat across classes, so are their identifiers:
             # reissue them with the class in the seed.
-            target.write_text("\ufeff" + rename(text, name, new_name, seed=f"{collection}/{name}"), encoding="utf-8")
-            if (generated / collection / name).is_dir():
-                shutil.copytree(generated / collection / name, tree / collection / new_name)
-            objects.append((collection, new_name, tag))
+            metadata = ("\ufeff" + rename(text, name, new_name, seed=f"{collection}/{name}")).replace("\n", os.linesep).encode("utf-8")
+            merge_object_inputs(metadata, generated / collection / name, target)
+            declaration = (collection, new_name, tag)
+            if declaration not in objects:
+                objects.append(declaration)
             if new_name != name:
                 renamed[f"{collection}/{name}"] = new_name
                 references[f">{tag}.{name}<"] = f">{tag}.{new_name}<"
@@ -203,6 +208,27 @@ def main():
             path.write_text("\ufeff" + changed, encoding="utf-8")
     prune_references(tree)
 
+    return tree, sources, objects, renamed
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("--ibcmd", required=True)
+    parser.add_argument("--platform", required=True)
+    parser.add_argument("--xml-version", required=True)
+    parser.add_argument("--root", required=True, type=pathlib.Path)
+    parser.add_argument("--include-root", action="append", default=[], type=pathlib.Path,
+                        help="Also combine proven class sets of a sibling platform build with the same XML version")
+    parser.add_argument("--work", required=True, type=pathlib.Path)
+    parser.add_argument("--locale", default="ru_RU")
+    args = parser.parse_args()
+
+    work = args.work
+    if work.exists():
+        raise SystemExit("use a new work directory; previous native evidence is retained")
+    work.mkdir(parents=True)
+    tree, sources, objects, renamed = assemble_tree(args, work)
+
     ok, output = create_from_tree(args, work, tree, work / "ib1")
     if not ok:
         raise SystemExit(f"the platform refuses the combined configuration: {first_error(output)}")
@@ -222,6 +248,8 @@ def main():
 
     out = args.root / "combined"
     if out.exists():
+        if out.resolve().parent != args.root.resolve() or out.is_symlink():
+            raise SystemExit("combined output resolves outside its platform root")
         shutil.rmtree(out)
     for path, data in round2.items():
         (out / "native" / path).parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovContextHTMLBound",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovContextHTMLBound.xml"
+      },
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings"
+    },
+    {
+      "name": "CovContextTableReadOnly",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovContextTableReadOnly.xml"
+      },
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings"
+    },
+    {
+      "name": "CovContextTableReadOnlyColumns",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovContextTableReadOnlyColumns.xml"
+      },
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings"
+    },
+    {
+      "name": "CovContextHorizontalGroup",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovContextHorizontalGroup.xml"
+      },
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings"
+    }
+  ]
+}

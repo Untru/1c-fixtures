@@ -1,0 +1,1656 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovBoundButtonCheck_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonCheck_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonEnabled_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonGroupVerticalAlign_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonGroupVerticalAlign_Top.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonShapeRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonShapeRepresentation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonToolTipRepresentation_Balloon",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonToolTipRepresentation_Balloon.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonToolTipRepresentation_Button.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonToolTipRepresentation_ShowTop",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonToolTipRepresentation_ShowTop.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundButtonVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundButtonVisible_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldCheckBoxType_Auto",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldCheckBoxType_Auto.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldCheckBoxType_CheckBox",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldCheckBoxType_CheckBox.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldCheckBoxType_Switcher",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldCheckBoxType_Switcher.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldCheckBoxType_Tumbler",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldCheckBoxType_Tumbler.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldEnabled_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldEqualItemsWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldEqualItemsWidth_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldReadOnly_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldTitleHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldTitleHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldTitleHeight_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldToolTipRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldToolTipRepresentation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldWarningOnEditRepresentation_DontShow",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldWarningOnEditRepresentation_DontShow.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundCheckBoxFieldWarningOnEditRepresentation_Show",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundCheckBoxFieldWarningOnEditRepresentation_Show.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundFormattedDocumentFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundFormattedDocumentFieldReadOnly_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundFormattedDocumentFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundFormattedDocumentFieldVisible_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundHTMLDocumentFieldHeight_40",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundHTMLDocumentFieldHeight_40.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundHTMLDocumentFieldWidth_90",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundHTMLDocumentFieldWidth_90.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldCellHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldCellHyperlink_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldChoiceHistoryOnInput_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldChoiceHistoryOnInput_DontUse.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldDropListWidth_16",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldDropListWidth_16.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldDropListWidth_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldDropListWidth_7.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldEditTextUpdate_OnValueChange",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldEditTextUpdate_OnValueChange.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldEnabled_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldExtendedEditMultipleValues_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldExtendedEditMultipleValues_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldGroupHorizontalAlign_Left.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldGroupHorizontalAlign_Right.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldMask_9999999999",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldMask_9999999999.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldShowInFooter_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldShowInFooter_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldSkipOnInput_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldSkipOnInput_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldTitleHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldTitleHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldTitleHeight_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldTitleHeight_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldTitleHeight_3.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundInputFieldWarningOnEditRepresentation_Show",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundInputFieldWarningOnEditRepresentation_Show.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldAutoMaxHeight_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldAutoMaxHeight_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldAutoMaxWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldAutoMaxWidth_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldCellHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldCellHyperlink_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldGroupHorizontalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldGroupHorizontalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHeight_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHeight_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHeight_4.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHiperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHiperlink_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHorizontalAlign_Left.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHorizontalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldHorizontalStretch_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxHeight_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxHeight_4.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_10.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_15.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_21",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_21.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_26",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_26.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_29",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_29.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_5",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_5.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_50",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_50.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_60",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_60.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldMaxWidth_96",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldMaxWidth_96.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldShowInFooter_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldShowInFooter_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldTextColor_#162779",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldTextColor_#162779.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldTitleHeight_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldVerticalAlign_Bottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldVerticalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldVerticalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldVerticalStretch_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_10.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_15.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_16",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_16.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_17",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_17.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_18",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_18.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_20",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_20.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_28",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_28.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_3.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_30",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_30.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_36",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_36.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_4.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_40",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_40.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_50",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_50.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_60",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_60.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_7.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_70",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_70.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_8",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_8.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundLabelFieldWidth_9",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundLabelFieldWidth_9.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageChildrenAlign_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageChildrenAlign_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageEnableContentChange_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageEnableContentChange_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageGroup_AlwaysHorizontal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageGroup_AlwaysHorizontal.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageGroup_Horizontal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageGroup_Horizontal.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageHorizontalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageHorizontalSpacing_Half.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageHorizontalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageHorizontalStretch_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageReadOnly_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageScrollOnCompress_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageScrollOnCompress_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageShowTitle_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageShowTitle_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageVerticalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPageVerticalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPageVerticalStretch_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureDecorationHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureDecorationHyperlink_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureDecorationPictureSize_ByFontSize",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureDecorationPictureSize_ByFontSize.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureDecorationPictureSize_Stretch",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureDecorationPictureSize_Stretch.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldAutoMaxWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldAutoMaxWidth_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldFileDragMode_AsFile",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldFileDragMode_AsFile.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldHeight_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldHeight_7.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldHorizontalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldHyperlink_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldPictureSize_AutoSize",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldPictureSize_AutoSize.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldPictureSize_Proportionally",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldPictureSize_Proportionally.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldReadOnly_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldSkipOnInput_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldSkipOnInput_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldVerticalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldVisible_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldWidth_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldWidth_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldWidth_41",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldWidth_41.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundPictureFieldWidth_75",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundPictureFieldWidth_75.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldColumnsCount_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldColumnsCount_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldColumnsCount_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldColumnsCount_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldEqualColumnsWidth_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldEqualColumnsWidth_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldItemWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldItemWidth_10.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldRadioButtonType_Auto",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldRadioButtonType_Auto.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldRadioButtonType_RadioButtons",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldRadioButtonType_RadioButtons.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldRadioButtonType_Tumbler",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldRadioButtonType_Tumbler.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldTitleHeight_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldTitleHeight_3.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldToolTipRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldToolTipRepresentation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundRadioButtonFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundRadioButtonFieldVisible_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableAllowRootChoice_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableAllowRootChoice_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableAutoAddIncomplete_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableAutoAddIncomplete_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableAutoInsertNewRow_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableAutoInsertNewRow_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableChangeRowOrder_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableChangeRowOrder_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableChangeRowSet_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableChangeRowSet_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableChoiceFoldersAndItems_Folders",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableChoiceFoldersAndItems_Folders.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableCommandBarLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableCommandBarLocation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableCurrentRowUse_SelectionPresentationAndChoice",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableCurrentRowUse_SelectionPresentationAndChoice.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableEnableDrag_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableEnableDrag_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableEnableStartDrag_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableEnableStartDrag_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableFooter_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableFooter_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableHeader_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableHeader_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableHeightControlVariant_UseContentHeight",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableHeightControlVariant_UseContentHeight.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableHorizontalLines_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableHorizontalLines_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableHorizontalScrollBar_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableHorizontalScrollBar_DontUse.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableReadOnly_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableRepresentation_List",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableRepresentation_List.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableRowSelectionMode_Row",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableRowSelectionMode_Row.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableSearchControlLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableSearchControlLocation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableSearchStringLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableSearchStringLocation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableSelectionMode_SingleRow",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableSelectionMode_SingleRow.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableSkipOnInput_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableSkipOnInput_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableTitleLocation_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableTitleLocation_Top.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableVerticalLines_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableVerticalLines_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableViewStatusLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableViewStatusLocation_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableVisible_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundTableWidth_51",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundTableWidth_51.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupBehavior_Collapsible",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupBehavior_Collapsible.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupBehavior_PopUp",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupBehavior_PopUp.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupBehavior_Usual",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupBehavior_Usual.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupChildItemsWidth_Equal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupChildItemsWidth_Equal.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupChildrenAlign_ItemsLeftTitlesLeft",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupChildrenAlign_ItemsLeftTitlesLeft.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupCollapsed_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupCollapsed_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupControlRepresentation_Picture",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupControlRepresentation_Picture.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupEnableContentChange_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupEnableContentChange_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupGroupHorizontalAlign_Left.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupGroupHorizontalAlign_Right.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupGroupVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHeight_1.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHeight_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHeight_10.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHeight_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHeight_15.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHeight_2.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalAlign_Left.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalAlign_Right.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalSpacing_Double",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalSpacing_Double.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalSpacing_Half.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalSpacing_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalSpacing_None.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalSpacing_Single",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalSpacing_Single.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalStretch_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupHorizontalStretch_true.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupShortcut_F5",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupShortcut_F5.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupShowLeftMargin_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupShowLeftMargin_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupShowTitle_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupShowTitle_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupThroughAlign_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupThroughAlign_DontUse.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupThroughAlign_Use",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupThroughAlign_Use.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupTitleTextColor_#333333",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupTitleTextColor_#333333.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupUnited_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupUnited_false.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupVerticalAlign_Center.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupVerticalAlign_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupVerticalAlign_Top.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupVerticalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupVerticalSpacing_Half.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    },
+    {
+      "name": "CovBoundUsualGroupVerticalSpacing_OneAndHalf",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovBoundUsualGroupVerticalSpacing_OneAndHalf.xml"
+      },
+      "source": "generated:observed scalar with title and saved typed binding"
+    }
+  ],
+  "corpus": "clean-room-typical-observed-scalars"
+}

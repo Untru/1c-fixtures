@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "set": "8.3.27.2214-xml-2.20-corpus-field-property-combinations",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.3.27.2214",
+    "source_version": "2.20",
+    "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "13cad3ebe03f245884e59fbb8f460b5e9d3eb356cabc1c9b14e8217bf818b947",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 90236,
+    "decoded_sha256": "87d945012d3e69fd1c4543ca756b8b2ed53c7d1eaf5032cc6c46a957d1381792",
+    "encoded_sha256": "d5cb512101634eff751adae5b7ad70f0119aa1817dad6bd74b8c4b8f5acde61a"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 10808,
+          "sha256": "a02de45a42061ffdc91702b0e2c36d3a10149f6b0644f818033fe7f909db7a27"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1251,
+          "sha256": "4307b3294744a891ded3a94cce374fc4b0757d45fde1b0ffe68998285dc33d87"
+        }
+      ]
+    },
+    {
+      "name": "CovCompatibleFormTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCompatibleFormTemplate.xml",
+          "size": 1509,
+          "sha256": "45cb6abf29b20bb7458291576f2426eb0cc6df2b23041eddb740a8f6d8440dc0"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightLocationLeft",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightLocationLeft/Ext/Form.xml",
+          "size": 1636,
+          "sha256": "e0be3c112921460feab17d482fd2e3cf930977d1f8700c3b7fc3f312fc316d92"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightLocationLeft.xml",
+          "size": 1521,
+          "sha256": "16a100fb466347ac857e26937330e01a60e42df723188d8ac526f1d63f9a29a6"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightLocationNone",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightLocationNone/Ext/Form.xml",
+          "size": 1636,
+          "sha256": "554be024c58ec8684515e2f42016de51ed706c2325e22eaa4d26af769e74fc3a"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightLocationNone.xml",
+          "size": 1521,
+          "sha256": "2005641ce8bc15d5a6a69a64d4cc2591678a85caa456e92d3cc4ffc29f727f7f"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightWidthBounds",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightWidthBounds/Ext/Form.xml",
+          "size": 1663,
+          "sha256": "e7e35190254943e72e725c1cc8a8d9a555718c1dd541ee6b1e15cb4bdbec62c1"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightWidthBounds.xml",
+          "size": 1520,
+          "sha256": "4379caddd4974f8e7246ed5f8c9eb4056705d5b8f7e359550021c03aba14b3e1"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightButtons",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightButtons/Ext/Form.xml",
+          "size": 1686,
+          "sha256": "ba5e6d61b4ce8594d0ec8c87b352e00f3c075e7e5537e4ed9ff27fe7bce669ad"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightButtons.xml",
+          "size": 1516,
+          "sha256": "f9688fce79a2cb941f1789c5cbfc1508ae02824fcac5a424473eb56eefb36a7c"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightAll",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAll/Ext/Form.xml",
+          "size": 1793,
+          "sha256": "c6ea8cd6b3594dfebf92be5789a28b1473abc529ce5629f238d24b9102724c93"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAll.xml",
+          "size": 1512,
+          "sha256": "e7ec7aa7bc4024c27dd3f9784c5c2323110c9f7d4d4ded6c7036cea3e616d196"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightAllNested",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAllNested/Ext/Form.xml",
+          "size": 2020,
+          "sha256": "cd5190b716b3be7e58f377c2e844611fad00f35f73d300a3c845e8c9bacdbc4c"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAllNested.xml",
+          "size": 1518,
+          "sha256": "9747937e14ade40a6e1e3f7b116f1f06db6b2c4398a665f0f7ac44802bfed94f"
+        }
+      ]
+    },
+    {
+      "name": "CovFieldCombinationHeightAllTable",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:independently generated combinations of public field properties and table/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAllTable/Ext/Form.xml",
+          "size": 3635,
+          "sha256": "0241314f6e1c37f92c3fedae50da0fb7fa10521ec49be470b602b6ffb44b6051"
+        },
+        {
+          "path": "CommonForms/CovFieldCombinationHeightAllTable.xml",
+          "size": 1517,
+          "sha256": "7d15ec0b4dd5d8c97ae023d37c8ddd2a8f2cf5e6624763882ff54286a20d01fe"
+        }
+      ]
+    }
+  ]
+}

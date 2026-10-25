@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovFormattedRootDefault",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootDefault.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootUserVisibleTrue",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootUserVisibleTrue.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootUserVisibleFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootUserVisibleFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootVisibleFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootVisibleFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootEnabledFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootEnabledFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootReadOnlyTrue",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootReadOnlyTrue.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedRootStyleFont",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedRootStyleFont.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedDefault",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedDefault.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedUserVisibleTrue",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedUserVisibleTrue.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedUserVisibleFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedUserVisibleFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedVisibleFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedVisibleFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedEnabledFalse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedEnabledFalse.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedReadOnlyTrue",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedReadOnlyTrue.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    },
+    {
+      "name": "CovFormattedNestedStyleFont",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedNestedStyleFont.xml"
+      },
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts"
+    }
+  ],
+  "corpus": "clean-room-typical-parity-rules"
+}

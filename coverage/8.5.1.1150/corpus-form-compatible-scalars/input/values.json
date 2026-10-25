@@ -1,0 +1,1664 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovCompatHTMLDocumentFieldHeight_40",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovHTMLDocumentFieldHeight_40.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatHTMLDocumentFieldWidth_90",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovHTMLDocumentFieldWidth_90.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableAllowRootChoice_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableAllowRootChoice_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableChoiceFoldersAndItems_Folders",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableChoiceFoldersAndItems_Folders.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHierarchyPanelLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHierarchyPanelLocation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonCheck_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonCheck_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonEnabled_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonGroupVerticalAlign_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonGroupVerticalAlign_Top.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonShapeRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonShapeRepresentation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonToolTipRepresentation_Balloon",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonToolTipRepresentation_Balloon.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonToolTipRepresentation_Button.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonToolTipRepresentation_ShowTop",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonToolTipRepresentation_ShowTop.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatButtonVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovButtonVisible_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldCheckBoxType_Auto",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldCheckBoxType_Auto.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldCheckBoxType_CheckBox",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldCheckBoxType_CheckBox.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldCheckBoxType_Switcher",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldCheckBoxType_Switcher.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldCheckBoxType_Tumbler",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldCheckBoxType_Tumbler.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldEnabled_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldEqualItemsWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldEqualItemsWidth_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldReadOnly_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldTitleHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldTitleHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldTitleHeight_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldToolTipRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldToolTipRepresentation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldWarningOnEditRepresentation_DontShow",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldWarningOnEditRepresentation_DontShow.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatCheckBoxFieldWarningOnEditRepresentation_Show",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCheckBoxFieldWarningOnEditRepresentation_Show.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatFormattedDocumentFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedDocumentFieldReadOnly_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatFormattedDocumentFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFormattedDocumentFieldVisible_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldCellHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldCellHyperlink_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldChoiceHistoryOnInput_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldChoiceHistoryOnInput_DontUse.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldDropListWidth_16",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldDropListWidth_16.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldDropListWidth_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldDropListWidth_7.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldEditTextUpdate_OnValueChange",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldEditTextUpdate_OnValueChange.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldEnabled_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldEnabled_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldExtendedEditMultipleValues_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldExtendedEditMultipleValues_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldGroupHorizontalAlign_Left.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldGroupHorizontalAlign_Right.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldMask_9999999999",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldMask_9999999999.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldShowInFooter_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldShowInFooter_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldSkipOnInput_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldSkipOnInput_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldTitleHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldTitleHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldTitleHeight_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldTitleHeight_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldTitleHeight_3.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatInputFieldWarningOnEditRepresentation_Show",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovInputFieldWarningOnEditRepresentation_Show.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldAutoMaxHeight_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldAutoMaxHeight_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldAutoMaxWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldAutoMaxWidth_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldCellHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldCellHyperlink_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldGroupHorizontalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldGroupHorizontalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHeight_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHeight_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHeight_4.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHiperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHiperlink_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHorizontalAlign_Left.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHorizontalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldHorizontalStretch_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxHeight_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxHeight_4.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_10.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_15.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_21",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_21.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_26",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_26.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_29",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_29.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_5",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_5.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_50",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_50.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_60",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_60.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldMaxWidth_96",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldMaxWidth_96.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldShowInFooter_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldShowInFooter_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldTextColor_#162779",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldTextColor_#162779.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldTitleHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldTitleHeight_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldVerticalAlign_Bottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldVerticalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldVerticalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldVerticalStretch_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_10.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_15.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_16",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_16.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_17",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_17.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_18",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_18.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_20",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_20.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_28",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_28.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_3.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_30",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_30.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_36",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_36.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_4.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_40",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_40.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_50",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_50.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_60",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_60.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_7.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_70",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_70.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_8",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_8.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatLabelFieldWidth_9",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovLabelFieldWidth_9.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageChildrenAlign_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageChildrenAlign_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageEnableContentChange_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageEnableContentChange_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageGroup_AlwaysHorizontal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageGroup_AlwaysHorizontal.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageGroup_Horizontal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageGroup_Horizontal.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageHorizontalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageHorizontalSpacing_Half.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageHorizontalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageHorizontalStretch_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageReadOnly_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageScrollOnCompress_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageScrollOnCompress_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageShowTitle_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageShowTitle_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageVerticalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPageVerticalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPageVerticalStretch_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureDecorationHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureDecorationHyperlink_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureDecorationPictureSize_ByFontSize",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureDecorationPictureSize_ByFontSize.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureDecorationPictureSize_Stretch",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureDecorationPictureSize_Stretch.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldAutoMaxWidth_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldAutoMaxWidth_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldFileDragMode_AsFile",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldFileDragMode_AsFile.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldGroupVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldHeight_7",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldHeight_7.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldHorizontalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldHyperlink_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldHyperlink_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldPictureSize_AutoSize",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldPictureSize_AutoSize.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldPictureSize_Proportionally",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldPictureSize_Proportionally.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldReadOnly_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldSkipOnInput_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldSkipOnInput_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldToolTipRepresentation_ShowBottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldToolTipRepresentation_ShowBottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldVerticalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldVerticalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldVisible_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldWidth_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldWidth_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldWidth_41",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldWidth_41.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatPictureFieldWidth_75",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureFieldWidth_75.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldColumnsCount_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldColumnsCount_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldColumnsCount_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldColumnsCount_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldEqualColumnsWidth_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldEqualColumnsWidth_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldItemWidth_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldItemWidth_10.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldRadioButtonType_Auto",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldRadioButtonType_Auto.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldRadioButtonType_RadioButtons",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldRadioButtonType_RadioButtons.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldRadioButtonType_Tumbler",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldRadioButtonType_Tumbler.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldTitleHeight_3",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldTitleHeight_3.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldToolTipRepresentation_Button",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldToolTipRepresentation_Button.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldToolTipRepresentation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldToolTipRepresentation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatRadioButtonFieldVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovRadioButtonFieldVisible_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableAutoAddIncomplete_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableAutoAddIncomplete_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableAutoInsertNewRow_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableAutoInsertNewRow_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableChangeRowOrder_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableChangeRowOrder_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableChangeRowSet_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableChangeRowSet_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableCommandBarLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableCommandBarLocation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableCurrentRowUse_SelectionPresentationAndChoice",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableCurrentRowUse_SelectionPresentationAndChoice.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableEnableDrag_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableEnableDrag_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableEnableStartDrag_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableEnableStartDrag_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableFooter_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableFooter_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHeader_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHeader_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHeightControlVariant_UseContentHeight",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHeightControlVariant_UseContentHeight.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHorizontalLines_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHorizontalLines_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableHorizontalScrollBar_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableHorizontalScrollBar_DontUse.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableReadOnly_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableReadOnly_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableRepresentation_List",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableRepresentation_List.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableRowSelectionMode_Row",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableRowSelectionMode_Row.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableSearchControlLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableSearchControlLocation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableSearchStringLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableSearchStringLocation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableSelectionMode_SingleRow",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableSelectionMode_SingleRow.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableSkipOnInput_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableSkipOnInput_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableTitleLocation_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableTitleLocation_Top.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableVerticalLines_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableVerticalLines_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableViewStatusLocation_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableViewStatusLocation_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableVisible_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableVisible_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatTableWidth_51",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovTableWidth_51.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupBehavior_Collapsible",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupBehavior_Collapsible.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupBehavior_PopUp",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupBehavior_PopUp.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupBehavior_Usual",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupBehavior_Usual.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupChildItemsWidth_Equal",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupChildItemsWidth_Equal.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupChildrenAlign_ItemsLeftTitlesLeft",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupChildrenAlign_ItemsLeftTitlesLeft.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupCollapsed_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupCollapsed_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupControlRepresentation_Picture",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupControlRepresentation_Picture.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupEnableContentChange_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupEnableContentChange_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupGroupHorizontalAlign_Left.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupGroupHorizontalAlign_Right.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupGroupVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHeight_1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHeight_1.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHeight_10",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHeight_10.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHeight_15",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHeight_15.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHeight_2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHeight_2.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalAlign_Left",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalAlign_Left.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalAlign_Right",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalAlign_Right.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalSpacing_Double",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalSpacing_Double.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalSpacing_Half.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalSpacing_None",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalSpacing_None.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalSpacing_Single",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalSpacing_Single.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalStretch_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalStretch_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupHorizontalStretch_true",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupHorizontalStretch_true.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupShortcut_F5",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupShortcut_F5.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupShowLeftMargin_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupShowLeftMargin_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupShowTitle_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupShowTitle_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupThroughAlign_DontUse",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupThroughAlign_DontUse.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupThroughAlign_Use",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupThroughAlign_Use.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupTitleTextColor_#333333",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupTitleTextColor_#333333.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupUnited_false",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupUnited_false.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupVerticalAlign_Bottom",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupVerticalAlign_Bottom.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupVerticalAlign_Center",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupVerticalAlign_Center.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupVerticalAlign_Top",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupVerticalAlign_Top.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupVerticalSpacing_Half",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupVerticalSpacing_Half.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    },
+    {
+      "name": "CovCompatUsualGroupVerticalSpacing_OneAndHalf",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovUsualGroupVerticalSpacing_OneAndHalf.xml"
+      },
+      "source": "observed:typical-configurations; independently generated scalar property"
+    }
+  ],
+  "corpus": "clean-room-typical-observed-scalars"
+}

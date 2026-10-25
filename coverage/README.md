@@ -186,3 +186,30 @@ The `corpus-*` sets add clean-room reproductions and mixed reference controls.
 See [build instructions](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-build.md) and
 [the diagnostic matrix](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-regressions.md).
 Special source-only/legacy probes are documented in [coverage-records](../coverage-records/README.md).
+
+## Stored command-panel profiles and input-preserving rebuilds
+
+`kind: stored_layout` records independently synthesized storage states which
+native XML does not preserve. `tools/coverage/stored_panels_set.py` clones an
+empty command bar from the public native input and adds generated upper,
+lower and floating command panels. Native load/export/save/load/export must
+agree; native save must retain every altered form body byte for byte. With
+`--verify-xml-normalization`, native XML export/import/export must also agree
+while the internal panels disappear. The manifest explicitly identifies this
+as a synthetic stored profile; all expected XML comes from the native oracle.
+
+`kind: native_rebuild` regenerates the original public input recipes on a
+native 8.5 producer, then proves the CF on the target platform. Using the
+original recipes matters: a native XML dump can suppress explicitly supplied
+defaults such as `UserVisible=true`, losing the very condition under test.
+Only the root XML format attribute is promoted; configuration/extension
+release versions and literal XML/BSL contents are preserved. Source manifest,
+input tree, producer and oracle hashes are recorded. These derived storage
+profiles stay separate from the ordinary XML combined set.
+
+A native-proven case is not automatically a reproduction of a converter
+problem. Consumer repositories own the exact symptom assertions and may
+report a gap as covered only when the original condition survives the native
+round trip and the same specific symptom is observed. Whole-widget loss does
+not prove a missing-property case. These additions do not claim complete
+coverage of every typical-configuration mismatch.
