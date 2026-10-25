@@ -5,6 +5,7 @@ import hashlib
 import json
 import pathlib
 import sys
+import subprocess
 sys.path.insert(0, str(pathlib.Path(__file__).parent / 'coverage'))
 from native_round_trip import inputs_digest
 
@@ -20,6 +21,8 @@ def inventory(root):
     files = {}
     for name in DATA_ROOTS:
         folder = root / name
+        if folder.is_symlink():
+            raise ValueError(f'symlink corpus directory: {name}')
         if not folder.is_dir():
             raise ValueError(f'missing corpus directory: {name}')
         for path in sorted(folder.rglob('*')):
@@ -94,10 +97,21 @@ def verify_proofs(root):
     return count
 
 
+def verify_tracked_modes(root):
+    records = subprocess.check_output(['git', '-C', str(root), 'ls-files', '--stage', '-z']).split(b'\0')
+    for record in records:
+        if not record:
+            continue
+        mode = record.split(b' ', 1)[0]
+        if mode not in (b'100644', b'100755'):
+            raise ValueError(f'non-regular tracked corpus path: {record.decode("utf-8", errors="replace")}')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write-index', action='store_true', help='Record hashes after reviewing/proving a fixture change; does not update native manifests')
     args = parser.parse_args()
+    verify_tracked_modes(ROOT)
     sets = verify_proofs(ROOT)
     if args.write_index:
         (ROOT / 'corpus-index.json').write_text(json.dumps({'schema_version': 1, 'files': inventory(ROOT)}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

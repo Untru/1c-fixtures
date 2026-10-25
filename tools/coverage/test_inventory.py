@@ -3,6 +3,7 @@ import json
 import pathlib
 import tempfile
 import unittest
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location("verify_corpus", pathlib.Path(__file__).resolve().parents[1]/"verify_corpus.py")
 verify = importlib.util.module_from_spec(spec)
@@ -18,6 +19,13 @@ class Inventory(unittest.TestCase):
             (root/"corpus-index.json").write_text(json.dumps({"schema_version":1,"files":verify.inventory(root)}),encoding="utf-8")
             mutate(root,data)
             return verify.verify_inventory(root)
+    def test_tracked_symlink_is_rejected(self):
+        with patch.object(verify.subprocess, 'check_output', return_value=b'120000 abc 0\ttools/link\0'):
+            with self.assertRaisesRegex(ValueError, 'non-regular'):
+                verify.verify_tracked_modes(pathlib.Path('.'))
+    def test_regular_tracked_files_are_accepted(self):
+        with patch.object(verify.subprocess, 'check_output', return_value=b'100644 abc 0\tcoverage/file\0'):
+            verify.verify_tracked_modes(pathlib.Path('.'))
     def test_complete_inventory_passes(self):
         self.assertEqual(self.check(lambda *_:None),2)
     def test_changed_bytes_fail(self):
