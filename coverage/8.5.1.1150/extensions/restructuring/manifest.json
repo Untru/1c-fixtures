@@ -4,14 +4,24 @@
   "set": "8.5.1.1150-xml-2.21-extensions-restructuring",
   "evidence": {
     "status": "platform_proven",
-    "created_on": "2026-10-25",
+    "created_on": "2026-10-26",
     "platform_version": "8.5.1.1150",
     "source_version": "2.21",
     "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
     "database_kind": "isolated_file_infobase",
     "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "b84e3ee141d354ea2ec51045c5c41d406a9a0514eafbf03202c08c6f130d479d",
+  "inputs_sha256": "24de612bfe5dd0315c0b5da5b9797d50a38ae22e2a83037f36a18d8c475eb29b",
+  "proven_inputs_sha256": {
+    "input/base": "8fdeea7aae1d16396f39fdc43be39c28c3829ff418a3ded574cd7a70a97577d9",
+    "input/baseline": "f76edd262f5bc4f472315cfaf558df1a08e235fed340fad187603bd21fa6c90c",
+    "input/update": "f58f3bade8af38993170a3dd6621e1d77baf87afa2a811b31f4ce2c87caf4fb4",
+    "input/two-jobs": "ed127f7f68423ba4f4b8272848c47af5f45b38cc2d9eb12275235fbb1af88458",
+    "input/two-plain-jobs": "42d67aa881bd0e79878bdc844400b0dc9372575e35f7a2da50c57e661fec9535",
+    "input/dialog-baseline": "da9b00da0c53ba808ea7a43f866ca90e2bf6ec45814087f8336ac2fee9ea7d63",
+    "input/dialog-update": "6e8b3dad60e16fdc63c04dfb203721da0c165e2126af712191ece734fd56e49a",
+    "input/dialog-defaults": "dfb1aebeb0034ee3a2d567bccb862556bce81fdf179793bdf1c0231ea9f75bae"
+  },
   "sources": [],
   "variants": [
     {
@@ -906,15 +916,149 @@
           "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
         }
       ]
+    },
+    {
+      "name": "CovRestructureDialogDefaults",
+      "property": "SchemaUpdate",
+      "value": "dialog-defaults",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureDialogDefaults.cfe.b64",
+        "decoded_sha256": "74ad54d5b7754e2302d98c2530e0fc68051f2c96b0abcde8d8ce914060c84f29"
+      },
+      "files": [
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonModules/Cov_DialogSupport/Ext/Module.bsl",
+          "size": 70,
+          "sha256": "bc3605d49d4841c5564db2c6b8bcabc36af43e28bcefcb49e5324510166bae73"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonModules/Cov_DialogSupport.xml",
+          "size": 1642,
+          "sha256": "187d66808fd53dcf66772e966de42d0bd170fc5ff60ceb7dd177e0b55ea716fb"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Configuration.xml",
+          "size": 3711,
+          "sha256": "df30852cf9f140a7afccd106af528018aa8f19544014658c2891841329e09d6d"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form/Module.bsl",
+          "size": 182,
+          "sha256": "9a5045a4a41ac6d12c35dea1cbee40f5cd506fee47572edb53a956a422629abe"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form.xml",
+          "size": 3303,
+          "sha256": "81a48b56d9bd14d61fb907c542b99338b98a81dbd8a73964fc49352d8f1c63d5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog.xml",
+          "size": 1670,
+          "sha256": "38ef515a50e5286163954944762def7b2afb4ac1c7202559cc592ebfbcefcc02"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form/Module.bsl",
+          "size": 492,
+          "sha256": "a484a6eb7807068684a82463043cad6a07666e4903c44c509f7bfd16cbee9805"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form.xml",
+          "size": 1316,
+          "sha256": "3109147d22578b98904196638b558c5da7503bfb3ab91b944b472a5384f92c75"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main.xml",
+          "size": 1658,
+          "sha256": "4086a81946165b32b9548630eece0593694d97a297455674bb2bb6c964d7b848"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools.xml",
+          "size": 2145,
+          "sha256": "7b66038b30e63788196c5077b00f639d0dca59db1629417054c8be839a58f098"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Documents/Cov_ExistingDoc.xml",
+          "size": 10913,
+          "sha256": "f2df3a17d60f85a6c0e22032f1cc7a0b4d3f7ec3c6996bd0e010b393d082140a"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Enums/Cov_Provider.xml",
+          "size": 4793,
+          "sha256": "811a88c5730527062e1b29985d535e8a415a8dd70105cb621b99454386e77523"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        }
+      ]
     }
-  ],
-  "proven_inputs_sha256": {
-    "input/base": "8fdeea7aae1d16396f39fdc43be39c28c3829ff418a3ded574cd7a70a97577d9",
-    "input/baseline": "f76edd262f5bc4f472315cfaf558df1a08e235fed340fad187603bd21fa6c90c",
-    "input/update": "f58f3bade8af38993170a3dd6621e1d77baf87afa2a811b31f4ce2c87caf4fb4",
-    "input/two-jobs": "ed127f7f68423ba4f4b8272848c47af5f45b38cc2d9eb12275235fbb1af88458",
-    "input/two-plain-jobs": "42d67aa881bd0e79878bdc844400b0dc9372575e35f7a2da50c57e661fec9535",
-    "input/dialog-baseline": "da9b00da0c53ba808ea7a43f866ca90e2bf6ec45814087f8336ac2fee9ea7d63",
-    "input/dialog-update": "6e8b3dad60e16fdc63c04dfb203721da0c165e2126af712191ece734fd56e49a"
-  }
+  ]
 }

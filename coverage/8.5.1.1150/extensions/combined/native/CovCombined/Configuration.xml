@@ -45,7 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.2.0.5</Version>
+			<Version>1.2.0.6</Version>
 			<Caption/>
 			<ShortCaption/>
 			<BriefInformation/>

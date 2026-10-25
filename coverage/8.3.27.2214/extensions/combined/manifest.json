@@ -11,7 +11,12 @@
     "database_kind": "isolated_file_infobase",
     "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "f4003b4c8bad3afcf13268ad295bd6ba624a2a04f5a453d4751ea5d4354d0eed",
+  "inputs_sha256": "a8640a10b75d8d53bb10c4b1dd81f764c2eff967b1c01abaff4ca0894bccc509",
+  "proven_inputs_sha256": {
+    "input/base": "acb87bd3b6f04d892affee0d69cc15c26401c596efdc52194fc1da64631c29a2",
+    "input/legacy": "132f1a1b06f8f17503b9753c4ee19d258f577155e1cc40191ddf796f57f655af",
+    "input/additions": "1f5d89732a93a07b01c25470c8bc12a68e9603fdfad5924c3b4c89ee1350951b"
+  },
   "sources": [
     {
       "set": "8.3.27.2342-xml-2.20-extensions-basic",
@@ -21,7 +26,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "a70c99140d6913d3ce8db25f23f05b3ccaa6bd365be2f666118b3fbd2e44fe47"
+      "manifest_sha256": "6f86f88405bef12e0a65913ed6d8cd429a170ba0902f04d633b57891d450b182"
     }
   ],
   "variants": [
@@ -33,7 +38,7 @@
       "status": "platform_proven",
       "file": {
         "path": "variants/CovCombined.cfe.b64",
-        "decoded_sha256": "859fa86d5a7ae32e51b9df4016fe4b01e83cae5d5a0fda958cf708bc6f9e7023"
+        "decoded_sha256": "fc699e037800a3b90a6342bb9066383cc2581cb5dceb6f1338cd1c2b51aa7049"
       },
       "files": [
         {
@@ -114,7 +119,7 @@
         {
           "path": "CovCombined/Configuration.xml",
           "size": 4180,
-          "sha256": "1109f04d7d5065913b233977f750873e5561b65b9fa2b09b37c49edbca1f076c"
+          "sha256": "be1608cdea07c87d0f84f8da90a78ada64992f3e58cdb6be863a106fc677cc67"
         },
         {
           "path": "CovCombined/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
@@ -133,8 +138,8 @@
         },
         {
           "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form.xml",
-          "size": 2675,
-          "sha256": "5619e52e287c1b2eb3a78e6f479c76b5903888df76b4302ff46d7a572d0644f3"
+          "size": 3207,
+          "sha256": "59c3431412dd7cc0f0abce2162a421e4e9aed98a6845bb16be20e0e88db533aa"
         },
         {
           "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/ImportDialog.xml",
@@ -263,10 +268,5 @@
         }
       ]
     }
-  ],
-  "proven_inputs_sha256": {
-    "input/base": "acb87bd3b6f04d892affee0d69cc15c26401c596efdc52194fc1da64631c29a2",
-    "input/legacy": "132f1a1b06f8f17503b9753c4ee19d258f577155e1cc40191ddf796f57f655af",
-    "input/additions": "904a2c6ddbc488eed1fcf806cbb1e68a5e2651b2e4a8fbb3b1a433bf6648e69c"
-  }
+  ]
 }

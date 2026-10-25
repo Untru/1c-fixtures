@@ -169,7 +169,7 @@ def main():
     parser.add_argument('--xml-version', required=True)
     parser.add_argument('--locale', default='ru_RU')
     parser.add_argument('--combined', action='store_true', help='merge input/legacy and input/additions into one extension')
-    parser.add_argument('--variant', action='append', choices=('baseline', 'update', 'two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update'),
+    parser.add_argument('--variant', action='append', choices=('baseline', 'update', 'two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update', 'dialog-defaults'),
                         help='prove only the selected input; repeat for several variants')
     parser.add_argument('--append', action='store_true', help='append new proven variants without rebuilding previous native images')
     args = parser.parse_args()
@@ -186,7 +186,7 @@ def main():
         raise SystemExit('appended proof must use the same exact native profile and binary')
     labels = args.variant or ['baseline', 'update']
     if not args.variant:
-        for optional in ('two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update'):
+        for optional in ('two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update', 'dialog-defaults'):
             if (args.set / 'input' / optional).is_dir():
                 labels.append(optional)
     if previous:

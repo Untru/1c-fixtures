@@ -10,7 +10,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "a70c99140d6913d3ce8db25f23f05b3ccaa6bd365be2f666118b3fbd2e44fe47"
+      "manifest_sha256": "6f86f88405bef12e0a65913ed6d8cd429a170ba0902f04d633b57891d450b182"
     }
   ],
   "variants": [
@@ -23,6 +23,6 @@
       "reason": "same role name in independently generated seeds; target role identity is used before native re-proof"
     }
   ],
-  "target_version": "1.2.0.5",
-  "dialog_source": "restructuring/input/dialog-update"
+  "target_version": "1.2.0.6",
+  "dialog_source": "restructuring/input/dialog-defaults"
 }

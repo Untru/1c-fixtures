@@ -7,7 +7,8 @@
     "CovRestructureTwoJobs",
     "CovRestructureTwoPlainJobs",
     "CovRestructureDialogBaseline",
-    "CovRestructureDialogUpdate"
+    "CovRestructureDialogUpdate",
+    "CovRestructureDialogDefaults"
   ],
   "versions": [
     "1.2.0.0",
@@ -15,7 +16,8 @@
     "1.2.0.2",
     "1.2.0.3",
     "1.2.0.4",
-    "1.2.0.5"
+    "1.2.0.5",
+    "1.2.0.6"
   ],
   "source": "generated:meta-compile deterministic UUIDs; native SQL extension baseline and additive update",
   "changes": {
@@ -78,5 +80,33 @@
       "ChildObjects.CommonModule"
     ],
     "new_common_module": "Cov_DialogSupport"
+  },
+  "dialog_defaults": {
+    "source": "canonical native dialog-update with native-proven Actions UsualGroup and ConfirmBar button",
+    "parent": "dialog-update",
+    "version": "1.2.0.6",
+    "omitted_button_type": {
+      "button": "Confirm",
+      "parent": "UsualGroup.Actions",
+      "native_value": "UsualButton"
+    },
+    "explicit_bar_button_type": {
+      "button": "ConfirmBar",
+      "native_value": "UsualButton"
+    },
+    "command_bar_location": "None",
+    "omitted_show_command_bar": true,
+    "native_show_command_bar": "false",
+    "root_lexical_changes": [
+      "spaces instead of tabs",
+      "LF without BOM",
+      "expanded empty elements"
+    ],
+    "omitted_form_descriptor_compatibility_mode": "native Any on XML2.21; absent on XML2.20",
+    "metadata_lexical_changes": [
+      "UTF-8 versus utf-8 prolog",
+      "omitted BOM",
+      "LF line endings"
+    ]
   }
 }
