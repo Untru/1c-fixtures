@@ -6,9 +6,15 @@
       "set": "8.5.1.1150-xml-2.21-extensions-basic",
       "path": "basic",
       "manifest_sha256": "c7e91c39dea4f71a27546a0ded3f455234bc566a90cea7d3d8612f97c23117a2"
+    },
+    {
+      "set": "8.5.1.1150-xml-2.21-extensions-restructuring",
+      "path": "restructuring",
+      "manifest_sha256": "168bc70ab1b407aff2e6251b095ebb0139120ede6e03cfaa8801d56d977d0cad"
     }
   ],
   "variants": [
     "CovCombined"
-  ]
+  ],
+  "previous_combined_manifest_sha256": "866338416b1c05e098d63ef39f6087884a8e796027f40341e790e33826cddff5"
 }

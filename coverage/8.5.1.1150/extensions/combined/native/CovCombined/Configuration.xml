@@ -45,7 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version/>
+			<Version>1.2.0.1</Version>
 			<Caption/>
 			<ShortCaption/>
 			<BriefInformation/>
@@ -56,8 +56,19 @@
 		</Properties>
 		<ChildObjects>
 			<Role>ОсновнаяРоль</Role>
+			<CommonTemplate>Cov_ActivationText</CommonTemplate>
+			<CommonForm>Cov_ActivationForm</CommonForm>
 			<Catalog>Cov_Own</Catalog>
+			<Catalog>Cov_Routes</Catalog>
+			<Catalog>Cov_Connections</Catalog>
 			<Catalog>CovBase</Catalog>
+			<Document>Cov_ExistingDoc</Document>
+			<Enum>Cov_Provider</Enum>
+			<InformationRegister>Cov_Existing</InformationRegister>
+			<InformationRegister>Cov_Authors</InformationRegister>
+			<InformationRegister>Cov_Delivery</InformationRegister>
+			<InformationRegister>Cov_Journal</InformationRegister>
+			<InformationRegister>Cov_Cursors</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

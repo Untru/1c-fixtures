@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "kind": "extension",
+  "variants": [
+    "CovRestructureBaseline",
+    "CovRestructureUpdate"
+  ],
+  "versions": [
+    "1.2.0.0",
+    "1.2.0.1"
+  ],
+  "source": "generated:meta-compile deterministic UUIDs; native SQL extension baseline and additive update",
+  "changes": {
+    "Catalog": 2,
+    "InformationRegister": 4,
+    "Document.Attribute": "Number(15,2), Nonnegative",
+    "Enum.EnumValue": 1
+  },
+  "reference_types": [
+    "CatalogRef",
+    "DocumentRef",
+    "EnumRef"
+  ],
+  "scalar_types": [
+    "String",
+    "StringUnlimited",
+    "Number",
+    "Boolean",
+    "DateTime",
+    "BinaryData"
+  ]
+}

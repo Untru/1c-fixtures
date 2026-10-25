@@ -186,3 +186,34 @@ The `corpus-*` sets add clean-room reproductions and mixed reference controls.
 See [build instructions](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-build.md) and
 [the diagnostic matrix](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-regressions.md).
 Special source-only/legacy probes are documented in [coverage-records](../coverage-records/README.md).
+
+
+## Обновление схемы расширения
+
+`extensions/restructuring` хранит независимо сгенерированную пару версий
+`1.2.0.0` → `1.2.0.1`: два новых справочника, четыре независимых регистра
+сведений, новый реквизит существующего документа и значение перечисления.
+Есть ссылки на новые и существующие объекты, строки ограниченной и
+неограниченной длины, числа, даты, булевы и двоичные данные. Файлы
+`native-plan.json` содержат минимальные измерения SQL-схемы и DBNames
+до и после штатного применения, включая сохранённые контрольные строки.
+Они являются входами потребительского теста планирования, без результатов
+или ограничений конкретного конвертера.
+
+Варианты проходят импорт/применение/выгрузку, сохранение CFE, затем загрузку
+и применение CFE в другую свежую базу с повторной выгрузкой. Оба раунда
+побайтно равны вне `ConfigDumpInfo.xml`. Сам SQL-переход и сохранность
+данных отдельно измерены на одноразовых SQL-копиях.
+
+```text
+python tools/coverage/extension_restructure_set.py --ibcmd <ibcmd> \
+  --platform <build> --xml-version <version> \
+  --set coverage/<build>/extensions/restructuring --work <new-scratch>
+```
+
+Эти объекты входят и в `extensions/combined`: прежние собственные объекты
+и заимствованный справочник сохраняются, добавляется целевая версия пары.
+Для пересборки используется тот же инструмент с `--combined`,
+`--set coverage/<build>/extensions/combined` и новым рабочим каталогом.
+У расширения одновременно может быть одна версия, поэтому в сводный
+набор входит целевое состояние, а обе версии проверяются отдельной парой.
