@@ -91,13 +91,21 @@ class AppendNativeProof(unittest.TestCase):
         self.set = self.root / 'set'
         (self.set / 'input').mkdir(parents=True)
         (self.set / 'input/values.json').write_text('{}', encoding='utf-8')
+        for label in ('base', 'baseline', 'dialog-update'):
+            target = self.set / 'input' / label
+            target.mkdir()
+            (target / 'Configuration.xml').write_text(label + '-original', encoding='utf-8')
         self.binary = self.root / 'native'
         self.binary.write_bytes(b'controlled-native-binary')
-        self.old = {'name': 'CovRestructureBaseline', 'files': [{'path': 'Roles/ОсновнаяРоль.xml'}]}
+        self.old = {'name': 'CovRestructureBaseline', 'value': 'baseline', 'files': [{'path': 'Roles/ОсновнаяРоль.xml'}]}
         self.previous = {
             'evidence': {'platform_version': '8.5.1.1150', 'source_version': '2.21',
                          'ibcmd_sha256': sha256(self.binary.read_bytes())},
             'variants': [self.old],
+            'proven_inputs_sha256': {
+                'input/base': sha256(b'Configuration.xml\0base-original'),
+                'input/baseline': sha256(b'Configuration.xml\0baseline-original'),
+            },
         }
         self.save_manifest()
         self.argv = ['extension_restructure_set', '--ibcmd', str(self.binary),
@@ -110,13 +118,18 @@ class AppendNativeProof(unittest.TestCase):
             json.dumps(self.previous, ensure_ascii=False), encoding='utf-8')
 
     def test_append_preserves_previous_native_proof_and_unicode(self):
-        new = {'name': 'CovRestructureDialogUpdate'}
+        new = {'name': 'CovRestructureDialogUpdate', 'value': 'dialog-update'}
+        (self.set / 'input/dialog-update/Configuration.xml').write_text('new-case', encoding='utf-8')
         with mock.patch('sys.argv', self.argv), \
                 mock.patch('extension_restructure_set.create_from_tree', return_value=(True, '')), \
                 mock.patch('extension_restructure_set.prove', return_value=new):
             main()
         result = json.loads((self.set / 'manifest.json').read_text(encoding='utf-8'))
         self.assertEqual(result['variants'], [self.old, new])
+        for relative, expected in self.previous['proven_inputs_sha256'].items():
+            self.assertEqual(result['proven_inputs_sha256'][relative], expected)
+        self.assertEqual(result['proven_inputs_sha256']['input/dialog-update'],
+                         sha256(b'Configuration.xml\0new-case'))
 
     def test_changed_native_binary_is_rejected_before_creating_a_base(self):
         self.previous['evidence']['ibcmd_sha256'] = 'different-binary'
@@ -137,6 +150,35 @@ class AppendNativeProof(unittest.TestCase):
         create.assert_not_called()
         result = json.loads((self.set / 'manifest.json').read_text(encoding='utf-8'))
         self.assertEqual(result, self.previous)
+
+    def assert_retained_input_change_rejected(self, label):
+        path = self.set / 'input' / label / 'Configuration.xml'
+        path.write_text('mutated-after-native-proof', encoding='utf-8')
+        before = (self.set / 'manifest.json').read_bytes()
+        with mock.patch('sys.argv', self.argv), \
+                mock.patch('extension_restructure_set.create_from_tree', return_value=(True, '')) as create, \
+                mock.patch('extension_restructure_set.prove', return_value={'name': 'CovRestructureDialogUpdate'}):
+            with self.assertRaisesRegex(SystemExit, 'retained native inputs changed: input/' + label):
+                main()
+        create.assert_not_called()
+        self.assertFalse((self.root / 'work').exists())
+        self.assertEqual((self.set / 'manifest.json').read_bytes(), before)
+
+    def test_changed_retained_variant_cannot_receive_a_fresh_proof_digest(self):
+        self.assert_retained_input_change_rejected('baseline')
+
+    def test_changed_shared_base_cannot_keep_retained_native_proofs(self):
+        self.assert_retained_input_change_rejected('base')
+
+    def test_legacy_proof_without_source_fingerprints_requires_full_reproof(self):
+        del self.previous['proven_inputs_sha256']
+        self.save_manifest()
+        with mock.patch('sys.argv', self.argv), \
+                mock.patch('extension_restructure_set.create_from_tree') as create:
+            with self.assertRaisesRegex(SystemExit, 'reprove the full set'):
+                main()
+        create.assert_not_called()
+        self.assertFalse((self.root / 'work').exists())
 
 
 if __name__ == '__main__':

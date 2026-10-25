@@ -11,7 +11,7 @@
     "database_kind": "isolated_file_infobase",
     "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "9d1cd447479f48c645be8cb4b9cd68124d4da435e119c95c26d19a7acffc2197",
+  "inputs_sha256": "f4003b4c8bad3afcf13268ad295bd6ba624a2a04f5a453d4751ea5d4354d0eed",
   "sources": [
     {
       "set": "8.3.27.2342-xml-2.20-extensions-basic",
@@ -21,7 +21,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "b2c67c7f88ff883394154f8ea0fd527541ca1b87264d132fb712c44f63fce821"
+      "manifest_sha256": "a70c99140d6913d3ce8db25f23f05b3ccaa6bd365be2f666118b3fbd2e44fe47"
     }
   ],
   "variants": [
@@ -263,5 +263,10 @@
         }
       ]
     }
-  ]
+  ],
+  "proven_inputs_sha256": {
+    "input/base": "acb87bd3b6f04d892affee0d69cc15c26401c596efdc52194fc1da64631c29a2",
+    "input/legacy": "132f1a1b06f8f17503b9753c4ee19d258f577155e1cc40191ddf796f57f655af",
+    "input/additions": "904a2c6ddbc488eed1fcf806cbb1e68a5e2651b2e4a8fbb3b1a433bf6648e69c"
+  }
 }

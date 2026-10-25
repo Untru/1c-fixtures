@@ -10,7 +10,7 @@
     {
       "set": "8.5.1.1150-xml-2.21-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "b2dfde05c95fcab424e00ff9f72f1822a2e473d05c2e3dc379950c3eebc340be"
+      "manifest_sha256": "61fde90cc106e4a8061b66db73beb1ddfc6453e146daa797a0ecb9e979977db4"
     }
   ],
   "variants": [

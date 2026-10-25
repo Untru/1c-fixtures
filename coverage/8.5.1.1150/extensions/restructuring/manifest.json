@@ -907,5 +907,14 @@
         }
       ]
     }
-  ]
+  ],
+  "proven_inputs_sha256": {
+    "input/base": "8fdeea7aae1d16396f39fdc43be39c28c3829ff418a3ded574cd7a70a97577d9",
+    "input/baseline": "f76edd262f5bc4f472315cfaf558df1a08e235fed340fad187603bd21fa6c90c",
+    "input/update": "f58f3bade8af38993170a3dd6621e1d77baf87afa2a811b31f4ce2c87caf4fb4",
+    "input/two-jobs": "ed127f7f68423ba4f4b8272848c47af5f45b38cc2d9eb12275235fbb1af88458",
+    "input/two-plain-jobs": "42d67aa881bd0e79878bdc844400b0dc9372575e35f7a2da50c57e661fec9535",
+    "input/dialog-baseline": "da9b00da0c53ba808ea7a43f866ca90e2bf6ec45814087f8336ac2fee9ea7d63",
+    "input/dialog-update": "6e8b3dad60e16fdc63c04dfb203721da0c165e2126af712191ece734fd56e49a"
+  }
 }

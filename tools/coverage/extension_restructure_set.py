@@ -10,10 +10,12 @@ import argparse
 import base64
 import copy
 import datetime
+import hashlib
 import json
 import pathlib
 import re
 import shutil
+import unicodedata
 import xml.etree.ElementTree as ET
 
 from native_round_trip import create_from_tree, first_error, inputs_digest, run_ibcmd, sha256, tree_files
@@ -147,6 +149,17 @@ def merge_images(legacy, additions, target):
     (target / 'Configuration.xml').write_text(config, encoding='utf-8-sig')
 
 
+def input_tree_digest(tree):
+    """Bind a native proof to every byte and relative name in its source tree."""
+    if not tree.is_dir():
+        raise SystemExit('native input tree is missing: ' + tree.as_posix())
+    digest = hashlib.sha256()
+    for relative, data in sorted((unicodedata.normalize('NFC', path.relative_to(tree).as_posix()),
+                                  path.read_bytes()) for path in tree.rglob('*') if path.is_file()):
+        digest.update(relative.encode('utf-8') + b'\0' + data)
+    return digest.hexdigest()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--ibcmd', required=True)
@@ -180,6 +193,20 @@ def main():
         existing = {variant['name'] for variant in previous['variants']}
         if any('CovRestructure' + label.title().replace('-', '') in existing for label in labels):
             raise SystemExit('append refuses to replace an existing proven variant')
+    proven_inputs = {}
+    if previous:
+        recorded = previous.get('proven_inputs_sha256')
+        required = {'input/base', *('input/' + variant['value'] for variant in previous['variants'])}
+        if not isinstance(recorded, dict) or set(recorded) != required:
+            raise SystemExit('retained proof has no complete input fingerprints; reprove the full set')
+        for relative, expected in recorded.items():
+            if input_tree_digest(args.set / relative) != expected:
+                raise SystemExit('retained native inputs changed: ' + relative + '; reprove affected variants')
+        proven_inputs.update(recorded)
+    current_inputs = ['input/base']
+    current_inputs += ['input/legacy', 'input/additions'] if args.combined else ['input/' + label for label in labels]
+    for relative in current_inputs:
+        proven_inputs[relative] = input_tree_digest(args.set / relative)
     if args.work.exists():
         raise SystemExit('work directory must be new')
     args.work.mkdir(parents=True)
@@ -196,6 +223,9 @@ def main():
                     for label in labels]
     if previous:
         variants = previous['variants'] + variants
+    for relative, expected in proven_inputs.items():
+        if input_tree_digest(args.set / relative) != expected:
+            raise SystemExit('native inputs changed during proof: ' + relative)
     manifest = {
         'schema_version': 1, 'kind': 'extension',
         'set': f'{args.platform}-xml-{args.xml_version}-extensions-{args.set.name}',
@@ -206,6 +236,7 @@ def main():
                      'rounds': 'fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> '
                                'another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml'},
         'inputs_sha256': inputs_digest(args.set),
+        'proven_inputs_sha256': proven_inputs,
         'sources': json.loads((args.set / 'input/values.json').read_text(encoding='utf-8')).get('sources', []),
         'variants': variants,
     }
