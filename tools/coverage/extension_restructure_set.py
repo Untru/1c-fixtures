@@ -156,7 +156,30 @@ def main():
     parser.add_argument('--xml-version', required=True)
     parser.add_argument('--locale', default='ru_RU')
     parser.add_argument('--combined', action='store_true', help='merge input/legacy and input/additions into one extension')
+    parser.add_argument('--variant', action='append', choices=('baseline', 'update', 'two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update'),
+                        help='prove only the selected input; repeat for several variants')
+    parser.add_argument('--append', action='store_true', help='append new proven variants without rebuilding previous native images')
     args = parser.parse_args()
+    if args.combined and args.variant:
+        parser.error('--combined cannot select individual variants')
+    if args.variant and len(set(args.variant)) != len(args.variant):
+        parser.error('each variant can be selected only once')
+    if args.append and (not args.variant or args.combined):
+        parser.error('--append requires --variant and cannot be combined with --combined')
+    previous = json.loads((args.set / 'manifest.json').read_text(encoding='utf-8')) if args.append else None
+    if previous and (previous['evidence']['platform_version'] != args.platform
+                     or previous['evidence']['source_version'] != args.xml_version
+                     or previous['evidence']['ibcmd_sha256'] != sha256(pathlib.Path(args.ibcmd).read_bytes())):
+        raise SystemExit('appended proof must use the same exact native profile and binary')
+    labels = args.variant or ['baseline', 'update']
+    if not args.variant:
+        for optional in ('two-jobs', 'two-plain-jobs', 'dialog-baseline', 'dialog-update'):
+            if (args.set / 'input' / optional).is_dir():
+                labels.append(optional)
+    if previous:
+        existing = {variant['name'] for variant in previous['variants']}
+        if any('CovRestructure' + label.title().replace('-', '') in existing for label in labels):
+            raise SystemExit('append refuses to replace an existing proven variant')
     if args.work.exists():
         raise SystemExit('work directory must be new')
     args.work.mkdir(parents=True)
@@ -169,12 +192,10 @@ def main():
         merge_images(args.set / 'input/legacy', args.set / 'input/additions', image)
         variants = [prove(args, 'combined', image, args.work, base)]
     else:
-        labels = ['baseline', 'update']
-        for optional in ('two-jobs', 'two-plain-jobs'):
-            if (args.set / 'input' / optional).is_dir():
-                labels.append(optional)
         variants = [prove(args, label, args.set / 'input' / label, args.work, base)
                     for label in labels]
+    if previous:
+        variants = previous['variants'] + variants
     manifest = {
         'schema_version': 1, 'kind': 'extension',
         'set': f'{args.platform}-xml-{args.xml_version}-extensions-{args.set.name}',
@@ -185,7 +206,7 @@ def main():
                      'rounds': 'fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> '
                                'another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml'},
         'inputs_sha256': inputs_digest(args.set),
-        'sources': json.loads((args.set / 'input/values.json').read_text()).get('sources', []),
+        'sources': json.loads((args.set / 'input/values.json').read_text(encoding='utf-8')).get('sources', []),
         'variants': variants,
     }
     (args.set / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

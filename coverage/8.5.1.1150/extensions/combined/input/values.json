@@ -10,12 +10,13 @@
     {
       "set": "8.5.1.1150-xml-2.21-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "7ba6bebd86b8245d711910cfaa9548d7c13881abfee11fbdf78b2a7c5ba065c9"
+      "manifest_sha256": "b2dfde05c95fcab424e00ff9f72f1822a2e473d05c2e3dc379950c3eebc340be"
     }
   ],
   "variants": [
     "CovCombined"
   ],
   "previous_combined_manifest_sha256": "866338416b1c05e098d63ef39f6087884a8e796027f40341e790e33826cddff5",
-  "target_version": "1.2.0.3"
+  "target_version": "1.2.0.5",
+  "dialog_source": "restructuring/input/dialog-update"
 }

@@ -45,7 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.2.0.3</Version>
+			<Version>1.2.0.5</Version>
 			<Caption/>
 			<ShortCaption/>
 			<BriefInformation/>
@@ -59,6 +59,7 @@
 			<Role>ОсновнаяРоль</Role>
 			<CommonTemplate>Cov_ActivationText</CommonTemplate>
 			<CommonModule>Cov_Companions</CommonModule>
+			<CommonModule>Cov_DialogSupport</CommonModule>
 			<HTTPService>Cov_CompanionAPI</HTTPService>
 			<ScheduledJob>Cov_CompanionJob</ScheduledJob>
 			<ScheduledJob>Cov_CompanionJobSecond</ScheduledJob>
@@ -74,6 +75,7 @@
 			<InformationRegister>Cov_Delivery</InformationRegister>
 			<InformationRegister>Cov_Journal</InformationRegister>
 			<InformationRegister>Cov_Cursors</InformationRegister>
+			<DataProcessor>Cov_ImportTools</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

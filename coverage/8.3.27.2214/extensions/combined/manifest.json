@@ -4,14 +4,14 @@
   "set": "8.3.27.2214-xml-2.20-extensions-combined",
   "evidence": {
     "status": "platform_proven",
-    "created_on": "2026-10-25",
+    "created_on": "2026-10-26",
     "platform_version": "8.3.27.2214",
     "source_version": "2.20",
     "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
     "database_kind": "isolated_file_infobase",
     "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "b23411523d0117ce75943fcbb01ec42c4082e614aece510c0926841c54accc89",
+  "inputs_sha256": "9d1cd447479f48c645be8cb4b9cd68124d4da435e119c95c26d19a7acffc2197",
   "sources": [
     {
       "set": "8.3.27.2342-xml-2.20-extensions-basic",
@@ -21,7 +21,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "93b1011b395156865893743cc0fced156ee7ed9df62a99660194288c2207ecb8"
+      "manifest_sha256": "b2c67c7f88ff883394154f8ea0fd527541ca1b87264d132fb712c44f63fce821"
     }
   ],
   "variants": [
@@ -33,7 +33,7 @@
       "status": "platform_proven",
       "file": {
         "path": "variants/CovCombined.cfe.b64",
-        "decoded_sha256": "1bcac22104e93efde1ec39739155863f2d5aa1adc5ff05b5a7594431ce53074d"
+        "decoded_sha256": "859fa86d5a7ae32e51b9df4016fe4b01e83cae5d5a0fda958cf708bc6f9e7023"
       },
       "files": [
         {
@@ -92,6 +92,16 @@
           "sha256": "3f0e3b7e6f00f018c831fb50b3e99d5074852991661fca2d98317fc2a4c21b64"
         },
         {
+          "path": "CovCombined/CommonModules/Cov_DialogSupport/Ext/Module.bsl",
+          "size": 70,
+          "sha256": "bc3605d49d4841c5564db2c6b8bcabc36af43e28bcefcb49e5324510166bae73"
+        },
+        {
+          "path": "CovCombined/CommonModules/Cov_DialogSupport.xml",
+          "size": 1587,
+          "sha256": "83a848a9819b73b3cd91d636bcedb159c76f9e1c5fe3454862d8a73595bd0be7"
+        },
+        {
           "path": "CovCombined/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
           "size": 35,
           "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
@@ -103,8 +113,53 @@
         },
         {
           "path": "CovCombined/Configuration.xml",
-          "size": 4078,
-          "sha256": "8def628e21ba71dcf9d175f1405d72959ff4af2b31e6ce7554f7b6fb39b18c96"
+          "size": 4180,
+          "sha256": "1109f04d7d5065913b233977f750873e5561b65b9fa2b09b37c49edbca1f076c"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form/Module.bsl",
+          "size": 182,
+          "sha256": "9a5045a4a41ac6d12c35dea1cbee40f5cd506fee47572edb53a956a422629abe"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form.xml",
+          "size": 2675,
+          "sha256": "5619e52e287c1b2eb3a78e6f479c76b5903888df76b4302ff46d7a572d0644f3"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/ImportDialog.xml",
+          "size": 1540,
+          "sha256": "0290d4f4bcb9be502cbbde7699c368cda4b122f36ec9c90c81d672c4021cf8e8"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form/Module.bsl",
+          "size": 492,
+          "sha256": "a484a6eb7807068684a82463043cad6a07666e4903c44c509f7bfd16cbee9805"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form.xml",
+          "size": 1261,
+          "sha256": "34fa908f67a87aa018de4d5f8607df6bc7ee9409aedd0b2024719e507a5b1be7"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools/Forms/Main.xml",
+          "size": 1528,
+          "sha256": "d577f624ee13e2ddcf98beb75d679b784338464b165c346d0e92cf70da3bed76"
+        },
+        {
+          "path": "CovCombined/DataProcessors/Cov_ImportTools.xml",
+          "size": 2090,
+          "sha256": "dd88233ded3c725e5e65207c41ae17ec54f966d7137fbd3d8c723580b7bd24c6"
         },
         {
           "path": "CovCombined/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",

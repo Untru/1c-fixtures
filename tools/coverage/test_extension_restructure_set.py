@@ -1,10 +1,13 @@
 """Combining extension images preserves prior identities and refuses collisions."""
 import pathlib
+import json
+from unittest import mock
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
-from extension_restructure_set import merge_images
+from extension_restructure_set import main, merge_images
+from native_round_trip import sha256
 
 NS = 'http://v8.1c.ru/8.3/MDClasses'
 
@@ -77,6 +80,63 @@ class MergeExtensionImages(unittest.TestCase):
         self.put(self.additions, 'Catalogs/Shared/Ext/ObjectModule.bsl', 'after')
         with self.assertRaisesRegex(ValueError, 'conflicting combined input'):
             merge_images(self.legacy, self.additions, self.target)
+
+
+
+class AppendNativeProof(unittest.TestCase):
+    def setUp(self):
+        temp = tempfile.TemporaryDirectory()
+        self.addCleanup(temp.cleanup)
+        self.root = pathlib.Path(temp.name)
+        self.set = self.root / 'set'
+        (self.set / 'input').mkdir(parents=True)
+        (self.set / 'input/values.json').write_text('{}', encoding='utf-8')
+        self.binary = self.root / 'native'
+        self.binary.write_bytes(b'controlled-native-binary')
+        self.old = {'name': 'CovRestructureBaseline', 'files': [{'path': 'Roles/ОсновнаяРоль.xml'}]}
+        self.previous = {
+            'evidence': {'platform_version': '8.5.1.1150', 'source_version': '2.21',
+                         'ibcmd_sha256': sha256(self.binary.read_bytes())},
+            'variants': [self.old],
+        }
+        self.save_manifest()
+        self.argv = ['extension_restructure_set', '--ibcmd', str(self.binary),
+                     '--platform', '8.5.1.1150', '--xml-version', '2.21',
+                     '--set', str(self.set), '--work', str(self.root / 'work'),
+                     '--append', '--variant', 'dialog-update']
+
+    def save_manifest(self):
+        (self.set / 'manifest.json').write_text(
+            json.dumps(self.previous, ensure_ascii=False), encoding='utf-8')
+
+    def test_append_preserves_previous_native_proof_and_unicode(self):
+        new = {'name': 'CovRestructureDialogUpdate'}
+        with mock.patch('sys.argv', self.argv), \
+                mock.patch('extension_restructure_set.create_from_tree', return_value=(True, '')), \
+                mock.patch('extension_restructure_set.prove', return_value=new):
+            main()
+        result = json.loads((self.set / 'manifest.json').read_text(encoding='utf-8'))
+        self.assertEqual(result['variants'], [self.old, new])
+
+    def test_changed_native_binary_is_rejected_before_creating_a_base(self):
+        self.previous['evidence']['ibcmd_sha256'] = 'different-binary'
+        self.save_manifest()
+        with mock.patch('sys.argv', self.argv), \
+                mock.patch('extension_restructure_set.create_from_tree') as create:
+            with self.assertRaisesRegex(SystemExit, 'same exact native profile'):
+                main()
+        create.assert_not_called()
+        self.assertFalse((self.root / 'work').exists())
+
+    def test_existing_variant_cannot_be_replaced_or_run_again(self):
+        self.argv[-1] = 'baseline'
+        with mock.patch('sys.argv', self.argv), \
+                mock.patch('extension_restructure_set.create_from_tree') as create:
+            with self.assertRaisesRegex(SystemExit, 'replace an existing proven variant'):
+                main()
+        create.assert_not_called()
+        result = json.loads((self.set / 'manifest.json').read_text(encoding='utf-8'))
+        self.assertEqual(result, self.previous)
 
 
 if __name__ == '__main__':
