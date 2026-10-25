@@ -94,6 +94,11 @@
       "manifest_sha256": "e0e48d8f49f26947643dbb15b3c8e678b6cb50e9acadd83c15a0409afdd94930"
     },
     {
+      "set": "8.3.27.2214-xml-2.20-corpus-group-behavior-combinations",
+      "path": "corpus-group-behavior-combinations",
+      "manifest_sha256": "56e1a8659d2d427351b7a1043560ef9be81e5994ef8c7080e921bf0e6829c978"
+    },
+    {
       "set": "8.3.27.2214-xml-2.20-corpus-managed-forms",
       "path": "corpus-managed-forms",
       "manifest_sha256": "94ae830850a9ca8bc9756c7b853d6313a7e4f367d7b6fd1f0a1963c093bb1d17"
@@ -450,9 +455,9 @@
   },
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2301370,
-    "decoded_sha256": "ab1b36ab890b63c2a663adbfd4fae47814e3d17210ee85359dbcbab83bedd073",
-    "encoded_sha256": "1bebe97ca14811a6f66309c377381e7fa63ba315fa673b329be67d11577ed0ec"
+    "decoded_size": 2305951,
+    "decoded_sha256": "dee4bca512604b38e00b0fc7a3f9282bff52a5057c2ae5685e98fff6921c3e51",
+    "encoded_sha256": "79a3d6780f167adecf15cfc3965774f1b6e3f36a18c0c44f84d3ec980ea81773"
   },
   "variants": [
     {
@@ -10496,6 +10501,22 @@
       ]
     },
     {
+      "name": "CommonForms/CovCollapsedPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1708,
+          "sha256": "331d9548d5ffdbeec5c5d701a2dba038f2bdbd8ea3610cf61e428214fb3585c3"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1513,
+          "sha256": "0f0e0b649998d9e92e561c2b3fd12dfe10888a80b5b2f9a281d6a6b084f6c3fe"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovCommandPictureAccountingRegister",
       "status": "platform_proven",
       "files": [
@@ -11512,6 +11533,17 @@
           "path": "CommonForms/CovGraphicalSchemaFieldBorderColorTomato.xml",
           "size": 1524,
           "sha256": "e34e03d64282633c954e5d9ef624408baa394d3b2becbe0c7f106cbf10c83959"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovGroupBehaviorCombinationTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1519,
+          "sha256": "58fb5143df53c4a651c30ba9ec853a5c62341bf7689d51bed550d6edb22c9fd9"
         }
       ]
     },
@@ -13337,6 +13369,22 @@
           "path": "CommonForms/CovPictureTitleFontStyleItem.xml",
           "size": 1512,
           "sha256": "6b8388b6b193ec05a0b965cac964f3bf0389db83042163e2fbd080eedd941abe"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1530,
+          "sha256": "885aeb4425ccbb8d160d5fe835c417893095e6686e260bbb18fc5d0854d695a2"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1504,
+          "sha256": "d8a582c8f2b7c291491b45d52cd93f2bb322e499f0cb8ba77a1e22e01760ea72"
         }
       ]
     },
@@ -18214,8 +18262,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 69300,
-          "sha256": "528f8df0375a010862688d038464f3724d62df366e6845d083e4241362263087"
+          "size": 69474,
+          "sha256": "54c7d2aed26e5c1e4a9b1f94966909564f7b06c0c8365bbbf66e4d8a8eac02a9"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

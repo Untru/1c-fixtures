@@ -13,24 +13,24 @@
     "origin": "synthetic stored profile, not a native XML writer fixture",
     "xml_normalization": "native XML export/import/export is identical; all three stored generated command bars disappear on native XML reconstruction",
     "storage_assembler": {
-      "sha256": "c6573262f9d690098764834418b3558acd30cd3ce5f2667e112a26070215130c",
-      "source_commit": "a39cd3c7b1a0497dcab8216a391840ce82457ebc",
+      "sha256": "1b161cea2f6afd75d139e6e7edb9316b913bdaa261bb8925f976c7325374e1ca",
+      "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
       "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
     }
   },
-  "inputs_sha256": "07de77df02250d4376e0b81eec22b55d656d4952da3cbfa89a2f1e70911dd28d",
+  "inputs_sha256": "683213b99a8fd7956bdbe1ed38c2fbd919df6a184ea638008b3bb741e2a0f506",
   "sources": [
     {
       "set": "8.3.27.2214-xml-2.20-combined-native85-storage",
       "path": "combined-native85-storage",
-      "manifest_sha256": "aaea830dbc1f8861d1e3fd81a107dd9c4d80338f888cf08b02f0bf7998f4d75d"
+      "manifest_sha256": "c089c5ae5a9721e68dd5540e808dacb792aa78e34cb16173bd658c999437aa0d"
     }
   ],
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2433381,
-    "decoded_sha256": "cf6b140877824d0ffc4e07950ecfd022d546b495743249b53ac23597cb8876bf",
-    "encoded_sha256": "75ec58cf6b53e20090503cfaaadbb7a844aeb0971d4dd1f9d618518c7af86b16"
+    "decoded_size": 2437863,
+    "decoded_sha256": "2ceeea0b3e2216fe71210a50df7bf28acf073830c837dea8529498d0be54a364",
+    "encoded_sha256": "2632e79ae810baec6df146548f7b55fcaf60a527b45e05e12d8c1cccccf42299"
   },
   "variants": [
     {
@@ -10074,6 +10074,22 @@
       ]
     },
     {
+      "name": "CommonForms/CovCollapsedPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1708,
+          "sha256": "331d9548d5ffdbeec5c5d701a2dba038f2bdbd8ea3610cf61e428214fb3585c3"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1513,
+          "sha256": "0f0e0b649998d9e92e561c2b3fd12dfe10888a80b5b2f9a281d6a6b084f6c3fe"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovCommandPictureAccountingRegister",
       "status": "platform_proven",
       "files": [
@@ -11090,6 +11106,17 @@
           "path": "CommonForms/CovGraphicalSchemaFieldBorderColorTomato.xml",
           "size": 1524,
           "sha256": "e34e03d64282633c954e5d9ef624408baa394d3b2becbe0c7f106cbf10c83959"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovGroupBehaviorCombinationTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1519,
+          "sha256": "58fb5143df53c4a651c30ba9ec853a5c62341bf7689d51bed550d6edb22c9fd9"
         }
       ]
     },
@@ -12915,6 +12942,22 @@
           "path": "CommonForms/CovPictureTitleFontStyleItem.xml",
           "size": 1512,
           "sha256": "6b8388b6b193ec05a0b965cac964f3bf0389db83042163e2fbd080eedd941abe"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1530,
+          "sha256": "885aeb4425ccbb8d160d5fe835c417893095e6686e260bbb18fc5d0854d695a2"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1504,
+          "sha256": "d8a582c8f2b7c291491b45d52cd93f2bb322e499f0cb8ba77a1e22e01760ea72"
         }
       ]
     },
@@ -17792,8 +17835,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 69300,
-          "sha256": "528f8df0375a010862688d038464f3724d62df366e6845d083e4241362263087"
+          "size": 69474,
+          "sha256": "54c7d2aed26e5c1e4a9b1f94966909564f7b06c0c8365bbbf66e4d8a8eac02a9"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

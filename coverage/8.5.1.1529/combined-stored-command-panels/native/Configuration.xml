@@ -1352,6 +1352,9 @@
 			<CommonForm>CovRootCollapseImportance</CommonForm>
 			<CommonForm>CovPictureTitleFontEnterOnInput</CommonForm>
 			<CommonForm>CovTablePictureTitleFont</CommonForm>
+			<CommonForm>CovGroupBehaviorCombinationTemplate</CommonForm>
+			<CommonForm>CovPictureUsualGroup</CommonForm>
+			<CommonForm>CovCollapsedPictureUsualGroup</CommonForm>
 			<CommonForm>CovPeriodField</CommonForm>
 			<CommonForm>CovLabelDecorationTextColorTomato</CommonForm>
 			<CommonForm>CovLabelDecorationTextColorMediumGreen</CommonForm>

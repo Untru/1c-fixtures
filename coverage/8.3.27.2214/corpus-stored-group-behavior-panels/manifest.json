@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "kind": "stored_layout",
+  "set": "8.3.27.2214-xml-2.20-corpus-stored-group-behavior-panels",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.3.27.2214",
+    "source_version": "2.20",
+    "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "synthetic public storage overlay -> native load/export -> native save -> native load/export; identical outside ConfigDumpInfo.xml; every altered form retained byte-for-byte by native save",
+    "origin": "synthetic stored profile, not a native XML writer fixture",
+    "xml_normalization": "native XML export/import/export is identical; all three stored generated command bars disappear on native XML reconstruction",
+    "storage_assembler": {
+      "sha256": "1b161cea2f6afd75d139e6e7edb9316b913bdaa261bb8925f976c7325374e1ca",
+      "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
+      "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
+    }
+  },
+  "inputs_sha256": "f9a5791ab45394beb437f1bc4da318632381a416d2798c93eae1e43102c3775b",
+  "sources": [
+    {
+      "set": "8.5.1.1150-xml-2.21-corpus-group-behavior-combinations",
+      "path": "../8.5.1.1150/corpus-group-behavior-combinations",
+      "manifest_sha256": "c3f11071d84b5b63c2597a01e52f40298eb3c6960a81fff29589c81ac9be3750"
+    }
+  ],
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 80011,
+    "decoded_sha256": "59dd01f6fa14890e2df874aa4ef6f3d51beba0fb31b09a4934f63d48c9f0c894",
+    "encoded_sha256": "fbd4d96b5a6b3259b61207541a7de70b9ae999f6ea64458e18e20e27c33a506e"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 10480,
+          "sha256": "3f7ea2ff0b977e687bdcd325bc99a0735419bfc586279e3076516ef958604be4"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1251,
+          "sha256": "79b42b1d82c4c76af9ca4481aa306c65319a2920df607654231c67f958dbe35a"
+        }
+      ]
+    },
+    {
+      "name": "CovGroupBehaviorCombinationTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1519,
+          "sha256": "4dea53359e44be7ac7187be66f3daeda6dfedb11113d4e6e0ba56577b358ba9d"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureUsualGroup",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1555,
+          "sha256": "5d11ef41a31ecbb37eaecbef82f0c656f8627bcddb47785ce85520cb18c160d9"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1504,
+          "sha256": "e14e8aa902aa9bf2c85df7de54e15874258ace24544e8fdb642edc9ed509d66f"
+        }
+      ]
+    },
+    {
+      "name": "CovCollapsedPictureUsualGroup",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1733,
+          "sha256": "1bdcf95a4aa602951fc248c11be561c8e534400a25b3e0a4eef672f28478a733"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1513,
+          "sha256": "f4a42397f40f250815934919c3b11bd3acb520b9cf38fa38db90efd6b205a91c"
+        }
+      ]
+    }
+  ],
+  "collection": "CommonForms"
+}

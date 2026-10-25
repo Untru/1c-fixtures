@@ -13,24 +13,24 @@
     "origin": "synthetic stored profile, not a native XML writer fixture",
     "xml_normalization": "native XML export/import/export is identical; all three stored generated command bars disappear on native XML reconstruction",
     "storage_assembler": {
-      "sha256": "c6573262f9d690098764834418b3558acd30cd3ce5f2667e112a26070215130c",
-      "source_commit": "a39cd3c7b1a0497dcab8216a391840ce82457ebc",
+      "sha256": "1b161cea2f6afd75d139e6e7edb9316b913bdaa261bb8925f976c7325374e1ca",
+      "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
       "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
     }
   },
-  "inputs_sha256": "28cb6e0a8911d20f1fb58aa8b6e2a1e3f95a0fc5324b59a6661bd20f70e9bfc4",
+  "inputs_sha256": "e8efb3d430ab647dc1c8a559fabe8660facce4c62f69e4990ef6d52b6d450b10",
   "sources": [
     {
       "set": "8.5.1.1529-xml-2.21-combined",
       "path": "combined",
-      "manifest_sha256": "32564d29b67d069e8dc4c853aba66131cf9baf43512826c16f8f508dc88a9a99"
+      "manifest_sha256": "17741277513035cc11acdba9ae52a17e3001d62aa500331cd4a8ac25c77af95e"
     }
   ],
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 4304285,
-    "decoded_sha256": "f0bdf8008dd1ff0258f81908d7d2f73a0ebb0c14aa202678fa7fa96e990e9672",
-    "encoded_sha256": "9fe74562bc9e5493c51eee3023692b09fae3dc2a811c944d5cbd713fa85b3594"
+    "decoded_size": 4309129,
+    "decoded_sha256": "e32c0109f85a17b564fc1de5eecf0dbe9b227f239f75945c62295ddb083ede23",
+    "encoded_sha256": "3cc1da4a420debc33549bc96c74948e739a9f243e30fc0890545f48d7a95a1e8"
   },
   "variants": [
     {
@@ -15077,6 +15077,22 @@
       ]
     },
     {
+      "name": "CommonForms/CovCollapsedPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1762,
+          "sha256": "b6afb4cca4b5a90542c6f17486e7ba94483cba6f23fdb8ae28ddc905037dce09"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1643,
+          "sha256": "77f1f53ddb3a810d5cf5a33b7bb40672fac96e148da17919c6b58711d42779bb"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovCommandPictureAccountingRegister",
       "status": "platform_proven",
       "files": [
@@ -19505,6 +19521,17 @@
       ]
     },
     {
+      "name": "CommonForms/CovGroupBehaviorCombinationTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1649,
+          "sha256": "ed15c3c0d1b009cf82a12261d59e263483c8d3fc50ac44d3bc2714a4c9bb5669"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovHTMLDocumentFieldHeight_40",
       "status": "platform_proven",
       "files": [
@@ -23354,6 +23381,22 @@
           "path": "CommonForms/CovPictureTitleFontStyleItem.xml",
           "size": 1642,
           "sha256": "3d06c3e47e50f3f72f410818ff422b3058ff9d28114250f188ef18aba25290ac"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1584,
+          "sha256": "c6de5872cff6c63385e0e79c9ff915eacad1a1ccf95851df08c3960f4bb0205a"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1634,
+          "sha256": "2081745a9edfd6b819bd26c750d61fc8430cf6f6ad37a2880e47c925d8158fd5"
         }
       ]
     },
@@ -29273,8 +29316,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 97805,
-          "sha256": "e73d88d0c29cd9eedbeebf6af289af4e5cf6e6b2615c38dd25f78194a0f97fb5"
+          "size": 97979,
+          "sha256": "45b98ae277b9d0827119eb37dfb46ff051cd6fa702e866eb1fdedec911c26c86"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

@@ -949,6 +949,9 @@
 			<CommonForm>CovFormattedNestedEnabledFalse</CommonForm>
 			<CommonForm>CovFormattedNestedReadOnlyTrue</CommonForm>
 			<CommonForm>CovFormattedNestedStyleFont</CommonForm>
+			<CommonForm>CovGroupBehaviorCombinationTemplate</CommonForm>
+			<CommonForm>CovPictureUsualGroup</CommonForm>
+			<CommonForm>CovCollapsedPictureUsualGroup</CommonForm>
 			<CommonForm>CovPeriodField</CommonForm>
 			<CommonForm>CovLabelDecorationTextColorTomato</CommonForm>
 			<CommonForm>CovLabelDecorationTextColorMediumGreen</CommonForm>

@@ -13,19 +13,19 @@
     "storage_producer_ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
     "rounds": "native producer imports original generated recipes; target native load/export/save/load/export; identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "226957f2b2dc6a562fad5ed7e00aac32a30a0ebb618886e9fc872f6eff65cb76",
+  "inputs_sha256": "418c38125f8d3f5800fb58b2defb481024d88f5c775d4a733d1b453df7846f22",
   "sources": [
     {
       "set": "8.3.27.2214-xml-2.20-combined",
       "path": "combined",
-      "manifest_sha256": "9d01c45ab4371bb7d47a9fe568c3a0379552f3301ad18b9a5ab473ed0e5d268c"
+      "manifest_sha256": "f7a9d12f1a90c1026e8c4d91c25ae970527ecd23dd5a585a4ae725b4e2201fdb"
     }
   ],
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2376163,
-    "decoded_sha256": "fcee869215726d0c630f3936decc2c9bed0cd82c353f215795b18b3bca119783",
-    "encoded_sha256": "e89425261fad07d43107c7a406593ee48dbb9b37bb494533e00d2cc0795f529d"
+    "decoded_size": 2380393,
+    "decoded_sha256": "ba778089eee6efd5394119720ea737edb48cd9f681949ee238fa43bcc321298d",
+    "encoded_sha256": "3fd6e6569b0ba73904aa93e5cf0feb2d8d1a22c8a999c0c0c1fd0fc356304461"
   },
   "variants": [
     {
@@ -10069,6 +10069,22 @@
       ]
     },
     {
+      "name": "CommonForms/CovCollapsedPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1708,
+          "sha256": "331d9548d5ffdbeec5c5d701a2dba038f2bdbd8ea3610cf61e428214fb3585c3"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1513,
+          "sha256": "0f0e0b649998d9e92e561c2b3fd12dfe10888a80b5b2f9a281d6a6b084f6c3fe"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovCommandPictureAccountingRegister",
       "status": "platform_proven",
       "files": [
@@ -11085,6 +11101,17 @@
           "path": "CommonForms/CovGraphicalSchemaFieldBorderColorTomato.xml",
           "size": 1524,
           "sha256": "e34e03d64282633c954e5d9ef624408baa394d3b2becbe0c7f106cbf10c83959"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovGroupBehaviorCombinationTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1519,
+          "sha256": "58fb5143df53c4a651c30ba9ec853a5c62341bf7689d51bed550d6edb22c9fd9"
         }
       ]
     },
@@ -12910,6 +12937,22 @@
           "path": "CommonForms/CovPictureTitleFontStyleItem.xml",
           "size": 1512,
           "sha256": "6b8388b6b193ec05a0b965cac964f3bf0389db83042163e2fbd080eedd941abe"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovPictureUsualGroup",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1530,
+          "sha256": "885aeb4425ccbb8d160d5fe835c417893095e6686e260bbb18fc5d0854d695a2"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1504,
+          "sha256": "d8a582c8f2b7c291491b45d52cd93f2bb322e499f0cb8ba77a1e22e01760ea72"
         }
       ]
     },
@@ -17787,8 +17830,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 69300,
-          "sha256": "528f8df0375a010862688d038464f3724d62df366e6845d083e4241362263087"
+          "size": 69474,
+          "sha256": "54c7d2aed26e5c1e4a9b1f94966909564f7b06c0c8365bbbf66e4d8a8eac02a9"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

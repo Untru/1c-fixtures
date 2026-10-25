@@ -6825,6 +6825,12 @@
       "native_xml": "CommonForms/CovCheckBoxFieldWarningOnEditRepresentation_Show/Ext/Form.xml"
     },
     {
+      "entry": "f210b823-a1c9-59d3-a3f4-923f409723cd.0",
+      "source_sha256": "e00f19d63ab63ec0bff5eda5fde9b872a4488b79ed07ef221cc5dfd008e3abc8",
+      "stored_sha256": "e290082de455c0f4dc1f03c3bc76460ce7095cd067c59b58f4a6098d2457ee05",
+      "native_xml": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml"
+    },
+    {
       "entry": "f8ce5637-c2ad-5c34-84bc-8b6725d78750.0",
       "source_sha256": "bf0ca6e0d3ca5cba7cbc56ee0ffdf8e2358345c93a4d285b1faea9b39a510987",
       "stored_sha256": "92548768e334f22d4d44a103949c5ec1442619b02bed0c1a11c0e90a927515cd",
@@ -9871,6 +9877,12 @@
       "source_sha256": "8d0a80247ce6ac7f71ef4c1d2c02f61f78545d491ad3575e8a7f591f29ef8598",
       "stored_sha256": "ba68dfc534fccb8add18629200791612113d8af87ce2c0099e47793c5d01144e",
       "native_xml": "CommonForms/CovPictureTitleFontStyleItem/Ext/Form.xml"
+    },
+    {
+      "entry": "2e5fed71-1e5b-5746-8877-6a00fbfdd327.0",
+      "source_sha256": "1e1e9f1413d87462954eab9c00c99e3e46eabf3f5038f7a688770bf3da0d0420",
+      "stored_sha256": "98d877ee846d372c978cad9a775d2e609a16088c11c5102f4ad24e9201ad1305",
+      "native_xml": "CommonForms/CovPictureUsualGroup/Ext/Form.xml"
     },
     {
       "entry": "ac5f54ce-3f53-57c3-9269-c79e883c0ea7.0",
