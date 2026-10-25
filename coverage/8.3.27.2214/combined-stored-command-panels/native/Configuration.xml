@@ -291,6 +291,24 @@
 			<CommonTemplate>CovGraphicalSchemaImage</CommonTemplate>
 			<CommonTemplate>CovGraphicalSchemaPng</CommonTemplate>
 			<CommonTemplate>CovGraphicalSchemaGif</CommonTemplate>
+			<CommonTemplate>CovMxlRulesTemplate</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue00</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue01</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue02</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue03</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue04</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue05</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue06</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue07</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue08</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue09</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue10</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue11</CommonTemplate>
+			<CommonTemplate>CovMxlFontValue12</CommonTemplate>
+			<CommonTemplate>CovMxlMergeRowsEmpty</CommonTemplate>
+			<CommonTemplate>CovMxlMergeRowsCell</CommonTemplate>
+			<CommonTemplate>CovMxlMergeColumnsEmpty</CommonTemplate>
+			<CommonTemplate>CovMxlMergeColumnsCell</CommonTemplate>
 			<CommonTemplate>CovNestedCompositionTemplate</CommonTemplate>
 			<CommonTemplate>CovCompositionNestedOutput</CommonTemplate>
 			<CommonTemplate>CovCompositionNestedFieldAppearance</CommonTemplate>
@@ -1016,6 +1034,8 @@
 			<Catalog>CovOwnedUnionCatalog</Catalog>
 			<Catalog>CovOwnedScalarTemplate</Catalog>
 			<Catalog>CovObservedOwner</Catalog>
+			<Catalog>CovStandardBindingsTemplate</Catalog>
+			<Catalog>CovStandardObjectBindings</Catalog>
 			<Catalog>CovTemplate</Catalog>
 			<Catalog>CovHierarchical_true</Catalog>
 			<Catalog>CovHierarchyType_HierarchyOfItems</Catalog>

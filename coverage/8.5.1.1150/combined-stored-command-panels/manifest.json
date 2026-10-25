@@ -17,21 +17,36 @@
       "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
       "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
     },
-    "cache_validation": "all current source form hashes verified against prior native inputs; patches recomputed; every native-saved body reverified; every normalized body byte-identical to a prior zero-panel native body"
+    "cache_validation": "all current source hashes verified against prior native form bytes, including the two public object-binding forms; all patches recomputed and compared; every native-saved body verified; every normalized body equals prior native zero-panel bytes",
+    "new_form_validation": [
+      {
+        "entry": "771410a8-67cc-55b9-bc13-b2483d76cf9c.0",
+        "source_sha256": "75a88ec05fa9dc45dc67f8513b1d50f1c47ef103d7d104133e89b686dcefdfa2",
+        "stored_sha256": "2eba20bc9ce2e27a8b14899f6e3788cf6caae6882fbd9245354a7a73976fabc1",
+        "normalized_sha256": "6e4dd47615071c4c953dee8bacddd14baecf47577e0d46ac6c6fe644cc9dcb47"
+      },
+      {
+        "entry": "a1dd6ab8-7324-59f3-8628-06a1174d2fd5.0",
+        "source_sha256": "72e9f409d3c07b782679a6eec143b1ba6925522f0cd3b6c75d06e28527542001",
+        "stored_sha256": "72c1b572ddd7d6f782f331d75e547942b9890f30a1f853da222a9410dd1cbec3",
+        "normalized_sha256": "03934c120abf592c8dc29100f6458fd5f41dbb1e719f4600979bb9c4292c9c75"
+      }
+    ],
+    "verified_form_count": 1170
   },
-  "inputs_sha256": "b504285fdc9b3e4506ad5823a0c92187857f5c1d232ad9fcaa04b597e1d3f789",
+  "inputs_sha256": "edddd5848c4687f506eb7224537bf1e1391853f7de94742790222e0de9148e1a",
   "sources": [
     {
       "set": "8.5.1.1150-xml-2.21-combined",
       "path": "combined",
-      "manifest_sha256": "3d15e8b619695969147e59e721cf84f71a8ce3b52d646c0b225388b036d6bb41"
+      "manifest_sha256": "2e33e0ecdc7dd9d2ee9cdcc1c101755b398a74dd64effc436293d74f641ec384"
     }
   ],
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 3029278,
-    "decoded_sha256": "98fc75ced448456a7828bd95f8c20d727252f7502f3d0933a30496112e951fcc",
-    "encoded_sha256": "258a757df5e6d33e5c33d01fa56f0e07f05c0351633c1a267afc364fe7939eda"
+    "decoded_size": 3062539,
+    "decoded_sha256": "0d55ba6da28fa5e6b7f951326f735f31029058c82df910cabfdf1aed5e5e293a",
+    "encoded_sha256": "ccdca53c16f4d959461b3d3deba5c28727ae3380561f2f7cc8ac4494c2dd17c9"
   },
   "variants": [
     {
@@ -5387,6 +5402,48 @@
           "path": "Catalogs/CovSearchStringModeOnInputByString_AnyPart.xml",
           "size": 4795,
           "sha256": "6ce7c31a61be83493e751972602ac85e9b21d09a7056cabf85000c39e3a903f0"
+        }
+      ]
+    },
+    {
+      "name": "Catalogs/CovStandardBindingsTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Catalogs/CovStandardBindingsTemplate.xml",
+          "size": 4673,
+          "sha256": "4addd28e812b6cb3be72d246ceb1ddf784dde0aec09274b375ed13880f5d9a4a"
+        }
+      ]
+    },
+    {
+      "name": "Catalogs/CovStandardObjectBindings",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/InputForm/Ext/Form.xml",
+          "size": 1572,
+          "sha256": "aca7df136234bd69fd4f8c5f1f72b798a9d831f0b9149051f459fe5907a3371b"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/InputForm.xml",
+          "size": 1625,
+          "sha256": "dc932d84ae423074bc7d9a678d25ff83ca2f0ade6278a9ee63d898b37a2b76ff"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/LabelForm/Ext/Form.xml",
+          "size": 1572,
+          "sha256": "d473a6bd8737aaaa21566d2c680fb9a3ed574c04e16a161e08d3ad61592d719e"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/LabelForm.xml",
+          "size": 1625,
+          "sha256": "8b1ec15879c29f6865968d39bf3e0d8225fe273bfbdc6bd62742c8a7a844f919"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings.xml",
+          "size": 4729,
+          "sha256": "3bc829eab4ca7b6564de8ad0afad9710508568119225e2ae3777d9bda932c068"
         }
       ]
     },
@@ -18977,6 +19034,294 @@
       ]
     },
     {
+      "name": "CommonTemplates/CovMxlFontValue00",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue00/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "34cc26d6a30acdfa10bf006b4a56d9ee48038d76a38677ba46ff1d4691775b88"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue00.xml",
+          "size": 1219,
+          "sha256": "ee93a961b169e0a80a059be6492fc4816e175560e19011533631351321c5733a"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue01",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue01/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "3b5d75622b057bf662def4e33df5687462ee55e765729f0d72831882c7a27505"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue01.xml",
+          "size": 1219,
+          "sha256": "58465bea4deecd0379f103ac9082a8adc1bc12d9a31b96182d9fe4356211c6ce"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue02",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue02/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "16da070ac05bbf52203e90b31fd41b879bccce7e5f00ad67b12d3b4f04867d1c"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue02.xml",
+          "size": 1219,
+          "sha256": "f5b673d04eec9301aec52d16d6d52d4b009473c2fc42939620b3623eb8b22853"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue03",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue03/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "d6b7699dba840c59b7575b2519216f8cf9ef4f03e482fe259821daf6c475f45b"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue03.xml",
+          "size": 1219,
+          "sha256": "0b0e2283616d1b8380667ecb1d526a4af5804556d9af589d114f651b1d930aca"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue04",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue04/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "7b09c1c360ae0a08cea507642d1119dcd40890159dffe51001c0513b21e53c69"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue04.xml",
+          "size": 1219,
+          "sha256": "791c66b6326b64caf34a2e6d2bf209816bd60cbc123f9561828aa9d6f32614a2"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue05",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue05/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "c598b383b80d6ea2985b344366a2d6572129f0dc8fd78b7c85e125e7a9326d93"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue05.xml",
+          "size": 1219,
+          "sha256": "e1d78ba2d9ab95dd823268f33645044b922de89df1dcaf53f34343e71d4ee299"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue06",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue06/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "adb9c42b4b1b781478b0325d32eda603634b55cfc74076aad1798fa60e82fc86"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue06.xml",
+          "size": 1219,
+          "sha256": "ef78a3de5f0db9ff0509b2e5846472c00caebb59715c9887c4060c2e59b5ed11"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue07",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue07/Ext/Template.xml",
+          "size": 1085,
+          "sha256": "8c781ccb35a3ac2064768d13ccc3c2127e9ff000ee8fffe5bcaa2f018ced19cb"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue07.xml",
+          "size": 1219,
+          "sha256": "f228d6f3bfd54ee241ba94637f38baeb73442bd882ccaa81c2d70b843fba9055"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue08",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue08/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "8bb61c3c2b995ef18f65bf2ace06622dbf6b85dbb20b6ef9e3af665314a0c152"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue08.xml",
+          "size": 1219,
+          "sha256": "4eb09ee233e22504f52cfa3fcfcf1fbe49b3d26b0b3b125ea09e2920bd6bdfe4"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue09",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue09/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "e7439ad7f5853a5819b27c7a63717c54b7afe1a99bde04c39c23815cabb011ba"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue09.xml",
+          "size": 1219,
+          "sha256": "46236bafe0bc6cd61a68adc7bb5d16a28fec0aa431a373e0bc1779f547f895d2"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue10",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue10/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "4912e39a67af147ce4c47d77a76adacf3d48255f499aeb9742004d3b35afd9f2"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue10.xml",
+          "size": 1219,
+          "sha256": "6c3f481c266557fdd69d7ef92ff5ba82f34f70db5d6e934028132c9f4f9ab676"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue11",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue11/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "50405fc6685d9ba4c33bb58f9b721a3674698abb52bc7c1d8999119141df8f92"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue11.xml",
+          "size": 1219,
+          "sha256": "4001fc8d2b1f041517d1b9a05a3c83cb8e9b5f7c045e4ebed20643fb5579c7ef"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlFontValue12",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue12/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "86c92320c13224aeec826ebb9ac384ea5c860d85cac105e60a93e94ff4b4ed68"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue12.xml",
+          "size": 1219,
+          "sha256": "73829b394624723e425de0d48333f297f0524333bff20837cdb52741943c2560"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlMergeColumnsCell",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsCell/Ext/Template.xml",
+          "size": 1435,
+          "sha256": "1e5a5b89e0735a06deea41bbbdb2e7b6aba3c50fdc60f0cb5a5dfef02c55e26e"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsCell.xml",
+          "size": 1224,
+          "sha256": "094e7e2122bfb0d28b765f25e465cfae786a403500448dad9714fde6238a74b5"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlMergeColumnsEmpty",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsEmpty/Ext/Template.xml",
+          "size": 1249,
+          "sha256": "8998d173acb87f1884ee5f67b83c3abbe522d4eec9c86a2376ff9827b7115891"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsEmpty.xml",
+          "size": 1225,
+          "sha256": "8a068ecab3a0074dded77197495e8888e362c72b396d77d0ae1feea1f80f687f"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlMergeRowsCell",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsCell/Ext/Template.xml",
+          "size": 1435,
+          "sha256": "d77a63bf0da0ca030aac30255262cc02d497893c307f1dac39a1f1ac80de687d"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsCell.xml",
+          "size": 1221,
+          "sha256": "b5b68a3af7a86db58f196db0088b307c8ff5a79dbd0d171c12b57ad51d9bf89d"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlMergeRowsEmpty",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsEmpty/Ext/Template.xml",
+          "size": 1249,
+          "sha256": "54a11ecbd2632ad01e8d212e1c93d1808ab843ec1464784a8eb0568d4bd7a4af"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsEmpty.xml",
+          "size": 1222,
+          "sha256": "00f622de701f687ebea78acee50f7049ad0e5ca438b844a3d6f2cb46cb4e5001"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovMxlRulesTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlRulesTemplate/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "5d4ed4829c05ecb9092cac8adfe4314177e32892f5631fd91de5f2866562badd"
+        },
+        {
+          "path": "CommonTemplates/CovMxlRulesTemplate.xml",
+          "size": 1221,
+          "sha256": "8b4192568848dc5d4493738180cd939a62008570e06f7629c93bc9d74569ea9c"
+        }
+      ]
+    },
+    {
       "name": "CommonTemplates/CovNestedCompositionTemplate",
       "status": "platform_proven",
       "files": [
@@ -22038,8 +22383,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 87882,
-          "sha256": "201563edf1263d515430b0dc9c4c0e5c5bf803d547a11e02fd2896af9a004e42"
+          "size": 88990,
+          "sha256": "69854c2cdcac9811e95e9179569349c342cd401a2943474444e9767a3c399185"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

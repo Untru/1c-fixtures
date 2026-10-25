@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "profile": "stored-merge-rules",
+  "origin": "controlled synthetic ordering and duplicate states in public spreadsheet layouts",
+  "historical_writer": "unknown for the minimized legacy skeleton; not claimed to be a current writer output",
+  "source_cf": {
+    "set": "8.3.27.2214-xml-2.20-corpus-spreadsheet-facets",
+    "path": "corpus-spreadsheet-facets",
+    "manifest_sha256": "029a0fdd7b773be73856d0c21c1fa8fa0c9af3025af5d9a9de2b17246085a5a8"
+  },
+  "logical_counterpart": {
+    "set": "8.3.27.2214-xml-2.20-corpus-mxl-font-merge-values",
+    "path": "corpus-mxl-font-merge-values",
+    "manifest_sha256": "4b5d833056060576f0e8c768abc201951c452cf7c0e96b26d654b2cbbf3cf581"
+  },
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset <entry>=input/<file> for each patch; native load/export/save/load/export",
+  "patches": [
+    {
+      "entry": "8354ade3-9c21-5454-9d32-b3bf79e84575.0",
+      "file": "unordered-rows-v6.bin",
+      "sha256": "29bc8a03954af72f87c42c8cb05ef4e8b062dd84d221c1a8e8c9298c543d370d",
+      "public_variant": "CovSpreadsheetFacetTemplate",
+      "native_file": "CommonTemplates/CovSpreadsheetFacetTemplate/Ext/Template.xml"
+    },
+    {
+      "entry": "17d04453-3bf4-5cc6-95d8-aecd890de0dd.0",
+      "file": "unordered-columns-v6.bin",
+      "sha256": "1d731eb9b51782da54ab3313f64836238ee41b80f93982eac5c4420b7b67eb1c",
+      "public_variant": "CovSheetVerticalPageBreak",
+      "native_file": "CommonTemplates/CovSheetVerticalPageBreak/Ext/Template.xml"
+    },
+    {
+      "entry": "e8d41075-ac0a-56d4-93d5-96c53032c411.0",
+      "file": "duplicate-v6.bin",
+      "sha256": "8315c5ffc757c4b7a3dbdc4c2e0dd19dbe7e6e4052f0d196290107f602ace786",
+      "public_variant": "CovSheetPageSizeA4",
+      "native_file": "CommonTemplates/CovSheetPageSizeA4/Ext/Template.xml"
+    },
+    {
+      "entry": "beab300a-c191-5610-b1e1-257f7f07c732.0",
+      "file": "unordered-rows-v12.bin",
+      "sha256": "e0dbc31372695169c1b4e935b4c4433b6a6b3b639f3692e5f327f2fe9c86ee27",
+      "public_variant": "CovSheetAutoFontHeight",
+      "native_file": "CommonTemplates/CovSheetAutoFontHeight/Ext/Template.xml"
+    },
+    {
+      "entry": "6b755b5b-68b3-5c3c-8ca7-161a75f688b3.0",
+      "file": "unordered-columns-v12.bin",
+      "sha256": "734c0a263254d3c09b2afdc2fc575a264045b0b1d70d68a9f483b50bf35092f6",
+      "public_variant": "CovSheetOEMFixedFont",
+      "native_file": "CommonTemplates/CovSheetOEMFixedFont/Ext/Template.xml"
+    },
+    {
+      "entry": "15ecc5cd-8065-5f95-90f2-fc11676411a1.0",
+      "file": "duplicate-v12.bin",
+      "sha256": "7f1eeae2f1ac605cd75e6140bac092e984d93724a8d69a5688cccd7c084f2e02",
+      "public_variant": "CovSheetSandyBrown",
+      "native_file": "CommonTemplates/CovSheetSandyBrown/Ext/Template.xml"
+    }
+  ],
+  "scope": "independent public metadata; minimized payloads contain no application texts or modules; revision6 uses a current absolute font7 descriptor to isolate merge rules from the separate legacy-font loss",
+  "merge_states": [
+    {
+      "label": "unordered-rows-v6",
+      "document_revision": 6,
+      "regions": [
+        [
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "unordered-columns-v6",
+      "document_revision": 6,
+      "regions": [
+        [
+          4,
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "duplicate-v6",
+      "document_revision": 6,
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          3,
+          4,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "unordered-rows-v12",
+      "document_revision": 12,
+      "regions": [
+        [
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "unordered-columns-v12",
+      "document_revision": 12,
+      "regions": [
+        [
+          4,
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "duplicate-v12",
+      "document_revision": 12,
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          3,
+          4,
+          3,
+          0
+        ]
+      ]
+    }
+  ]
+}

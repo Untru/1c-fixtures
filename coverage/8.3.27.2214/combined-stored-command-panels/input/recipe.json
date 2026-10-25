@@ -5539,6 +5539,18 @@
       "source_sha256": "e57ee8f2278c6b8d075af3fc3a87bbbe37fcb33d32a0e8fc8542c09180af0dab",
       "stored_sha256": "58f6dc2f311c2a0281741ef6e18379ba0d7358a9a3e63c8a406748d2119e1fd6",
       "native_xml": "Tasks/CovEventTask/Forms/EventsForm/Ext/Form.xml"
+    },
+    {
+      "entry": "771410a8-67cc-55b9-bc13-b2483d76cf9c.0",
+      "source_sha256": "75a88ec05fa9dc45dc67f8513b1d50f1c47ef103d7d104133e89b686dcefdfa2",
+      "native_xml": "Catalogs/CovStandardObjectBindings/Forms/InputForm/Ext/Form.xml",
+      "stored_sha256": "2eba20bc9ce2e27a8b14899f6e3788cf6caae6882fbd9245354a7a73976fabc1"
+    },
+    {
+      "entry": "a1dd6ab8-7324-59f3-8628-06a1174d2fd5.0",
+      "source_sha256": "72e9f409d3c07b782679a6eec143b1ba6925522f0cd3b6c75d06e28527542001",
+      "native_xml": "Catalogs/CovStandardObjectBindings/Forms/LabelForm/Ext/Form.xml",
+      "stored_sha256": "72c1b572ddd7d6f782f331d75e547942b9890f30a1f853da222a9410dd1cbec3"
     }
   ]
 }

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "profile": "legacy-font6-variations",
+  "origin": "minimized sanitized legacy records",
+  "historical_writer": "unknown for the minimized legacy skeleton; not claimed to be a current writer output",
+  "source_cf": {
+    "set": "8.3.27.2214-xml-2.20-corpus-observed-spreadsheet-combinations",
+    "path": "../8.3.27.2214/corpus-observed-spreadsheet-combinations",
+    "manifest_sha256": "0979b96b1d081ed10652f5c8865bbab797bf97f71f774b1700ed85b7ebaa270f"
+  },
+  "logical_counterpart": {
+    "set": "8.5.1.1150-xml-2.21-corpus-mxl-font-merge-values",
+    "path": "corpus-mxl-font-merge-values",
+    "manifest_sha256": "035e05714feddf1ad35653ce187469dd19e74e696f7774e5a430a03e8622f468"
+  },
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset <entry>=input/<file> for each patch; native load/export/save/load/export",
+  "patches": [
+    {
+      "entry": "8354ade3-9c21-5454-9d32-b3bf79e84575.0",
+      "file": "0.bin",
+      "sha256": "b2f7b1c1890226715639a90e0b2bf969963e6deaffee33f9932f94e9fd72a20a",
+      "public_variant": "CovObservedSheetTemplate",
+      "native_file": "CommonTemplates/CovObservedSheetTemplate/Ext/Template.xml"
+    },
+    {
+      "entry": "04992ca4-c8aa-5bab-a953-87b78b453b11.0",
+      "file": "1.bin",
+      "sha256": "e1f35fc0ca7aa267692b9a674039d00f29d75c51558cd6f85f90d7741d8a975f",
+      "public_variant": "CovObservedMergeDescendingColumns",
+      "native_file": "CommonTemplates/CovObservedMergeDescendingColumns/Ext/Template.xml"
+    },
+    {
+      "entry": "cd11c5a1-4552-54e0-a8ec-e2051db02bc8.0",
+      "file": "2.bin",
+      "sha256": "d57559da27d98c2bc408ed7ff5f43a5d38cff3d3bc9c9297ddbc6f35999c9cc5",
+      "public_variant": "CovObservedMergeMixedRows",
+      "native_file": "CommonTemplates/CovObservedMergeMixedRows/Ext/Template.xml"
+    },
+    {
+      "entry": "156e5b3a-2047-57ca-a03a-13014ea3be3c.0",
+      "file": "3.bin",
+      "sha256": "b9318a1d688c3e586d6e826948a99d171f6057687700e1c8528d33f792396717",
+      "public_variant": "CovObservedMergeRowColumnDefault",
+      "native_file": "CommonTemplates/CovObservedMergeRowColumnDefault/Ext/Template.xml"
+    },
+    {
+      "entry": "26bb8a3c-83ec-5c5c-a29e-e1bde33ac2df.0",
+      "file": "4.bin",
+      "sha256": "4d355bb560efc8b33d14ca8db64f46b25673127e113faa76c801d8db026c82b6",
+      "public_variant": "CovObservedSheetFont0",
+      "native_file": "CommonTemplates/CovObservedSheetFont0/Ext/Template.xml"
+    },
+    {
+      "entry": "246fb253-acf2-5b9c-bab1-6d356d2975f1.0",
+      "file": "5.bin",
+      "sha256": "6bde1069f2cb933b45c1d913cfff283717d1575bb4ea7f8dcf7916f25166e37f",
+      "public_variant": "CovObservedSheetFont1",
+      "native_file": "CommonTemplates/CovObservedSheetFont1/Ext/Template.xml"
+    },
+    {
+      "entry": "fd9e340b-be03-590b-a215-13a9dccac78d.0",
+      "file": "6.bin",
+      "sha256": "e5271b527f05b253b4685518af4a0d2c9c308fde849a72a26264097d0db1f6c0",
+      "public_variant": "CovObservedSheetFont2",
+      "native_file": "CommonTemplates/CovObservedSheetFont2/Ext/Template.xml"
+    },
+    {
+      "entry": "cc2f37a9-0dc6-551f-b0d6-a76089e7343c.0",
+      "file": "7.bin",
+      "sha256": "3a0b847ab2d76b0852885925153330538522b90f7e78e35aec885cd27addf88e",
+      "public_variant": "CovObservedSheetFont3",
+      "native_file": "CommonTemplates/CovObservedSheetFont3/Ext/Template.xml"
+    },
+    {
+      "entry": "14dc1a9c-c3a7-5e71-ab4a-2b9b51ebf7aa.0",
+      "file": "8.bin",
+      "sha256": "272d39c3b8220f3d29dfcce30c15c7b9dd6031b3e4e73e447a5e344d0c411763",
+      "public_variant": "CovObservedSheetFont4",
+      "native_file": "CommonTemplates/CovObservedSheetFont4/Ext/Template.xml"
+    },
+    {
+      "entry": "dfbba567-1df6-500f-832b-08570560f2c7.0",
+      "file": "9.bin",
+      "sha256": "5f96eb52059584c35bb3e4a16db166b1be4b2c518ffd2cb9a7ec32972ac306bf",
+      "public_variant": "CovObservedSheetFont5",
+      "native_file": "CommonTemplates/CovObservedSheetFont5/Ext/Template.xml"
+    },
+    {
+      "entry": "f6efbaeb-442d-5832-a659-51bc30d0b5a6.0",
+      "file": "10.bin",
+      "sha256": "3ae245a605d6894cd63ca0c728117b045a4dbd106e5cf04bab41ad4d190869db",
+      "public_variant": "CovObservedSheetFont6",
+      "native_file": "CommonTemplates/CovObservedSheetFont6/Ext/Template.xml"
+    },
+    {
+      "entry": "76476d67-71a1-5703-933b-f434234f3cd4.0",
+      "file": "11.bin",
+      "sha256": "7c2ad50ac79d7cb1b3e64ae549b7ac8a62f669677461952760e093fd8f70f6ea",
+      "public_variant": "CovObservedSheetFont7",
+      "native_file": "CommonTemplates/CovObservedSheetFont7/Ext/Template.xml"
+    },
+    {
+      "entry": "0e0328eb-13e6-5782-b43e-899861ea1630.0",
+      "file": "12.bin",
+      "sha256": "0537ee2339151dec351fc921fe544bc125b5023f58273d62d2f27e65e5a83b04",
+      "public_variant": "CovObservedSheetFont8",
+      "native_file": "CommonTemplates/CovObservedSheetFont8/Ext/Template.xml"
+    }
+  ],
+  "scope": "independent public metadata; minimized payloads contain no application texts or modules",
+  "font_values": [
+    {
+      "bold": "false",
+      "faceName": "Arial",
+      "height": "6.8",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "14.3",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "false",
+      "faceName": "Arial",
+      "height": "9",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "9.8",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "8.3",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "8",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "9",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "false",
+      "faceName": "MS Sans Serif",
+      "height": "7",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "false",
+      "faceName": "Arial",
+      "height": "9",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "true"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "12",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "false",
+      "faceName": "Arial",
+      "height": "9.8",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "false",
+      "faceName": "Arial",
+      "height": "8.3",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    },
+    {
+      "bold": "true",
+      "faceName": "Arial",
+      "height": "10",
+      "italic": "false",
+      "kind": "Absolute",
+      "scale": "100",
+      "strikeout": "false",
+      "underline": "false"
+    }
+  ]
+}

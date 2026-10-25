@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-mxl-font-merge-values",
+  "collection": "CommonTemplates",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-26",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "f71b60125a43feaf69f790e21cc0a8657303e8b68dba7a912ff083fb95b565f6",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 102632,
+    "decoded_sha256": "0c876edb12140909e8357e0f6d3af26104d999b71f666d1c1eeac21147e6ee46",
+    "encoded_sha256": "687a6b2522eb396c1f189affb5a897cf290534183805f976a0fdcf43be2ccf65"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 12072,
+          "sha256": "0d5c81b5f316ff325daa83d23b37362dd81fc5160919e98aec2400b45593deb6"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "fccb5fff6933a6d35cc3fd89adee66e2bb72a8a8ac6ff4c4c849d935198eaaaf"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlRulesTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlRulesTemplate/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "5d4ed4829c05ecb9092cac8adfe4314177e32892f5631fd91de5f2866562badd"
+        },
+        {
+          "path": "CommonTemplates/CovMxlRulesTemplate.xml",
+          "size": 1221,
+          "sha256": "8b4192568848dc5d4493738180cd939a62008570e06f7629c93bc9d74569ea9c"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue00",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue00/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "34cc26d6a30acdfa10bf006b4a56d9ee48038d76a38677ba46ff1d4691775b88"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue00.xml",
+          "size": 1219,
+          "sha256": "6e640903ce2bd67eeeb517a00b61e96db5c507892550c4dae8da473580f336c1"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue01",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue01/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "3b5d75622b057bf662def4e33df5687462ee55e765729f0d72831882c7a27505"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue01.xml",
+          "size": 1219,
+          "sha256": "4becffb5abe7f46212d31b44249848a34adbfe6f2d469f6766224828f90aa01e"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue02",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue02/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "16da070ac05bbf52203e90b31fd41b879bccce7e5f00ad67b12d3b4f04867d1c"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue02.xml",
+          "size": 1219,
+          "sha256": "20657fa48cd378344e9098eb459c1fd2d67b3fe575dc1fb05480cf55b1802942"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue03",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue03/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "d6b7699dba840c59b7575b2519216f8cf9ef4f03e482fe259821daf6c475f45b"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue03.xml",
+          "size": 1219,
+          "sha256": "b45081773873f73746609fa4de71274f326758d5f23b656e9460f01c017a88eb"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue04",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue04/Ext/Template.xml",
+          "size": 1078,
+          "sha256": "7b09c1c360ae0a08cea507642d1119dcd40890159dffe51001c0513b21e53c69"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue04.xml",
+          "size": 1219,
+          "sha256": "580cce4cf16eeb4102ff80ccd22ac670bcaf4e1e401371ce7a7426364a29210d"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue05",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue05/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "c598b383b80d6ea2985b344366a2d6572129f0dc8fd78b7c85e125e7a9326d93"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue05.xml",
+          "size": 1219,
+          "sha256": "900d1ec3744a045531c25d1fb9ebea5551ffc6e0f430f16847a05e013218e3fe"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue06",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue06/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "adb9c42b4b1b781478b0325d32eda603634b55cfc74076aad1798fa60e82fc86"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue06.xml",
+          "size": 1219,
+          "sha256": "29de6aaff62eb8aa8737ae82f9725bc1e5afab1c5523fad70d28004bd6e37079"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue07",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue07/Ext/Template.xml",
+          "size": 1085,
+          "sha256": "8c781ccb35a3ac2064768d13ccc3c2127e9ff000ee8fffe5bcaa2f018ced19cb"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue07.xml",
+          "size": 1219,
+          "sha256": "d42f31f22a79fd3e50ca7b0cf01843744e4268ddd5e1b043e14877d98f760bff"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue08",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue08/Ext/Template.xml",
+          "size": 1076,
+          "sha256": "8bb61c3c2b995ef18f65bf2ace06622dbf6b85dbb20b6ef9e3af665314a0c152"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue08.xml",
+          "size": 1219,
+          "sha256": "61589f0dee494fd6a1b2dd76f20f9d7af26d2dd14cc4c3f03b94fdce7da3da83"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue09",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue09/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "e7439ad7f5853a5819b27c7a63717c54b7afe1a99bde04c39c23815cabb011ba"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue09.xml",
+          "size": 1219,
+          "sha256": "ab09931caf7e115820b67d1c227a0c313a6ffc5bd86712ed596b3507dcb6ca93"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue10/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "4912e39a67af147ce4c47d77a76adacf3d48255f499aeb9742004d3b35afd9f2"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue10.xml",
+          "size": 1219,
+          "sha256": "6ea7ddaf254d8fe7dc20c12d106dd9183ead2f9e26739365ba039e4484774371"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue11",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue11/Ext/Template.xml",
+          "size": 1079,
+          "sha256": "50405fc6685d9ba4c33bb58f9b721a3674698abb52bc7c1d8999119141df8f92"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue11.xml",
+          "size": 1219,
+          "sha256": "9b5cf5a5132cf12899b6567274e771e63ecd8c49252e7ae0eef56428622ba009"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlFontValue12",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlFontValue12/Ext/Template.xml",
+          "size": 1077,
+          "sha256": "86c92320c13224aeec826ebb9ac384ea5c860d85cac105e60a93e94ff4b4ed68"
+        },
+        {
+          "path": "CommonTemplates/CovMxlFontValue12.xml",
+          "size": 1219,
+          "sha256": "34a6c8a04ee095ea43055d9ac35b1f3e52b9433ee825ffb6d3ff2015f9b42398"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlMergeRowsEmpty",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsEmpty/Ext/Template.xml",
+          "size": 1249,
+          "sha256": "54a11ecbd2632ad01e8d212e1c93d1808ab843ec1464784a8eb0568d4bd7a4af"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsEmpty.xml",
+          "size": 1222,
+          "sha256": "cedc82b4638d3e7af82dc9a0319a507ce130efbe408b4e106713c5cd4d8373f9"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlMergeRowsCell",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsCell/Ext/Template.xml",
+          "size": 1435,
+          "sha256": "d77a63bf0da0ca030aac30255262cc02d497893c307f1dac39a1f1ac80de687d"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeRowsCell.xml",
+          "size": 1221,
+          "sha256": "44bf39065fcf4f39321f27577c663b9fcb75e94b3c16242b0d9907470a253b40"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlMergeColumnsEmpty",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsEmpty/Ext/Template.xml",
+          "size": 1249,
+          "sha256": "8998d173acb87f1884ee5f67b83c3abbe522d4eec9c86a2376ff9827b7115891"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsEmpty.xml",
+          "size": 1225,
+          "sha256": "e32de39d9851f812a31eb44fff413645c041a2f9c2a1adac8d8f9c85cf63221d"
+        }
+      ]
+    },
+    {
+      "name": "CovMxlMergeColumnsCell",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsCell/Ext/Template.xml",
+          "size": 1435,
+          "sha256": "1e5a5b89e0735a06deea41bbbdb2e7b6aba3c50fdc60f0cb5a5dfef02c55e26e"
+        },
+        {
+          "path": "CommonTemplates/CovMxlMergeColumnsCell.xml",
+          "size": 1224,
+          "sha256": "7f4d90452324adebf08330db43bc95e840f634951f3cdd9d65f410e4b1f6c978"
+        }
+      ]
+    }
+  ]
+}

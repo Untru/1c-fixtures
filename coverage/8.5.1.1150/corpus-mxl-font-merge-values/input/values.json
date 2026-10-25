@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "collection": "CommonTemplates",
+  "properties": [],
+  "template_files": {
+    "Ext/Template.xml": "bodies/default.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovMxlFontValue00",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue00.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue01",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue01.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue02",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue02.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue03",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue03.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue04",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue04.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue05",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue05.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue06",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue06.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue07",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue07.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue08",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue08.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue09",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue09.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue10",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue10.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue11",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue11.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlFontValue12",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlFontValue12.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlMergeRowsEmpty",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlMergeRowsEmpty.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlMergeRowsCell",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlMergeRowsCell.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlMergeColumnsEmpty",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlMergeColumnsEmpty.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    },
+    {
+      "name": "CovMxlMergeColumnsCell",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovMxlMergeColumnsCell.xml"
+      },
+      "source": "generated:independent absolute-font values and canonical merge coordinate contexts"
+    }
+  ]
+}
