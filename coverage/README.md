@@ -183,6 +183,6 @@ ibcmd-rs. Дальше идут отличающиеся варианты с п�
 ## Corpus regression inputs
 
 The `corpus-*` sets add clean-room reproductions and mixed reference controls.
-See [build instructions](../../../docs/evidence/coverage-corpus-build.md) and
-[the diagnostic matrix](../../../docs/evidence/coverage-corpus-regressions.md).
+See [build instructions](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-build.md) and
+[the diagnostic matrix](https://github.com/Untru/ibcmd-rs/blob/c33fb1a5aeceec55f665aa0fbfbb412a6809da30/docs/evidence/coverage-corpus-regressions.md).
 Special source-only/legacy probes are documented in [coverage-records](../coverage-records/README.md).

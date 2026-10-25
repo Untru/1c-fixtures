@@ -65961,7 +65961,7 @@
       "source_sha256": "a7888a4ae534c1cdb8179af1bbe7796ed8df4f5c682f4e7cf1d99fa2419b2c12",
       "disposition": "adapted_documentation_or_tool",
       "destination": "coverage/README.md",
-      "target_sha256": "12d3b1282e91f750b60535987e7620e54eab497d3ac7123049ada06a71fc24bd",
+      "target_sha256": "63ec6eaaa5feafb917f2877b83fda7a1df2ef119cb7274107fd11ec9100cdc43",
       "source_git_blob": "749463d6b91375d3e1fca662405ff756fb3b85e8",
       "source_git_mode": "100644"
     },
