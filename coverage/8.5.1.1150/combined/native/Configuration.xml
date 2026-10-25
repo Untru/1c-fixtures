@@ -361,6 +361,20 @@
 			<CommonTemplate>CovSheetValueListDetail</CommonTemplate>
 			<CommonTemplate>CovSheetAppearanceCheckIcon</CommonTemplate>
 			<CommonTemplate>CovSpreadsheetStandardPicture</CommonTemplate>
+			<CommonTemplate>CovStructuredCompositionTemplate</CommonTemplate>
+			<CommonTemplate>CovStructuredGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredNestedGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredTableRowGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredTableColumnGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredChartPointGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredChartSeriesGroupOutput</CommonTemplate>
+			<CommonTemplate>CovStructuredGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredNestedGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredTableRowGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredTableColumnGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredChartPointGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredChartSeriesGroupAppearance</CommonTemplate>
+			<CommonTemplate>CovStructuredMultipleSettingsGroupOutput</CommonTemplate>
 			<CommonTemplate>CovBodyTemplate</CommonTemplate>
 			<CommonTemplate>CovGraphicalSchemaBody</CommonTemplate>
 			<CommonTemplate>CovDataCompositionParameters</CommonTemplate>

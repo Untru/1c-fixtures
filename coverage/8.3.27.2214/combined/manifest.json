@@ -174,6 +174,11 @@
       "manifest_sha256": "a1c87fa6a3bb1c159d465ef2e2ec50b1a09eb8d869a6244a6243e7f35883f0f5"
     },
     {
+      "set": "8.3.27.2214-xml-2.20-corpus-structured-composition-contexts",
+      "path": "corpus-structured-composition-contexts",
+      "manifest_sha256": "04aa8fc3381ea914832cdf359fdecb406f5a0f3dac6a4806afd72ca127bec0ff"
+    },
+    {
       "set": "8.3.27.2214-xml-2.20-corpus-style-colors",
       "path": "corpus-style-colors",
       "manifest_sha256": "61fed50e58cbf0b526cd8ebc038a0dead775d5d10d61943c36bbb24aef725216"
@@ -455,9 +460,9 @@
   },
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2305951,
-    "decoded_sha256": "dee4bca512604b38e00b0fc7a3f9282bff52a5057c2ae5685e98fff6921c3e51",
-    "encoded_sha256": "79a3d6780f167adecf15cfc3965774f1b6e3f36a18c0c44f84d3ec980ea81773"
+    "decoded_size": 2333523,
+    "decoded_sha256": "e9d1ac58787b7c30544b59b0f06dfc2d0dcaabe5fa58a178ab9e1662646941b0",
+    "encoded_sha256": "399ccaebf8571db71f92d7ac6ec7f25834b90058b1a86ea47d2d5b589aad7db8"
   },
   "variants": [
     {
@@ -15980,6 +15985,230 @@
       ]
     },
     {
+      "name": "CommonTemplates/CovStructuredChartPointGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupAppearance/Ext/Template.xml",
+          "size": 9206,
+          "sha256": "ec47003ec0f8295a7ad57f6c806a81a2c2710b901b828075f9da3ba1a62279c4"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupAppearance.xml",
+          "size": 1187,
+          "sha256": "ffb262a8f790aa51a4cd336cfa6ed0d19dd8014b38ad0c9db02d00d8a6060415"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredChartPointGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupOutput/Ext/Template.xml",
+          "size": 1602,
+          "sha256": "46af6bc28556cf0c0870b34910df9e05761bf0538262543adf1b740eb7e79af0"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupOutput.xml",
+          "size": 1183,
+          "sha256": "67e4aa40c962e19046b0f478637c02dcf0e74a8add13eff410a37290a340a671"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredChartSeriesGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupAppearance/Ext/Template.xml",
+          "size": 9208,
+          "sha256": "8e5cc8f7d7d179e3cb902779afd7b4ac005177f82e1754df523a43e5fb4b6a5b"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupAppearance.xml",
+          "size": 1188,
+          "sha256": "4eb35f90b0a43e24b9af5958b31a6720210c2b8e44b458d219ace9a71c06ed46"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredChartSeriesGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupOutput/Ext/Template.xml",
+          "size": 1604,
+          "sha256": "02e89a9311d62ca4615b6fc53b45730fd26d3e8dcdea32fdf0fd2ef54bacb11a"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupOutput.xml",
+          "size": 1184,
+          "sha256": "b16265ca3807b7e86cb514c4e9cba92e5ac869c4f324c6ce4e24986d6a4600f4"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredCompositionTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredCompositionTemplate/Ext/Template.xml",
+          "size": 4621,
+          "sha256": "6d3e343b7ebe4d09b8181be58bb45bd06aa35eb9b01065c5281b749686bf2366"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredCompositionTemplate.xml",
+          "size": 1181,
+          "sha256": "4f8012382e283b21e2821cacb069f747398e9f17a48762f9c20a8a850b62175b"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredGroupAppearance/Ext/Template.xml",
+          "size": 8824,
+          "sha256": "4d1d97669879230010201d28b742d17f06d904183b7b7dec7e4020ce771ae612"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredGroupAppearance.xml",
+          "size": 1177,
+          "sha256": "c505cda67058a1d890e8d9d739b4fb0f04e944874efd0e20f18eff036c86f089"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredGroupOutput/Ext/Template.xml",
+          "size": 4621,
+          "sha256": "6d3e343b7ebe4d09b8181be58bb45bd06aa35eb9b01065c5281b749686bf2366"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredGroupOutput.xml",
+          "size": 1173,
+          "sha256": "abd172b72c4a2c93468bdbf9a6f30cb0ed6e3296931b969c84b9b0f09235e346"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredMultipleSettingsGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredMultipleSettingsGroupOutput/Ext/Template.xml",
+          "size": 4927,
+          "sha256": "d7b96ace2e4a89e5733870057432500d526419807aeb8f788862ca9efdfde645"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredMultipleSettingsGroupOutput.xml",
+          "size": 1189,
+          "sha256": "e50c526d372d67314bb537c826079ca6321c35158464086e355d68e8a0116adb"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredNestedGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupAppearance/Ext/Template.xml",
+          "size": 9050,
+          "sha256": "8ac39cab760fed76453a61be63335be6a895da930f47c4f1242230a172ca9009"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupAppearance.xml",
+          "size": 1183,
+          "sha256": "6dd68fa5d40d423f607c4373204a3f5561a3cb3f9a5ddc8e67a800b5e90506ee"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredNestedGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupOutput/Ext/Template.xml",
+          "size": 4767,
+          "sha256": "248dce3d5aca9745a4b50365fccadcd1f4734770b590e7489b7620f5132103db"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupOutput.xml",
+          "size": 1179,
+          "sha256": "fc1492f8c61699ddee0bf2c38c13585da960e2f4e5777e40bbf98307d97f7b56"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredTableColumnGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupAppearance/Ext/Template.xml",
+          "size": 9208,
+          "sha256": "dd6aca4b38a0e16b0344b414f6f14ef77c610e1701e51545768a39f9caaa4e61"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupAppearance.xml",
+          "size": 1188,
+          "sha256": "65837fe942380b3f8fe52c0322232ac4efd13b26aa2222e68422f1441473914c"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredTableColumnGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupOutput/Ext/Template.xml",
+          "size": 4415,
+          "sha256": "3eef67513b2e0e861f68d9397787e6f3b1ca6dabb5df25e9aab5445fb4d53bc0"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupOutput.xml",
+          "size": 1184,
+          "sha256": "fc1e10d7cefb633ece59fdf0f881e78a8864d348c2d347a9f476d2220f2ad94f"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredTableRowGroupAppearance",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupAppearance/Ext/Template.xml",
+          "size": 9202,
+          "sha256": "50f4bfd730c503d37d8f0e1a128bc4000ffc172f6113345f95bd9e7e9d4002b2"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupAppearance.xml",
+          "size": 1185,
+          "sha256": "aff1c8d1ada2d6401576957ac47d0e356231c97cec207828074940409660e24b"
+        }
+      ]
+    },
+    {
+      "name": "CommonTemplates/CovStructuredTableRowGroupOutput",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupOutput/Ext/Template.xml",
+          "size": 4409,
+          "sha256": "32387cc80671e6eedfb03a01791237447af0c6a9d4f93e9e9127757109fcf899"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupOutput.xml",
+          "size": 1181,
+          "sha256": "07da8380dc9fa1a64c5f0b1456049b2dea0f4089c6d665c51a3f981b14b8b41d"
+        }
+      ]
+    },
+    {
       "name": "CommonTemplates/CovTemplate",
       "status": "platform_proven",
       "files": [
@@ -18262,8 +18491,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 69474,
-          "sha256": "54c7d2aed26e5c1e4a9b1f94966909564f7b06c0c8365bbbf66e4d8a8eac02a9"
+          "size": 70482,
+          "sha256": "ad2a8554af7957378a58785939aec79e34d004437a55bff64e19bcecf01394c1"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",
