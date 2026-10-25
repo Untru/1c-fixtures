@@ -3,24 +3,24 @@
 	<Catalog uuid="17af7d5b-d70f-5d41-b57b-9e0f4b0b05c4">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.CovTemplate" category="Object">
-				<xr:TypeId>ceeaef55-3484-527d-bf12-228bad869b8d</xr:TypeId>
-				<xr:ValueId>3a936743-80de-5905-8dd6-7f2a4b93c16a</xr:ValueId>
+				<xr:TypeId>f91d386b-128c-5907-824b-43091ab82647</xr:TypeId>
+				<xr:ValueId>d19b64be-343c-576b-8049-d2df0167a815</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.CovTemplate" category="Ref">
-				<xr:TypeId>0795208e-7918-505a-8148-d4e9c6bdd956</xr:TypeId>
-				<xr:ValueId>d1e1e1d6-7e60-5a3b-9937-171c3434ef01</xr:ValueId>
+				<xr:TypeId>90e724d0-73ac-5a8b-b94c-346a584c6582</xr:TypeId>
+				<xr:ValueId>6304f5fa-1afe-5d8e-bba3-8c16bce6a7df</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.CovTemplate" category="Selection">
-				<xr:TypeId>e65e4301-6e14-560f-9915-175f8b475cde</xr:TypeId>
-				<xr:ValueId>30eb864e-4f77-5a30-b4d7-5b40f44f4fbc</xr:ValueId>
+				<xr:TypeId>2bf5fef3-93be-5aef-b574-1696d1cf86e4</xr:TypeId>
+				<xr:ValueId>bca73530-20e1-5a11-8a7e-391286c5774b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.CovTemplate" category="List">
-				<xr:TypeId>3ddfc3da-1c94-583e-9b57-d21d25d3b9d4</xr:TypeId>
-				<xr:ValueId>83cb0c5f-d706-5a55-adfb-226b6606db72</xr:ValueId>
+				<xr:TypeId>d2e870e7-5542-56af-abc7-437c85088d64</xr:TypeId>
+				<xr:ValueId>9ab2f940-45e5-5013-98a4-795daeb613a8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.CovTemplate" category="Manager">
-				<xr:TypeId>c0f29a07-2d3e-5553-97f8-f2c2f10d4ad7</xr:TypeId>
-				<xr:ValueId>4274649b-5a5b-5441-958f-3e686021a703</xr:ValueId>
+				<xr:TypeId>e0c0b6a5-37e4-5151-b4cd-a0002f3ba578</xr:TypeId>
+				<xr:ValueId>759f1266-c4f6-5ea3-8871-b49b61bda95f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

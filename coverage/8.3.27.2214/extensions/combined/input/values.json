@@ -10,7 +10,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "65913b894abe5f9a2705ec00d2f77698dc185fda1741092c09a58895c05a9042"
+      "manifest_sha256": "93b1011b395156865893743cc0fced156ee7ed9df62a99660194288c2207ecb8"
     }
   ],
   "variants": [
@@ -22,5 +22,6 @@
       "kind": "Role",
       "reason": "same role name in independently generated seeds; target role identity is used before native re-proof"
     }
-  ]
+  ],
+  "target_version": "1.2.0.3"
 }

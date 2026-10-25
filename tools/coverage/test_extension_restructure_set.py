@@ -58,6 +58,14 @@ class MergeExtensionImages(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'conflicting own metadata identities'):
             merge_images(self.legacy, self.additions, self.target)
 
+    def test_adopted_alias_cannot_hide_changed_controlled_properties(self):
+        old = descriptor('Catalog', 'Old', 'same-id', 'Adopted').replace('</Properties>', '<CodeLength>9</CodeLength></Properties>')
+        new = descriptor('Catalog', 'New', 'same-id', 'Adopted').replace('</Properties>', '<CodeLength>10</CodeLength></Properties>')
+        self.put(self.legacy, 'Catalogs/Old.xml', old)
+        self.put(self.additions, 'Catalogs/New.xml', new)
+        with self.assertRaisesRegex(ValueError, 'conflicting adopted properties'):
+            merge_images(self.legacy, self.additions, self.target)
+
     def test_changed_existing_descriptor_is_rejected(self):
         self.put(self.legacy, 'Catalogs/Shared.xml', descriptor('Catalog', 'Shared', 'old-id'))
         self.put(self.additions, 'Catalogs/Shared.xml', descriptor('Catalog', 'Shared', 'different-id'))

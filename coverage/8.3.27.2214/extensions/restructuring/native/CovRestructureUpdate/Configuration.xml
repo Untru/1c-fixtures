@@ -53,8 +53,12 @@
 			<ConfigurationInformationAddress/>
 		</Properties>
 		<ChildObjects>
+			<Subsystem>Cov_CompanionSubsystem</Subsystem>
 			<Role>ОсновнаяРоль</Role>
 			<CommonTemplate>Cov_ActivationText</CommonTemplate>
+			<CommonModule>Cov_Companions</CommonModule>
+			<HTTPService>Cov_CompanionAPI</HTTPService>
+			<ScheduledJob>Cov_CompanionJob</ScheduledJob>
 			<CommonForm>Cov_ActivationForm</CommonForm>
 			<Catalog>Cov_Own</Catalog>
 			<Catalog>CovTemplate</Catalog>

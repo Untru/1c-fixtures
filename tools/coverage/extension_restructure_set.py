@@ -8,6 +8,7 @@ SQL schema/data publication is measured separately by the consumer's lab.
 """
 import argparse
 import base64
+import copy
 import datetime
 import json
 import pathlib
@@ -19,18 +20,19 @@ from native_round_trip import create_from_tree, first_error, inputs_digest, run_
 
 
 def prove(args, label, image, work, base):
-    name = 'CovCombined' if label == 'combined' else 'CovRestructure' + label.title()
+    name = 'CovCombined' if label == 'combined' else 'CovRestructure' + label.title().replace('-', '')
     records = []
     cfe = work / (name + '.cfe')
     for round_number in (1, 2):
         ib = work / (label + '-ib-' + str(round_number))
         shutil.copytree(base, ib)
-        commands = [
-            ('extension', 'create', '--name=CovCombined', '--name-prefix=Cov_', '--purpose=add-on'),
-            (('config', 'import', '--extension=CovCombined', str(image)) if round_number == 1
-             else ('config', 'load', '--extension=CovCombined', str(cfe))),
+        commands = [('extension', 'create', '--name=CovCombined', '--name-prefix=Cov_', '--purpose=add-on')]
+        if round_number == 1:
+            commands.append(('config', 'import', '--extension=CovCombined', '--out=' + str(cfe), str(image)))
+        commands.extend([
+            ('config', 'load', '--extension=CovCombined', str(cfe)),
             ('config', 'apply', '--extension=CovCombined', '--force'),
-        ]
+        ])
         for command in commands:
             ok, output = run_ibcmd(args, args.ibcmd, work, *command, '--db-path=' + str(ib))
             if not ok:
@@ -67,6 +69,28 @@ def prove(args, label, image, work, base):
                       for path, data in records[1].items()]}
 
 
+
+def adopted_fingerprint(obj):
+    """Compare controlled content while allowing its generated base alias."""
+    obj = copy.deepcopy(obj)
+    ns = '{http://v8.1c.ru/8.3/MDClasses}'
+    props = obj.find(ns + 'Properties')
+    name_node = props.find(ns + 'Name')
+    name = name_node.text
+    name_node.text = '$alias'
+    reference = props.find(ns + 'ExtendedConfigurationObject')
+    if reference is not None:
+        reference.text = '$base'
+    for node in obj.iter():
+        if node.tag.endswith('}GeneratedType') and node.attrib.get('name', '').endswith('.' + name):
+            node.attrib['name'] = node.attrib['name'][:-len(name)] + '$alias'
+        if len(node) and node.text and node.text.isspace():
+            node.text = None
+        if node.tail and node.tail.isspace():
+            node.tail = None
+    return ET.tostring(obj)
+
+
 def merge_images(legacy, additions, target):
     """Keep the previous adopted identity when an input renames that same UUID.
 
@@ -94,6 +118,8 @@ def merge_images(legacy, additions, target):
                 if (obj.tag != previous[1].tag or belonging is None or old_belonging is None
                         or belonging.text != 'Adopted' or old_belonging.text != 'Adopted'):
                     raise ValueError('conflicting own metadata identities')
+                if adopted_fingerprint(obj) != adopted_fingerprint(previous[1]):
+                    raise ValueError('conflicting adopted properties')
                 skipped.add((obj.tag.removeprefix(ns), source.stem))
                 continue
         dest = target / relative
@@ -143,8 +169,12 @@ def main():
         merge_images(args.set / 'input/legacy', args.set / 'input/additions', image)
         variants = [prove(args, 'combined', image, args.work, base)]
     else:
+        labels = ['baseline', 'update']
+        for optional in ('two-jobs', 'two-plain-jobs'):
+            if (args.set / 'input' / optional).is_dir():
+                labels.append(optional)
         variants = [prove(args, label, args.set / 'input' / label, args.work, base)
-                    for label in ('baseline', 'update')]
+                    for label in labels]
     manifest = {
         'schema_version': 1, 'kind': 'extension',
         'set': f'{args.platform}-xml-{args.xml_version}-extensions-{args.set.name}',
@@ -152,7 +182,7 @@ def main():
                      'platform_version': args.platform, 'source_version': args.xml_version,
                      'ibcmd_sha256': sha256(pathlib.Path(args.ibcmd).read_bytes()),
                      'database_kind': 'isolated_file_infobase',
-                     'rounds': 'fresh base -> extension import/apply -> export (1) -> save CFE -> '
+                     'rounds': 'fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> '
                                'another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml'},
         'inputs_sha256': inputs_digest(args.set),
         'sources': json.loads((args.set / 'input/values.json').read_text()).get('sources', []),

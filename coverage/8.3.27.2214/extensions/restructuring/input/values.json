@@ -3,18 +3,28 @@
   "kind": "extension",
   "variants": [
     "CovRestructureBaseline",
-    "CovRestructureUpdate"
+    "CovRestructureUpdate",
+    "CovRestructureTwoJobs",
+    "CovRestructureTwoPlainJobs"
   ],
   "versions": [
     "1.2.0.0",
-    "1.2.0.1"
+    "1.2.0.1",
+    "1.2.0.2",
+    "1.2.0.3"
   ],
   "source": "generated:meta-compile deterministic UUIDs; native SQL extension baseline and additive update",
   "changes": {
     "Catalog": 2,
     "InformationRegister": 4,
     "Document.Attribute": "Number(15,2), Nonnegative",
-    "Enum.EnumValue": 1
+    "Enum.EnumValue": 1,
+    "companions": [
+      "CommonModule",
+      "HTTPService",
+      "ScheduledJob",
+      "Subsystem"
+    ]
   },
   "reference_types": [
     "CatalogRef",
@@ -28,5 +38,22 @@
     "Boolean",
     "DateTime",
     "BinaryData"
-  ]
+  ],
+  "scheduled_jobs": {
+    "update": {
+      "count": 1,
+      "use": false,
+      "predefined": false
+    },
+    "two-jobs": {
+      "count": 2,
+      "use": false,
+      "second_predefined": true
+    },
+    "two-plain-jobs": {
+      "count": 2,
+      "use": false,
+      "predefined": false
+    }
+  }
 }

@@ -9,9 +9,9 @@
     "source_version": "2.20",
     "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
     "database_kind": "isolated_file_infobase",
-    "rounds": "fresh base -> extension import/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
+    "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
   },
-  "inputs_sha256": "b69b596187dba303f989b5c73e9f31f0ecb4d1467cea81f0cd3fe42a72417634",
+  "inputs_sha256": "b23411523d0117ce75943fcbb01ec42c4082e614aece510c0926841c54accc89",
   "sources": [
     {
       "set": "8.3.27.2342-xml-2.20-extensions-basic",
@@ -21,7 +21,7 @@
     {
       "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
       "path": "restructuring",
-      "manifest_sha256": "65913b894abe5f9a2705ec00d2f77698dc185fda1741092c09a58895c05a9042"
+      "manifest_sha256": "93b1011b395156865893743cc0fced156ee7ed9df62a99660194288c2207ecb8"
     }
   ],
   "variants": [
@@ -33,7 +33,7 @@
       "status": "platform_proven",
       "file": {
         "path": "variants/CovCombined.cfe.b64",
-        "decoded_sha256": "adbc6fa23b15e8e5d9f197dc2ee88a9fb88964ea9b9e0c57d6625a7702b254bd"
+        "decoded_sha256": "1bcac22104e93efde1ec39739155863f2d5aa1adc5ff05b5a7594431ce53074d"
       },
       "files": [
         {
@@ -82,6 +82,16 @@
           "sha256": "d42bcb9f7163fdba5c0814ae1a19ffd64eae7e148a638e13528b1c1fd6547f7d"
         },
         {
+          "path": "CovCombined/CommonModules/Cov_Companions/Ext/Module.bsl",
+          "size": 186,
+          "sha256": "74839d97c2c82bc5fc768050cacf487dd2b39e8d76ede90b89fbbe5c5c62f2d0"
+        },
+        {
+          "path": "CovCombined/CommonModules/Cov_Companions.xml",
+          "size": 1575,
+          "sha256": "3f0e3b7e6f00f018c831fb50b3e99d5074852991661fca2d98317fc2a4c21b64"
+        },
+        {
           "path": "CovCombined/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
           "size": 35,
           "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
@@ -93,8 +103,8 @@
         },
         {
           "path": "CovCombined/Configuration.xml",
-          "size": 3826,
-          "sha256": "0fe77403d490f2c698a6e9e60c0a5d57d49e76b508f2b0985485faa64c15f0eb"
+          "size": 4078,
+          "sha256": "8def628e21ba71dcf9d175f1405d72959ff4af2b31e6ce7554f7b6fb39b18c96"
         },
         {
           "path": "CovCombined/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
@@ -115,6 +125,16 @@
           "path": "CovCombined/Enums/Cov_Provider.xml",
           "size": 5005,
           "sha256": "9ce7a9cd2711cef6cfc09532692366c8ae611c594dc077942d4627a7e27c210c"
+        },
+        {
+          "path": "CovCombined/HTTPServices/Cov_CompanionAPI/Ext/Module.bsl",
+          "size": 248,
+          "sha256": "ef1abb22ce73d079d623db20f7f7b4c268c3ffb7858dbccae083708816262246"
+        },
+        {
+          "path": "CovCombined/HTTPServices/Cov_CompanionAPI.xml",
+          "size": 2135,
+          "sha256": "e8a98e92a0597fa7b1363a7821eb5acb503bb37d2f8fdbc74d9f5bf36f1e7a1c"
         },
         {
           "path": "CovCombined/InformationRegisters/Cov_Authors/Ext/RecordSetModule.bsl",
@@ -170,6 +190,21 @@
           "path": "CovCombined/Roles/ОсновнаяРоль.xml",
           "size": 1098,
           "sha256": "adfbd1b57e803a3f9fd4235c4c4637f64535be3bbaf021313824d8ccb6383d65"
+        },
+        {
+          "path": "CovCombined/ScheduledJobs/Cov_CompanionJob.xml",
+          "size": 1519,
+          "sha256": "52ba813c4befeba62d3c24f38281ef3c0e64d1c512d248de6e87662313ae3b49"
+        },
+        {
+          "path": "CovCombined/ScheduledJobs/Cov_CompanionJobSecond.xml",
+          "size": 1539,
+          "sha256": "ccc68d190deb02fd982b64ef22c0aeb0ab3d880696574377a89e74fa8148fdc4"
+        },
+        {
+          "path": "CovCombined/Subsystems/Cov_CompanionSubsystem.xml",
+          "size": 1949,
+          "sha256": "ab675005d0028b8ac59355907961f35674c8f6ba9633951f026dd107ff07ca60"
         }
       ]
     }
