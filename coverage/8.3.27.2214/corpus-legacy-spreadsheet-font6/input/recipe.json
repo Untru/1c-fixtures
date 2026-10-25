@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "profile": "MOXCEL8.1.6-absolute-font6",
+  "origin": "minimized sanitized legacy spreadsheet layout; historical writer build unknown; accepted and retained by the named native oracle",
+  "source": {
+    "path": "../corpus-spreadsheet-facets",
+    "manifest_sha256": "029a0fdd7b773be73856d0c21c1fa8fa0c9af3025af5d9a9de2b17246085a5a8"
+  },
+  "target_template": "CovSpreadsheetFacetTemplate",
+  "entry": "8354ade3-9c21-5454-9d32-b3bf79e84575.0",
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset <entry>=input/body.bin; native load/export/save/load/export",
+  "fragment_sha256": "5629988f2efdcfc694d97eb9997635707fd7efc673ebcf1fd45dcb800536a118",
+  "native_retained_fragment_sha256": "5629988f2efdcfc694d97eb9997635707fd7efc673ebcf1fd45dcb800536a118",
+  "features": {
+    "stored_document_revision": "8.1.6",
+    "font_record_revision": 6,
+    "absolute_fonts": 1,
+    "face_name": "Arial",
+    "height": 10,
+    "explicit_rows": 0,
+    "default_format_font_index": 0
+  },
+  "scope": "no text cells, modules, named ranges, merges, pictures or nonzero UUIDs; one absolute font and default format",
+  "xml_reconstruction": "separate modern body; native XML remains byte-identical outside ConfigDumpInfo.xml",
+  "normalized_body_sha256": "36ebd37a7c48ccb2c84c61f46688094fd6314334a4c141440e78060b10b2f4c1"
+}
