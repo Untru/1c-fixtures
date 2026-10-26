@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "kind": "stored_layout",
+  "collection": "CommonForms",
+  "set": "8.3.27.2214-xml-2.20-corpus-stored-context-panels",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.3.27.2214",
+    "source_version": "2.20",
+    "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "synthetic public storage overlay -> native load/export -> native save -> native load/export; identical outside ConfigDumpInfo.xml; every altered form retained byte-for-byte by native save",
+    "origin": "synthetic stored profile, not a native XML writer fixture",
+    "xml_normalization": "native XML export/import/export is identical; all three stored generated command bars disappear on native XML reconstruction",
+    "storage_assembler": {
+      "sha256": "c6573262f9d690098764834418b3558acd30cd3ce5f2667e112a26070215130c",
+      "source_commit": "a39cd3c7b1a0497dcab8216a391840ce82457ebc",
+      "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
+    }
+  },
+  "inputs_sha256": "bf0767410b5ed5fff59ca77f9dd6ae28559f656e04ca2c7fd2acdcf4aa91b574",
+  "sources": [
+    {
+      "set": "8.5.1.1150-xml-2.21-corpus-context-property-combinations",
+      "path": "../8.5.1.1150/corpus-context-property-combinations",
+      "manifest_sha256": "51a4f4244dc80cb586a80d27834bafbe4c47886e5767480558d3d5801ebf3e66"
+    }
+  ],
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 85335,
+    "decoded_sha256": "f368db29c1c8578f0afcaa3d9705b66e5d6f87da66775b47699db6c716dc90f4",
+    "encoded_sha256": "7308743f61cf73120e3b5061bcd819efa12ef4001f9f70293381bebe3dbf94f1"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 10575,
+          "sha256": "4a13f901531bea84114d148fead7be96504ff74c72aa19cf3e4a0acbfa2767ce"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1251,
+          "sha256": "79b42b1d82c4c76af9ca4481aa306c65319a2920df607654231c67f958dbe35a"
+        }
+      ]
+    },
+    {
+      "name": "CovContextFormTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovContextFormTemplate.xml",
+          "size": 1506,
+          "sha256": "ef7b4ecba0276ba7a0ab4452cc314bd3624b91e3617fd06e57644585cae45582"
+        }
+      ]
+    },
+    {
+      "name": "CovContextHTMLBound",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovContextHTMLBound/Ext/Form.xml",
+          "size": 1667,
+          "sha256": "eee778048cb3542ce514ceb0441e368b9532030c47c12c0e9f388df86771490e"
+        },
+        {
+          "path": "CommonForms/CovContextHTMLBound.xml",
+          "size": 1503,
+          "sha256": "a4b64e3db52de29d3a9246f991a9a258df034d6dd273e31b002680783fc84b54"
+        }
+      ]
+    },
+    {
+      "name": "CovContextTableReadOnly",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovContextTableReadOnly/Ext/Form.xml",
+          "size": 3611,
+          "sha256": "593e461c206adb7faacf2125012fb1e78296812d2e8da691bf1813f7d0a5d947"
+        },
+        {
+          "path": "CommonForms/CovContextTableReadOnly.xml",
+          "size": 1507,
+          "sha256": "d38a360ee781e5eb6e1fc4e031657e8fbfa396d85c12ae0e3fbb5ffddbda9acd"
+        }
+      ]
+    },
+    {
+      "name": "CovContextTableReadOnlyColumns",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovContextTableReadOnlyColumns/Ext/Form.xml",
+          "size": 3900,
+          "sha256": "2e5de68652324f7cd5d689f6b7e816ffdd20274b08572b888b550410cc0d7a23"
+        },
+        {
+          "path": "CommonForms/CovContextTableReadOnlyColumns.xml",
+          "size": 1514,
+          "sha256": "4150e3727196b4d1c98a55282d027765d428818f8b5d84c65d23439bbf0724c0"
+        }
+      ]
+    },
+    {
+      "name": "CovContextHorizontalGroup",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:observed geometry, read-only value-table and horizontal group combinations with synthetic bindings",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovContextHorizontalGroup/Ext/Form.xml",
+          "size": 1842,
+          "sha256": "2ca246c6f1ac8a214b73dd91cedb31ff412862c7c2379d6728ff133ccd0827b6"
+        },
+        {
+          "path": "CommonForms/CovContextHorizontalGroup.xml",
+          "size": 1509,
+          "sha256": "9ae9e0fe80392ecff68fd6c470f1e1f682907356dc824365df9cdc1f185e6a0b"
+        }
+      ]
+    }
+  ]
+}

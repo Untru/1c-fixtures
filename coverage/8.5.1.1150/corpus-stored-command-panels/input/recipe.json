@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "profile": "generated-root-command-panels",
+  "origin": "clones each public native empty AutoCommandBar; adds three generated internal panel records",
+  "panels": [
+    {
+      "trailer_slot": 4,
+      "id": -2,
+      "name": "CovUpperCommandBar"
+    },
+    {
+      "trailer_slot": 5,
+      "id": -3,
+      "name": "CovLowerCommandBar"
+    },
+    {
+      "trailer_slot": 11,
+      "id": -4,
+      "name": "CovFABCommandBar"
+    }
+  ],
+  "records": [
+    {
+      "entry": "90ae733a-b398-5434-bf42-0869de1359fe.0",
+      "source_sha256": "c051ff4d5d7cfd79085916602781f77cc639a8f6408d85f0e35ba8b2c98864fe",
+      "stored_sha256": "3cd304813acfea2baae55a8160598d71d0f4d7d108190aaadb2eb9c532ed331d",
+      "native_xml": "CommonForms/CovFieldCombinationHeightAll/Ext/Form.xml"
+    },
+    {
+      "entry": "5dd1b607-0c98-5f2d-a7ec-95be631a19c0.0",
+      "source_sha256": "b1f56ddd5d4dcdbdc74bddc8820a96ece3b09ac5539f6113472acaa4e894a3ea",
+      "stored_sha256": "9a9433237495a654c7186cd94967cf3f8b64a3b0279806f257b8e7f8802a117d",
+      "native_xml": "CommonForms/CovFieldCombinationHeightAllNested/Ext/Form.xml"
+    },
+    {
+      "entry": "88c64129-5fdd-5fd1-8b02-d85bc22724c6.0",
+      "source_sha256": "14446ff1f8f436b159c5d03e202e2e059f19fed09aaf7691d98a3b340b3f1a95",
+      "stored_sha256": "2d9f3793dbd725c6b8071a6feda24f19766f84a88b7e9e10fd4d62caf9851ce4",
+      "native_xml": "CommonForms/CovFieldCombinationHeightAllTable/Ext/Form.xml"
+    },
+    {
+      "entry": "95b9e32f-af97-50fa-9283-a601192c1ba0.0",
+      "source_sha256": "90c8012f83fdab27823b45bd9ec1cd88c8d2c90226968a4485ce797c808b3112",
+      "stored_sha256": "3266e739455a7920728755ede4e4462ad2b37cc1a4a6bf0d51e4bc1bd372bcfe",
+      "native_xml": "CommonForms/CovFieldCombinationHeightButtons/Ext/Form.xml"
+    },
+    {
+      "entry": "68b9f0c2-6324-52d0-9537-2f5b79d57bed.0",
+      "source_sha256": "2c3f61970ed3489d30a63b4e10fd7b8a8859d7f9de02ef70799278b6708f572d",
+      "stored_sha256": "ad77fade6aa4f2a9cc0c56d1aad5eaa0c966c8f3a3031ebd51b3377510535c8c",
+      "native_xml": "CommonForms/CovFieldCombinationHeightLocationLeft/Ext/Form.xml"
+    },
+    {
+      "entry": "b1c09fed-f5cf-5e74-a1fd-843cb848d867.0",
+      "source_sha256": "e1e4c1b34423b6f6ea8675141c078c84c2a7fb76e263b176e8731ef0439f8461",
+      "stored_sha256": "cd85bb50b7699c5b41739e156d2eb7790562ab28a9275eb9560e9f124a819cf0",
+      "native_xml": "CommonForms/CovFieldCombinationHeightLocationNone/Ext/Form.xml"
+    },
+    {
+      "entry": "af41c63b-5d79-57e3-a970-e2061efad2f2.0",
+      "source_sha256": "d78356977b1664c9aeb6632d724e9879598b95d262418537f8981050767c161f",
+      "stored_sha256": "3025fbb659ab382a539c9f2c3250c37624c59a4a17377ba4af7c17bec48207b7",
+      "native_xml": "CommonForms/CovFieldCombinationHeightWidthBounds/Ext/Form.xml"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "profile": "legacy-object-bindings46",
+  "origin": "minimized sanitized legacy records",
+  "historical_writer": "unknown for the minimized legacy skeleton; not claimed to be a current writer output",
+  "source_cf": {
+    "set": "8.3.27.2214-xml-2.20-corpus-owned-catalog-forms",
+    "path": "corpus-owned-catalog-forms",
+    "manifest_sha256": "50a7c0709a12b6509ffe0aadd18b163c81dc3d6314ff137e976a60bb88d09664"
+  },
+  "logical_counterpart": {
+    "set": "8.3.27.2214-xml-2.20-corpus-standard-object-bindings",
+    "path": "corpus-standard-object-bindings",
+    "manifest_sha256": "41850f521cbf816756254529e550db505e5bf45f00520e7b47a0f315e696998e"
+  },
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset <entry>=input/<file> for each patch; native load/export/save/load/export",
+  "patches": [
+    {
+      "entry": "9ddd2767-f818-5c73-bca4-12267863e410.0",
+      "file": "input-code.txt",
+      "sha256": "b7ea1f46ad8967d15c4742abb71acce26d3c23a7eab41562a42a8be3cda19791",
+      "public_variant": "CovOwnedBindingCatalog",
+      "native_file": "Catalogs/CovOwnedBindingCatalog/Forms/DeepForm/Ext/Form.xml"
+    },
+    {
+      "entry": "d192de5a-c4f5-5b25-9f8f-6842c6241656.0",
+      "file": "label-code.txt",
+      "sha256": "41a91f8cf7e814292eff8fdd492ddb831eaf0ed8f069df7d8810115919b2e954",
+      "public_variant": "CovOwnedBindingCatalog",
+      "native_file": "Catalogs/CovOwnedBindingCatalog/Forms/SpaceForm/Ext/Form.xml"
+    }
+  ],
+  "scope": "independent public metadata; minimized payloads contain no application texts or modules",
+  "bindings": [
+    {
+      "field_kind": "InputField",
+      "control_revision": "33",
+      "value": "Object.Code"
+    },
+    {
+      "field_kind": "LabelField",
+      "control_revision": "33",
+      "value": "Object.Code"
+    }
+  ]
+}

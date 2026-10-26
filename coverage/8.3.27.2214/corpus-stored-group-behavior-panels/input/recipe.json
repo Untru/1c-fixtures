@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "profile": "generated-root-command-panels",
+  "origin": "clones each public native empty AutoCommandBar; adds three generated internal panel records",
+  "panels": [
+    {
+      "trailer_slot": 4,
+      "id": -2,
+      "name": "CovUpperCommandBar"
+    },
+    {
+      "trailer_slot": 5,
+      "id": -3,
+      "name": "CovLowerCommandBar"
+    },
+    {
+      "trailer_slot": 11,
+      "id": -4,
+      "name": "CovFABCommandBar"
+    }
+  ],
+  "records": [
+    {
+      "entry": "d6208eee-8fd0-5d88-85eb-4d6393645e9b.0",
+      "source_sha256": "2e8c0bd763c754575f41273cf6d309a1cd8359ca6ade2a61955e21447dd2353f",
+      "stored_sha256": "3f3476624ba17d7d5706ef1d0dc006232fa8e48ec7f0f705d7515d549c17d22e",
+      "native_xml": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml"
+    },
+    {
+      "entry": "da65d2bb-a272-5d07-b7da-6e94b25507d8.0",
+      "source_sha256": "24f6dcffce5138350062aa84dc55b4f0736c1b80c0241c5cea88a030cd8d7844",
+      "stored_sha256": "37ed527874a798c8ca3f7443561e60cf7e16093972fd4a0e486014fed3214189",
+      "native_xml": "CommonForms/CovPictureUsualGroup/Ext/Form.xml"
+    }
+  ]
+}

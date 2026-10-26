@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovPictureUsualGroup",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovPictureUsualGroup.xml"
+      },
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML"
+    },
+    {
+      "name": "CovCollapsedPictureUsualGroup",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovCollapsedPictureUsualGroup.xml"
+      },
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML"
+    }
+  ]
+}

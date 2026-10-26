@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<Pages name="Pages" id="10">
+			<ExtendedTooltip name="PagesРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<Page name="Page" id="11">
+					<ExtendedTooltip name="PageРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<UsualGroup name="Editor" id="12">
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="EditorРасширеннаяПодсказка" id="15"/>
+							<ChildItems>
+								<FormattedDocumentField name="ContentField" id="1">
+									<DataPath>Content</DataPath>
+									<Font ref="style:NormalTextFont" height="0" kind="StyleItem"/>
+									<ContextMenu name="ContentFieldКонтекстноеМеню" id="16"/>
+									<ExtendedTooltip name="ContentFieldРасширеннаяПодсказка" id="17"/>
+								</FormattedDocumentField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Content" id="1">
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

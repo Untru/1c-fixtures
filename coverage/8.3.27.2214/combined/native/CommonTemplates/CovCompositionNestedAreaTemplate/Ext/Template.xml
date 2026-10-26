@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>Local</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<nestedSchema>
+		<name>CovNested</name>
+		<schema>
+			<dataSource>
+				<name>Local</name>
+				<dataSourceType>Local</dataSourceType>
+			</dataSource>
+			<template>
+				<name>CovArea</name>
+				<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+					<dcsat:item xsi:type="dcsat:TableRow">
+						<dcsat:tableCell>
+							<dcsat:appearance>
+								<dcscor:item>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>BorderColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>BorderStyle</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+										<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+									</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" kind="AutoFont"/>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Indent</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>AutoIndent</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>HorizontalAlign</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>VerticalAlign</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Placement</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>TextOrientation</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MarkNegatives</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MarkIncomplete</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MinWidth</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MaxWidth</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MinHeight</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>MaxHeight</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>HorizontalMerge</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>VerticalMerge</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Details</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>ColumnSizeChangeMode</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Visible</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Enabled</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>ReadOnly</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Show</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>HorizontalStretch</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>WidthWeightFactor</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>PictureOutput</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>Picture</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>PictureSize</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>TextPositionRelativeToPicture</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>PictureVerticalAlign</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+								<dcscor:item>
+									<dcscor:parameter>PictureHorizontalAlign</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Coverage</dcscor:value>
+								</dcscor:item>
+							</dcsat:appearance>
+						</dcsat:tableCell>
+					</dcsat:item>
+				</template>
+			</template>
+			<settingsVariant>
+				<dcsset:name>Основной</dcsset:name>
+				<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+				<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+			</settingsVariant>
+		</schema>
+		<settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</nestedSchema>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

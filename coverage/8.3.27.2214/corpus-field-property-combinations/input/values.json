@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovFieldCombinationHeightLocationLeft",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightLocationLeft.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightLocationNone",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightLocationNone.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightWidthBounds",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightWidthBounds.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightButtons",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightButtons.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightAll",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightAll.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightAllNested",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightAllNested.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    },
+    {
+      "name": "CovFieldCombinationHeightAllTable",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovFieldCombinationHeightAllTable.xml"
+      },
+      "source": "observed:independently generated combinations of public field properties and table/group contexts"
+    }
+  ]
+}
