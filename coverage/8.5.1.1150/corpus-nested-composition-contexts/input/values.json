@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "collection": "CommonTemplates",
+  "properties": [],
+  "configuration_properties": [
+    "DefaultLanguage",
+    "ScriptVariant"
+  ],
+  "template_files": {
+    "Ext/Template.xml": "bodies/CovCompositionAreaTemplate.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovCompositionNestedOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedOutput.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedFieldAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedFieldAppearance.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedFieldInput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedFieldInput.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedCalculatedAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedCalculatedAppearance.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedConditionalAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedConditionalAppearance.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionTableRowOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionTableRowOutput.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionTableRowAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionTableRowAppearance.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionTableColumnOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionTableColumnOutput.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionTableColumnAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionTableColumnAppearance.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionChartPoint",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionChartPoint.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionChartSeries",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionChartSeries.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedObjectSettings",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedObjectSettings.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionCalculatedInput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionCalculatedInput.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionAreaTemplate",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionAreaTemplate.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionNestedAreaTemplate",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionNestedAreaTemplate.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    },
+    {
+      "name": "CovCompositionStandardPictures",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovCompositionStandardPictures.xml"
+      },
+      "source": "generated:standard composition keys and picture values in independent nested contexts"
+    }
+  ]
+}

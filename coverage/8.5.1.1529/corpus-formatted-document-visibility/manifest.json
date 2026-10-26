@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1529-xml-2.21-corpus-formatted-document-visibility",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1529",
+    "source_version": "2.21",
+    "ibcmd_sha256": "4dde71c1d061cc14c619255ec524b4ca8aca1f9bc38a92d1d766eb7d57721d20",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "03f6a1316fcf74b1720f7754412577777d5a569f4a651573ffa711c0aa84fcd8",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 106255,
+    "decoded_sha256": "e7d39c1ce1b92db9d25e4e212e3227604b77a01dc0da3cf959e8b406a09d2c26",
+    "encoded_sha256": "0c68143dea3d0cc88915876cd3f40f37ac4ee5141347e271ce5edad4ed40741b"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11939,
+          "sha256": "3e66e73dd11a5e6005e011f007170ee4cd78265ec3136568094aed974a0c2e9e"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "9af5a667de5ea34622b685dad6625c6fb1acccd6c0972373d272b93ed227a6f8"
+        }
+      ]
+    },
+    {
+      "name": "CovManagedFormTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovManagedFormTemplate.xml",
+          "size": 1636,
+          "sha256": "b1ef3506df58f8868ad7e96ae35ad86cd6a1f962a9e54e49088ade93ddae3c49"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootDefault",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootDefault/Ext/Form.xml",
+          "size": 1595,
+          "sha256": "a62841350d679afac15e7fb1165accf3c9cb8481d8627cd73928f943134fe186"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootDefault.xml",
+          "size": 1637,
+          "sha256": "441db943ffcd317ffaebbd148906f107bfd3afe8c94b733133b683e7a9a8dd3d"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootUserVisibleTrue",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootUserVisibleTrue/Ext/Form.xml",
+          "size": 1595,
+          "sha256": "a62841350d679afac15e7fb1165accf3c9cb8481d8627cd73928f943134fe186"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootUserVisibleTrue.xml",
+          "size": 1645,
+          "sha256": "b103ea0f9ba99e74e27a93eed0d3d09856b20683074c667287d5d3f49bd6a4b6"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootUserVisibleFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootUserVisibleFalse/Ext/Form.xml",
+          "size": 1666,
+          "sha256": "4be73c89a09749be661851e89fa354465d0313dc0b75373d015830fbb75d4d0f"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootUserVisibleFalse.xml",
+          "size": 1646,
+          "sha256": "a6d3d585ae90511484ccfa842e09669ba6a0115e5db351d665b625db2807bfc1"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootVisibleFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootVisibleFalse/Ext/Form.xml",
+          "size": 1624,
+          "sha256": "4d5da93d2e73fa73929fba9955fdde99009cff731be2a384190412f262701944"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootVisibleFalse.xml",
+          "size": 1642,
+          "sha256": "d94e84a09e15083e2937c2d3954a034031071a2f8188dd5f279083670b5c094b"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootEnabledFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootEnabledFalse/Ext/Form.xml",
+          "size": 1624,
+          "sha256": "712ae239415191aed7c8bafa91139c256d7aac4228aed8eddbf5d027291edab7"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootEnabledFalse.xml",
+          "size": 1642,
+          "sha256": "1280e31aa1727c09486ecc2cd2b3996cb1caf4d1f0021365602db4098b118b5c"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootReadOnlyTrue",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootReadOnlyTrue/Ext/Form.xml",
+          "size": 1625,
+          "sha256": "8e15aa38e4eaefbc865c98e3b24ab1503a2621ea0dac3f6287f4e85ab44d3046"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootReadOnlyTrue.xml",
+          "size": 1642,
+          "sha256": "02b0afaaabd589e9cb311c5da8f5938fe11430a05ae2a09c744b46290d8e23a9"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedRootStyleFont",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedRootStyleFont/Ext/Form.xml",
+          "size": 1662,
+          "sha256": "9f16cdbaa01182f7b90064461c366e55d4690f259966a3a2cec71f224ada01be"
+        },
+        {
+          "path": "CommonForms/CovFormattedRootStyleFont.xml",
+          "size": 1639,
+          "sha256": "b87c3d04a56d35f91e212b24ab6d3a6df8fe0603beb823a8de811320e02aa165"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedDefault",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedDefault/Ext/Form.xml",
+          "size": 2260,
+          "sha256": "c8082fb4ea9e64b5334a1c551366eca450cd9736e118b190aca7841310db4a75"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedDefault.xml",
+          "size": 1639,
+          "sha256": "d58312f80d42798870f659574018aaf2fdfac2881ad0d5089cd86f5c2520eed5"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedUserVisibleTrue",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedUserVisibleTrue/Ext/Form.xml",
+          "size": 2260,
+          "sha256": "c8082fb4ea9e64b5334a1c551366eca450cd9736e118b190aca7841310db4a75"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedUserVisibleTrue.xml",
+          "size": 1647,
+          "sha256": "b8fc6e919f0b0fca9dfb9eaa02518db6cf75e7a50891d1a425892025e27d30c8"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedUserVisibleFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedUserVisibleFalse/Ext/Form.xml",
+          "size": 2349,
+          "sha256": "e13117428c655d31e05f501c3850ae81f8f7e3cba0addcaeb946f8554e1d214c"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedUserVisibleFalse.xml",
+          "size": 1648,
+          "sha256": "6f46ec586ffda36f2ac5bbc987d93ff0e121e74197ec6802a62fba8860dbcbfe"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedVisibleFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedVisibleFalse/Ext/Form.xml",
+          "size": 2295,
+          "sha256": "c8fb54af08c5a1cb62df65287ae8496c32c6e03705d71120111d735640a1c3ab"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedVisibleFalse.xml",
+          "size": 1644,
+          "sha256": "e1bcc231bc1dc8169047a841e10252986a056c91b5776fd8fb7b8012e9b3e0a7"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedEnabledFalse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedEnabledFalse/Ext/Form.xml",
+          "size": 2295,
+          "sha256": "45a5708a0c7772f1c888bcbb08d76e9fc06dfb43744695de531dc467b1082f6b"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedEnabledFalse.xml",
+          "size": 1644,
+          "sha256": "921f42841857a07c5ab8b76f7fbee9b0eefb0fecd79d7dc5db7b37dc2737f47d"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedReadOnlyTrue",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedReadOnlyTrue/Ext/Form.xml",
+          "size": 2296,
+          "sha256": "f7402bf90edc4dc5d027350c3e2a4720a8eba52069e7fb11ac102324521a3496"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedReadOnlyTrue.xml",
+          "size": 1644,
+          "sha256": "6888c6beafe1a0bf3619182e8e121626d55d6d10fd37d464b91dd472c9008120"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedNestedStyleFont",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:FormattedDocumentField default/explicit visibility in root and nested page/group contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedNestedStyleFont/Ext/Form.xml",
+          "size": 2333,
+          "sha256": "0a7a5f070e078461ea590ac677876ad30d9a25b909614d0951c4f51aaa649d0c"
+        },
+        {
+          "path": "CommonForms/CovFormattedNestedStyleFont.xml",
+          "size": 1641,
+          "sha256": "7ae5b26cd35ed9283c5c0200f34fea00882220c4db589c406917636645582ee1"
+        }
+      ]
+    }
+  ]
+}

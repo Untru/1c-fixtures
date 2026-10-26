@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "profile": "generated-root-command-panels",
+  "origin": "clones each public native empty AutoCommandBar; adds three generated internal panel records",
+  "panels": [
+    {
+      "trailer_slot": 4,
+      "id": -2,
+      "name": "CovUpperCommandBar"
+    },
+    {
+      "trailer_slot": 5,
+      "id": -3,
+      "name": "CovLowerCommandBar"
+    },
+    {
+      "trailer_slot": 11,
+      "id": -4,
+      "name": "CovFABCommandBar"
+    }
+  ],
+  "records": [
+    {
+      "entry": "4b2ca3df-3a57-5539-8c2e-5aee2abb4c4e.0",
+      "source_sha256": "56495b5c4f1cd8316aa689b4c7b9e0607e38e83f08c7b962bd06db5ccb1b3f51",
+      "stored_sha256": "1866b6dc3a71c2fb84ecfb5c85acf59910b9989fbfd1789d198c12e6b0dcccac",
+      "native_xml": "CommonForms/CovContextHorizontalGroup/Ext/Form.xml"
+    },
+    {
+      "entry": "6d75a4a3-012a-5cdf-820b-a99041ff5b0b.0",
+      "source_sha256": "303ab872024d76ef9bbe12e5bdc5f571ea98c0c1a67986ab9c6fe38e37d6d578",
+      "stored_sha256": "375ad997a2e886d7193e7be0bb430fa3481e55344b8466e659b40073b459f124",
+      "native_xml": "CommonForms/CovContextHTMLBound/Ext/Form.xml"
+    },
+    {
+      "entry": "bad6b117-1a86-52f6-b57e-b0f7e8b52e1d.0",
+      "source_sha256": "efe51420c60ccf13546919484665d61f9906e0819a0accb956c0701214dc8267",
+      "stored_sha256": "53e7687bc82ae858f374c2a954605a47bccb17b2e61917a40ee49d6988059ad1",
+      "native_xml": "CommonForms/CovContextTableReadOnly/Ext/Form.xml"
+    },
+    {
+      "entry": "eba27e1e-8527-5083-9664-8c7031610f99.0",
+      "source_sha256": "e6f0ab9911b51fb446643eb9c93ca72d159edd157f3dafd4980bf257fd16af21",
+      "stored_sha256": "11fee140639c98a8f4d42179ceb60d2c9f6d7f3176b5fb320dee58750a099e76",
+      "native_xml": "CommonForms/CovContextTableReadOnlyColumns/Ext/Form.xml"
+    }
+  ]
+}

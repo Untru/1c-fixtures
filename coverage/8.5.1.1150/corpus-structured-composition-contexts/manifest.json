@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-structured-composition-contexts",
+  "collection": "CommonTemplates",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "59da79f40eeb58ba8a6769cf06b95749ec8e1baea9902d5a62712e1c680304aa",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 103182,
+    "decoded_sha256": "eee9d2d0d955d06b1ac325c879faaf58ef0bac5a17c5d0612e2214c90a2929b5",
+    "encoded_sha256": "f49ce251f7aa06fe818ab6d87e1562b49f567dd5cf8b6cb1a7292bba480af9b0"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 12097,
+          "sha256": "fe3dd56da8bf9a7ba1d9188287f7204f228442dd501a5aa5e400314948d220c8"
+        },
+        {
+          "path": "Languages/English.xml",
+          "size": 1292,
+          "sha256": "14fd6dfa6268f7820a015dabf9fffa9d4f12c474f5a04670b0fc9c7d1d4e1ee3"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "360bc02505becb921463299bef36a4b1c53a336f815ae1517a56e96287cb5013"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredCompositionTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredCompositionTemplate/Ext/Template.xml",
+          "size": 4676,
+          "sha256": "fd22afc22107dee5ac27dea071cdadcf04ddf17459af6728203bf8a0746d6151"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredCompositionTemplate.xml",
+          "size": 1236,
+          "sha256": "08366f567203d2770ebd32eeaa7fb2c0257477e79885138d614b152c9deef808"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredGroupOutput/Ext/Template.xml",
+          "size": 4676,
+          "sha256": "fd22afc22107dee5ac27dea071cdadcf04ddf17459af6728203bf8a0746d6151"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredGroupOutput.xml",
+          "size": 1228,
+          "sha256": "a00245ed32c2641daaebcaa4da8eced3c17682976316e5cbec1f23afb3513712"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredNestedGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupOutput/Ext/Template.xml",
+          "size": 4822,
+          "sha256": "a69170f9b54180f0c45a7735936363e3c9ed3f9e62ed385b93a3896db993b6c6"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupOutput.xml",
+          "size": 1234,
+          "sha256": "4d1d03b966ee734c532a13e71c52ef83f0fa8486ff89c3eb4722e4e017aee462"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredTableRowGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupOutput/Ext/Template.xml",
+          "size": 4464,
+          "sha256": "c53178564c26897e0a9f5bc7bdfa4f9afc05ab5fc5a86b4fd81f2403eb2d2cf4"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupOutput.xml",
+          "size": 1236,
+          "sha256": "5b01ee46f521e967e670ecb28a2da2574348b6ab0e2b342d5600fc43851aad45"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredTableColumnGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupOutput/Ext/Template.xml",
+          "size": 4470,
+          "sha256": "8d1ca66d5a1738ff0db6f076f3200654bf0fba7e9cf00717c5abd1fe15490a6c"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupOutput.xml",
+          "size": 1239,
+          "sha256": "805a26499c21e108dfe15e67c97d7fdeb009e112362f84a008113594e1950215"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredChartPointGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupOutput/Ext/Template.xml",
+          "size": 1657,
+          "sha256": "be5ad42a4b415c6059ad922f645067de70b2ba49f0f296fe6f503c8f57a6d72a"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupOutput.xml",
+          "size": 1238,
+          "sha256": "0c11c290639163f8f50c6a2d209ab24e2b135141e68c4d2765292b604d7bc37b"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredChartSeriesGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupOutput/Ext/Template.xml",
+          "size": 1659,
+          "sha256": "c93390a2ae6c61cecc8866f966c32e1b0b83d50692456023e227c957f1b1bd61"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupOutput.xml",
+          "size": 1239,
+          "sha256": "2161f723d2e6e011cc2f54d1e1b5cda869c8a784b43f7b281165050c179646ca"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredGroupAppearance/Ext/Template.xml",
+          "size": 8879,
+          "sha256": "a728d089680db71831b623a436dac0a1ca4d8160a16ee772a803aa2f8962c4f4"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredGroupAppearance.xml",
+          "size": 1232,
+          "sha256": "25e4ac0e28bca4a21d555ae9fb6bac299e8d63cf32a1c7257062cc37aa9741ab"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredNestedGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupAppearance/Ext/Template.xml",
+          "size": 9105,
+          "sha256": "3c3d1b6b23008497c7eedaff4cf599a36563226c5d5d26ffa9e31ec523e0ee6a"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredNestedGroupAppearance.xml",
+          "size": 1238,
+          "sha256": "d6562ea11181739b6960be46ae13f38ce39f7d387153b157504b3b3fc36e428d"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredTableRowGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupAppearance/Ext/Template.xml",
+          "size": 9257,
+          "sha256": "26251a9e5724d13ec2c5c44b0a9e156d58d351164184028e159e8ffe90832f9f"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableRowGroupAppearance.xml",
+          "size": 1240,
+          "sha256": "9f7db58e56cc5b353173e1307e234adf294e0e69098490a423da93d9a29cb3bc"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredTableColumnGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupAppearance/Ext/Template.xml",
+          "size": 9263,
+          "sha256": "890026c6f947b3525c9620d0526e32d45df0260537b6d16f64fdd3a5f3ef4e92"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredTableColumnGroupAppearance.xml",
+          "size": 1243,
+          "sha256": "e058a0aa62a667a030a3bc3c34ea9418139ab6e602b4089e82702df6189901c4"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredChartPointGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupAppearance/Ext/Template.xml",
+          "size": 9261,
+          "sha256": "f43c7538b543db8ac698843dd78d9d5dd6498fecf21175aef8ed7211cbf68932"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartPointGroupAppearance.xml",
+          "size": 1242,
+          "sha256": "e1144b1da219e0c7e56ee8c3cea177ad988361b8287f588093c6bf73ba6d3aaa"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredChartSeriesGroupAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupAppearance/Ext/Template.xml",
+          "size": 9263,
+          "sha256": "7b7762c8f302d45148bd1d9ccb27c42324ce79fc87ee649f24ba722af4a37277"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredChartSeriesGroupAppearance.xml",
+          "size": 1243,
+          "sha256": "6d003f9cdbf7ddd36e8b0968e38852bfefde051c33ac5497c25faf25fd0b4762"
+        }
+      ]
+    },
+    {
+      "name": "CovStructuredMultipleSettingsGroupOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovStructuredMultipleSettingsGroupOutput/Ext/Template.xml",
+          "size": 5037,
+          "sha256": "9c09c9210376c98cd6436a350f0084317eb0d630d44acb17865d7a2dfd77d290"
+        },
+        {
+          "path": "CommonTemplates/CovStructuredMultipleSettingsGroupOutput.xml",
+          "size": 1244,
+          "sha256": "c5dee0957cf0b12e013d1464f3fdab92f3245f5de6db2cb0ca6a500ecd9f8a2c"
+        }
+      ]
+    }
+  ]
+}

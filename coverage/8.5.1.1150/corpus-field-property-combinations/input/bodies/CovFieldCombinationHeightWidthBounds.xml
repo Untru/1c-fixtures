@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.21"><AutoCommandBar name="FormCommandBar" id="-1"/><ChildItems><InputField name="Probe" id="1"><DataPath>Value</DataPath><TitleHeight>2</TitleHeight><AutoMaxWidth>false</AutoMaxWidth><MaxWidth>29</MaxWidth></InputField></ChildItems><Attributes><Attribute name="Value" id="1"><Type><v8:Type>xs:string</v8:Type></Type></Attribute></Attributes></Form>

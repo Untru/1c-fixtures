@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "profile": "managed-form-container3-root42-table49-dynamic-list",
+  "origin": "minimized sanitized legacy record with a complete public dynamic-list attribute",
+  "historical_writer": "unknown; the named target native oracle accepts and retains this profile, no older writer is claimed",
+  "source_cf": {
+    "set": "8.3.27.2214-xml-2.20-corpus-dynamic-list-table-values",
+    "path": "corpus-dynamic-list-table-values",
+    "manifest_sha256": "9aa4b465b66dbe506087c7691a7e818e1ff085d598f41b8bd9cf14dffbdc6a0e"
+  },
+  "logical_counterpart": {
+    "set": "8.3.27.2214-xml-2.20-corpus-dynamic-list-table-values",
+    "path": "corpus-dynamic-list-table-values",
+    "manifest_sha256": "9aa4b465b66dbe506087c7691a7e818e1ff085d598f41b8bd9cf14dffbdc6a0e"
+  },
+  "operation": "cf overlay <decoded source CF> <overlay.cf> --platform 8.3.27.2214 --raw-asset c8f2aec6-8ba2-5e66-96da-95c01a6fd755.0=input/body.txt; native load/export/save/load/export",
+  "patches": [
+    {
+      "entry": "c8f2aec6-8ba2-5e66-96da-95c01a6fd755.0",
+      "file": "body.txt",
+      "sha256": "e23481603f0d471c1b4fc0f5ac69a1a29a87457a0e09a8313ced8b938e389be5",
+      "public_variant": "CovDynamicTableFolders",
+      "native_file": "CommonForms/CovDynamicTableFolders/Ext/Form.xml"
+    }
+  ],
+  "features": {
+    "container_revision": 3,
+    "form_revision": 42,
+    "table_revision": 49,
+    "attribute_type": "cfg:DynamicList",
+    "query": "SELECT 1 AS Value",
+    "properties": {
+      "DataPath": "Rows",
+      "ChoiceFoldersAndItems": "Folders",
+      "RestoreCurrentRow": "false",
+      "ShowRoot": "true",
+      "AllowRootChoice": "true"
+    }
+  },
+  "scope": "one minimized old table, an empty module and a public synthetic query; no application metadata, names or identifiers"
+}

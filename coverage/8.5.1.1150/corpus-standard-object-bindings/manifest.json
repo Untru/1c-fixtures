@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-standard-object-bindings",
+  "collection": "Catalogs",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-26",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "3b53c1c23e392cd60ec980c9bee3aa6648c23a603bf0703aeb1d269e68fec7e0",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 81104,
+    "decoded_sha256": "4777d910c1d73af87e7f4784dc7970bead38b57f6c70f19493ae8b52ce5159a9",
+    "encoded_sha256": "8d5511476101a83e0e2f64fe7719c61937de99d1925d0f2640e9bb649f74a5ce"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11164,
+          "sha256": "60ebe8c7fa4fcfe184daba9ae9bcd6f77c10bb26867cce2a363fba1f017cd16b"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "fccb5fff6933a6d35cc3fd89adee66e2bb72a8a8ac6ff4c4c849d935198eaaaf"
+        }
+      ]
+    },
+    {
+      "name": "CovStandardBindingsTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Catalogs/CovStandardBindingsTemplate.xml",
+          "size": 4673,
+          "sha256": "4addd28e812b6cb3be72d246ceb1ddf784dde0aec09274b375ed13880f5d9a4a"
+        }
+      ]
+    },
+    {
+      "name": "CovStandardObjectBindings",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:public synthetic catalogue object with input and label fields bound to the standard Code property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/InputForm/Ext/Form.xml",
+          "size": 1616,
+          "sha256": "a74055980774555fa9df408ae30db19d41626df6b2983f3d7bca11423412e62a"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/InputForm.xml",
+          "size": 1625,
+          "sha256": "dc932d84ae423074bc7d9a678d25ff83ca2f0ade6278a9ee63d898b37a2b76ff"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/LabelForm/Ext/Form.xml",
+          "size": 1616,
+          "sha256": "7fdca74734e6266027045c0a1d3f0790c666cd6158c9f6bbf65c3045ae56a752"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings/Forms/LabelForm.xml",
+          "size": 1625,
+          "sha256": "8b1ec15879c29f6865968d39bf3e0d8225fe273bfbdc6bd62742c8a7a844f919"
+        },
+        {
+          "path": "Catalogs/CovStandardObjectBindings.xml",
+          "size": 4729,
+          "sha256": "1a70e0391c9381dbfc6b51d0984a9745573137a5c7c8d8e7072288c3ac8829a8"
+        }
+      ]
+    }
+  ]
+}

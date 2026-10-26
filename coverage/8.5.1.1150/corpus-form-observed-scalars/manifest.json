@@ -1,0 +1,4191 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-form-observed-scalars",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "6f3671e6ee06224b80b9f32144e8d6fb1fff5c8ad63b82bb7a80015475c799a5",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 494563,
+    "decoded_sha256": "e15d57ee4bcd8703c810b73c223c5c4877dd38e72f0d6c3238116e7787761542",
+    "encoded_sha256": "e41160de0667f70b7b277d4049f09ba2b9f79793a3eceb4c8385b4955dea266a"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 23700,
+          "sha256": "4e4c8b0776d5bd3931d7f1ef03337b75e5dd85f8710f0c054f321ece2a7ca8c2"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "9af5a667de5ea34622b685dad6625c6fb1acccd6c0972373d272b93ed227a6f8"
+        }
+      ]
+    },
+    {
+      "name": "CovManagedFormTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovManagedFormTemplate.xml",
+          "size": 1636,
+          "sha256": "b1ef3506df58f8868ad7e96ae35ad86cd6a1f962a9e54e49088ade93ddae3c49"
+        }
+      ]
+    },
+    {
+      "name": "CovHTMLDocumentFieldHeight_40",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovHTMLDocumentFieldHeight_40/Ext/Form.xml",
+          "size": 1364,
+          "sha256": "a002fe7b820df6c292bcd8ef92a1079aabfb0bd27d87acab3dbb19b1e4d03aef"
+        },
+        {
+          "path": "CommonForms/CovHTMLDocumentFieldHeight_40.xml",
+          "size": 1643,
+          "sha256": "9db09d3cb26bd44cc9f1ce83868163a418a569db13e53f26e56d0c4d320fa559"
+        }
+      ]
+    },
+    {
+      "name": "CovHTMLDocumentFieldWidth_90",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovHTMLDocumentFieldWidth_90/Ext/Form.xml",
+          "size": 1362,
+          "sha256": "8e857524a329f403e73661ed1d0f4cf6122a89093d71c9dfc0cf4e2393da7470"
+        },
+        {
+          "path": "CommonForms/CovHTMLDocumentFieldWidth_90.xml",
+          "size": 1642,
+          "sha256": "7bc2ceeca3f6cf2849cf97a680e2c41a762d10b303416a23885942cc5e10fba7"
+        }
+      ]
+    },
+    {
+      "name": "CovTableAllowRootChoice_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableAllowRootChoice_true/Ext/Form.xml",
+          "size": 2736,
+          "sha256": "bdf9da7e789fc98c3db7928bcfa004c8bbc0ff38fe289fa48ae9c3e19c9dc20c"
+        },
+        {
+          "path": "CommonForms/CovTableAllowRootChoice_true.xml",
+          "size": 1642,
+          "sha256": "d7c504c6ee6cae1fcd42509e1d1d763e1fda97ddca683eb983b15d436fdadd80"
+        }
+      ]
+    },
+    {
+      "name": "CovTableChoiceFoldersAndItems_Folders",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableChoiceFoldersAndItems_Folders/Ext/Form.xml",
+          "size": 2751,
+          "sha256": "da457259565595a42e4922925450734c198652149236459964a3949a2c863606"
+        },
+        {
+          "path": "CommonForms/CovTableChoiceFoldersAndItems_Folders.xml",
+          "size": 1651,
+          "sha256": "22dc9c3bfdfc8b0cbb2c803acad1898daddb4723768bfd267627e1c5441c1a66"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHierarchyPanelLocation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHierarchyPanelLocation_None/Ext/Form.xml",
+          "size": 2750,
+          "sha256": "d8ba9fca833642f63ffcdc644adbe1ea9ba5cd4553bba27ebc89994a70ee33c9"
+        },
+        {
+          "path": "CommonForms/CovTableHierarchyPanelLocation_None.xml",
+          "size": 1649,
+          "sha256": "67d2d61a39b9a026cd74be497ab25e1bcc667722061af8c1e59eb2f7b83c6383"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonCheck_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonCheck_true/Ext/Form.xml",
+          "size": 1335,
+          "sha256": "611fd36a153adac7a88c9556e1c24168df87dc266eb3847de0c7b798bf83f453"
+        },
+        {
+          "path": "CommonForms/CovButtonCheck_true.xml",
+          "size": 1633,
+          "sha256": "20e0eab0882f46e52d66517251ce93e54f727a1b638d62dbfaeb0119b540b3de"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonEnabled_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonEnabled_false/Ext/Form.xml",
+          "size": 1340,
+          "sha256": "5aab727afa0f3ee4ba54614d9599b9f79d42d4d4a2b21140fc4972fbd2cf3f3d"
+        },
+        {
+          "path": "CommonForms/CovButtonEnabled_false.xml",
+          "size": 1636,
+          "sha256": "23e89bf93cfeef5140420f4afe682ae5e5fe3b8e15a4eb90b793966f22f56ce4"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonGroupVerticalAlign_Bottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonGroupVerticalAlign_Bottom/Ext/Form.xml",
+          "size": 1363,
+          "sha256": "8c41f2ced736c2e8a5b28901d3baf8621920b723942f90c6cc143000a790d36b"
+        },
+        {
+          "path": "CommonForms/CovButtonGroupVerticalAlign_Bottom.xml",
+          "size": 1648,
+          "sha256": "a878cafedf01fa33e65e332d96b1a33d42c24cc646e92708a1f6f86d5f1c48b2"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonGroupVerticalAlign_Top",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonGroupVerticalAlign_Top/Ext/Form.xml",
+          "size": 1360,
+          "sha256": "9ba8d8427707081950d357ffe1732d114953ad344298a7b41fcec2f57ba3e77b"
+        },
+        {
+          "path": "CommonForms/CovButtonGroupVerticalAlign_Top.xml",
+          "size": 1645,
+          "sha256": "11e82d5cdd6756956e39872757e6440375f4e212bfd0ad1b2d7b6cc6ec247f60"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonShapeRepresentation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonShapeRepresentation_None/Ext/Form.xml",
+          "size": 1363,
+          "sha256": "2b17fbffc85f18bbbb428076f93d28a8fac6a2fd5487def36c26f29c51143ff5"
+        },
+        {
+          "path": "CommonForms/CovButtonShapeRepresentation_None.xml",
+          "size": 1647,
+          "sha256": "8ea0ade1cf63320fcbb6734c642aa686ceff54e95af273ec876d0b04832f31dc"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonToolTipRepresentation_Balloon",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_Balloon/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "666da522ab884b099f61f0b45cea8d1a67587d006ab5b4983bc75fd19e69fca9"
+        },
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_Balloon.xml",
+          "size": 1652,
+          "sha256": "9902d2951549cd3d5717fefd5a456157c735bff18e9a79c42bbf4ea5b5758be7"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonToolTipRepresentation_Button",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_Button/Ext/Form.xml",
+          "size": 1369,
+          "sha256": "cd50462ff599b1d21074f963429311cec4dedcc1ae3c8318fe769ef77eb9ef1a"
+        },
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_Button.xml",
+          "size": 1651,
+          "sha256": "03746562c228dbab7f0b78a05d47b354bbefbdcab04890efa19659253838fd30"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonToolTipRepresentation_ShowBottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_ShowBottom/Ext/Form.xml",
+          "size": 1373,
+          "sha256": "1d9c99f436aa102c1007b1c481290dc6584ef7bc088b45b90e45d4ec5bc2a7f1"
+        },
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_ShowBottom.xml",
+          "size": 1655,
+          "sha256": "da62c4203ea84faa6a46461a066d1de4a6f3a85c12caa3eb90fc6206e55d1155"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonToolTipRepresentation_ShowTop",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_ShowTop/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "36394477e39b4cf2cde9423ba90e0ba79b7f561b9345a5dc6dd40ae26aad9147"
+        },
+        {
+          "path": "CommonForms/CovButtonToolTipRepresentation_ShowTop.xml",
+          "size": 1652,
+          "sha256": "1275c88b41a102fc14704e5e15bd9df80381d608282b589d8e9a4df0f44e17c7"
+        }
+      ]
+    },
+    {
+      "name": "CovButtonVisible_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovButtonVisible_false/Ext/Form.xml",
+          "size": 1340,
+          "sha256": "e6d6aa038df90adde8653a46f2c4d7defc025d9633f5c18a5f732b8a9feb80ec"
+        },
+        {
+          "path": "CommonForms/CovButtonVisible_false.xml",
+          "size": 1636,
+          "sha256": "21bd781853f12773df9c62339d98a3475c30eb9c61ff07de9bd7d379a813dc95"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldCheckBoxType_Auto",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Auto/Ext/Form.xml",
+          "size": 1332,
+          "sha256": "72dbb32f8455eae54c80fa4ba0dd70da4b44db993cdd366a1dbaa82c43f66b7c"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Auto.xml",
+          "size": 1647,
+          "sha256": "4909e1d699edf5879591d4ee047c09524e10ee9927dc604deee1d5a71a53eca5"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldCheckBoxType_CheckBox",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_CheckBox/Ext/Form.xml",
+          "size": 1374,
+          "sha256": "1128d67e09064e6b38e9fa8b288f09b0cc14ef36df06bed845b64d9d9390d1a9"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_CheckBox.xml",
+          "size": 1651,
+          "sha256": "55a6fa119d50c038bef56aa196a4f39b93e0f071d8bb34e6842866e362406724"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldCheckBoxType_Switcher",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Switcher/Ext/Form.xml",
+          "size": 1374,
+          "sha256": "45e6264185b90503f78356dfb751f019ed46add16d0fea4059e6b94b1e601173"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Switcher.xml",
+          "size": 1651,
+          "sha256": "a9b202a359355577128e814e5fa361157119fd59b23e9018a9ca1680c3024f38"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldCheckBoxType_Tumbler",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Tumbler/Ext/Form.xml",
+          "size": 1373,
+          "sha256": "51eeb0141f1688e3ffb9670698f01ab4c25f466a3f21cf7a383781d4e2d46f62"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldCheckBoxType_Tumbler.xml",
+          "size": 1650,
+          "sha256": "6fa116e356a617ce651b58137b37dbb3e82df211b0075f1191fe456d0813f5fb"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldEnabled_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldEnabled_false/Ext/Form.xml",
+          "size": 1361,
+          "sha256": "6c7919fb0307bc8a1353fa77bdd090c3968613815d8f23b84b2c85e4bcac0d9c"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldEnabled_false.xml",
+          "size": 1643,
+          "sha256": "981e925cd2feb88b59e39c9f444527abb9d43072d5af29602df9db0cca82abb8"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldEqualItemsWidth_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldEqualItemsWidth_false/Ext/Form.xml",
+          "size": 1377,
+          "sha256": "9ede6a8c7c0dfbd2b11a075a245f8b2f58ad1a1c819ad6bfc59261e68548dd65"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldEqualItemsWidth_false.xml",
+          "size": 1651,
+          "sha256": "a65703a48eb8040f6f9617a9a94e7d77e4027d11fdc04b5b58b1eb637afea8dc"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldReadOnly_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldReadOnly_true/Ext/Form.xml",
+          "size": 1362,
+          "sha256": "f57159d23d42566b48e6460b84fde370e4a7c02a215ebeface583126daeb71a3"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldReadOnly_true.xml",
+          "size": 1643,
+          "sha256": "1d5b84d2c83c9704622510f7d87072f4afbbc3bbcf118b50940bb1646471a119"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldTitleHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldTitleHeight_1/Ext/Form.xml",
+          "size": 1365,
+          "sha256": "5a89a85f01802f7e058196f8439d34a428d3024e5de37cc67362d083679ec305"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldTitleHeight_1.xml",
+          "size": 1643,
+          "sha256": "bdab61c71b9994a8401f056d4dfe7027414097becacc7a44310e7ef346ee583b"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldTitleHeight_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldTitleHeight_2/Ext/Form.xml",
+          "size": 1365,
+          "sha256": "176dc385eb9b0a0f015098a86ebbf10f06cecdfcfcb34b29da0c94d30c848a69"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldTitleHeight_2.xml",
+          "size": 1643,
+          "sha256": "3ff80f54af0e40efeb3969ef365d9ec8355f0ee98caff691e0d5fb593c25a379"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldToolTipRepresentation_Button",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_Button/Ext/Form.xml",
+          "size": 1390,
+          "sha256": "a0605ed875b79775f945a1265b3749eb3906a30d6f32f5c357ed456d913bd005"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_Button.xml",
+          "size": 1658,
+          "sha256": "f2300e43f93e365853853443892b4b0edaf8bc55356139bb20640ef7e34bf92e"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldToolTipRepresentation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_None/Ext/Form.xml",
+          "size": 1388,
+          "sha256": "c4451999fd9a563651a8fadbf675f54e5bd048ef60180a85f2689230cbf65f9b"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_None.xml",
+          "size": 1656,
+          "sha256": "e0e0f9d4391ce8fce3901c5e586ad97a1d8099d3fce09d52e9b5b3966da77a5c"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldToolTipRepresentation_ShowBottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_ShowBottom/Ext/Form.xml",
+          "size": 1394,
+          "sha256": "a2e244488fcbc6a7e1cd4eabfe1fbf419d7fb888e14a77a1aae253d3be202a24"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldToolTipRepresentation_ShowBottom.xml",
+          "size": 1662,
+          "sha256": "e58632a47005b62aa15dac9cb8dadf28880a8c4ad9269a0404badb5d7d49f300"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldWarningOnEditRepresentation_DontShow",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldWarningOnEditRepresentation_DontShow/Ext/Form.xml",
+          "size": 1404,
+          "sha256": "d065b2bea43b5beedf18f55315fb170f0bcd112530959d10f93451ab62fbb55f"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldWarningOnEditRepresentation_DontShow.xml",
+          "size": 1666,
+          "sha256": "ada35720fa7a44b2527391d6d10cf4efe294393a616e637e907337833ef169f9"
+        }
+      ]
+    },
+    {
+      "name": "CovCheckBoxFieldWarningOnEditRepresentation_Show",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCheckBoxFieldWarningOnEditRepresentation_Show/Ext/Form.xml",
+          "size": 1400,
+          "sha256": "f80d42bea47ed233f6a187fb7c3de2856ff5003fd11307ee26ccfd4690b6bcd8"
+        },
+        {
+          "path": "CommonForms/CovCheckBoxFieldWarningOnEditRepresentation_Show.xml",
+          "size": 1662,
+          "sha256": "452094ef56fa3687141890c270bf7b7751e1b3c82d84374a48383f23c4451426"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedDocumentFieldReadOnly_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedDocumentFieldReadOnly_true/Ext/Form.xml",
+          "size": 1380,
+          "sha256": "1f10584b3eb2385e89ad1d41a3a8ab520f84367e2c20a3c87b3361fd6d64ee4e"
+        },
+        {
+          "path": "CommonForms/CovFormattedDocumentFieldReadOnly_true.xml",
+          "size": 1652,
+          "sha256": "f6b328370418b70d8d548f1ce4284341c82a61e48c14b067243bb39c2a582fe7"
+        }
+      ]
+    },
+    {
+      "name": "CovFormattedDocumentFieldVisible_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovFormattedDocumentFieldVisible_false/Ext/Form.xml",
+          "size": 1379,
+          "sha256": "164f7654cdedfe4a2922d9917237238e8ed18f9a7b9073c5f2de359fe56d63af"
+        },
+        {
+          "path": "CommonForms/CovFormattedDocumentFieldVisible_false.xml",
+          "size": 1652,
+          "sha256": "4bb31a3b0f83477da22148a457ad61fd8cf62b5ac55d5bc823787d876edc89eb"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldCellHyperlink_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldCellHyperlink_true/Ext/Form.xml",
+          "size": 1504,
+          "sha256": "de0f517f41f50a9fb3ca4d5bbbf5cb5bb7ecb40e83532daa12e7f5e30846833f"
+        },
+        {
+          "path": "CommonForms/CovInputFieldCellHyperlink_true.xml",
+          "size": 1645,
+          "sha256": "ca2a6ea04d1f566967348ce163f6f624760a3d331badb323b8995fa0c04dacb7"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldChoiceHistoryOnInput_DontUse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldChoiceHistoryOnInput_DontUse/Ext/Form.xml",
+          "size": 1383,
+          "sha256": "67cb803d75bb41e44e225881e0f709774588fc57e53555397bf601796b0d1256"
+        },
+        {
+          "path": "CommonForms/CovInputFieldChoiceHistoryOnInput_DontUse.xml",
+          "size": 1655,
+          "sha256": "2f080ed58dfa16fbe09faead064b40c4617d8eab97784494abcaba8b3972212e"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldDropListWidth_16",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldDropListWidth_16/Ext/Form.xml",
+          "size": 1364,
+          "sha256": "93880ad155f62aee92d4c79b700fb3245f356713272eefa96b2f322fedc2f8dd"
+        },
+        {
+          "path": "CommonForms/CovInputFieldDropListWidth_16.xml",
+          "size": 1643,
+          "sha256": "2d3ef66c537bea87ad9237de788bb32dc831fd3568404ae9b166c638ad7de512"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldDropListWidth_7",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldDropListWidth_7/Ext/Form.xml",
+          "size": 1363,
+          "sha256": "f5b06d54b98e25a110152e3cb5447b352cf1bd9ec5eef656090fa12eae2c932f"
+        },
+        {
+          "path": "CommonForms/CovInputFieldDropListWidth_7.xml",
+          "size": 1642,
+          "sha256": "ae188b3078cdff1af9f8caeb98f28ddb13403d5729b1c5ec33e65a44e4b655c6"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldEditTextUpdate_OnValueChange",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldEditTextUpdate_OnValueChange/Ext/Form.xml",
+          "size": 1377,
+          "sha256": "78cdf87b25c9bb5b1095e22c403eb2781aed0209ea7609464d2e285a6e23423e"
+        },
+        {
+          "path": "CommonForms/CovInputFieldEditTextUpdate_OnValueChange.xml",
+          "size": 1655,
+          "sha256": "6ce608661a5f424191c4e2dbe163361cadab6ebc2c2cc9ab4cf4dd2b26b5c7c6"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldEnabled_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldEnabled_false/Ext/Form.xml",
+          "size": 1355,
+          "sha256": "883a251408c629a93a2f14e4e270967b6c125888a87835764e80c4ad6bec57af"
+        },
+        {
+          "path": "CommonForms/CovInputFieldEnabled_false.xml",
+          "size": 1640,
+          "sha256": "e113983f4f40e2c3c9363208ebdcea9fb07375045a5cbadebf90da2cfbff7b67"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldExtendedEditMultipleValues_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldExtendedEditMultipleValues_true/Ext/Form.xml",
+          "size": 1392,
+          "sha256": "c3620c86d0abb555d21d421882940a24995b7e2651a4a73f412e0022759df0a5"
+        },
+        {
+          "path": "CommonForms/CovInputFieldExtendedEditMultipleValues_true.xml",
+          "size": 1658,
+          "sha256": "6fab30fbd0f796fbb58d868b0d9a81860adf17af9f6edb2b17f4a650347a5e9b"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldGroupHorizontalAlign_Left",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldGroupHorizontalAlign_Left/Ext/Form.xml",
+          "size": 1380,
+          "sha256": "a2507390688d5a0180eb4a157686acb8f3f982a8f5cc6865dde46a1b1a3a0d05"
+        },
+        {
+          "path": "CommonForms/CovInputFieldGroupHorizontalAlign_Left.xml",
+          "size": 1652,
+          "sha256": "27ef6b0c8f515d04606f28f4b085eb7c6ea598a4b5bb36caacbaf933fe122a72"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldGroupHorizontalAlign_Right",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldGroupHorizontalAlign_Right/Ext/Form.xml",
+          "size": 1381,
+          "sha256": "dd27099d6899031113026930fddf618737de75008c1567d28b1d56e978d77ae7"
+        },
+        {
+          "path": "CommonForms/CovInputFieldGroupHorizontalAlign_Right.xml",
+          "size": 1653,
+          "sha256": "590dbe75947329a985c934de8d98227c6ecf6067fbfd01b139773601bad7cb89"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldGroupVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldGroupVerticalAlign_Center/Ext/Form.xml",
+          "size": 1378,
+          "sha256": "fe60be5d319f4e6b6a88c59a4a5c95d00d7c98c73b517f32fb97b70a69e92f34"
+        },
+        {
+          "path": "CommonForms/CovInputFieldGroupVerticalAlign_Center.xml",
+          "size": 1652,
+          "sha256": "f4e6f384f69839ede30e2fc41f553fd97cefbb2c28dc050d99fab96ab6f417dd"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldMask_9999999999",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldMask_9999999999/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "c8461ac86e82f15b845d003c5dc100c4884655bc847e20316b16beb4974a0c87"
+        },
+        {
+          "path": "CommonForms/CovInputFieldMask_9999999999.xml",
+          "size": 1642,
+          "sha256": "5cb5dc4c9687a62178789ec76e951264b2b99d193c471046ab5a9ad33d839536"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldShowInFooter_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldShowInFooter_false/Ext/Form.xml",
+          "size": 1365,
+          "sha256": "9cfe8875d81d19458e40380001a22f05558db83c264e92bfaae460b319512ffe"
+        },
+        {
+          "path": "CommonForms/CovInputFieldShowInFooter_false.xml",
+          "size": 1645,
+          "sha256": "142309cc1989e2a193b41062620b1399ec728d10e97be5521412bfe06921a849"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldSkipOnInput_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldSkipOnInput_true/Ext/Form.xml",
+          "size": 1362,
+          "sha256": "543030f35155202d8c09e3aa91cfedf093d98cfb92b5dcbc5f9c64d46f79e12f"
+        },
+        {
+          "path": "CommonForms/CovInputFieldSkipOnInput_true.xml",
+          "size": 1643,
+          "sha256": "43eac4b9a57bf0074ee10fcc8d3e45fd30c2e6c0ce229d3e9305a9e5d54aa11b"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldTitleHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_1/Ext/Form.xml",
+          "size": 1359,
+          "sha256": "407b9d99424cd039053d9cc482a62b2fc732555701a4a4c3d55911bee7592912"
+        },
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_1.xml",
+          "size": 1640,
+          "sha256": "b775da68ac66bdb222c8edda81f4e5a016d07f2fe3f584befe40878fe3289392"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldTitleHeight_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_2/Ext/Form.xml",
+          "size": 1359,
+          "sha256": "f07327e4d7682d7f42a89cbbbd6665b0bf168398096cc3df1505fbe29ebfdc1e"
+        },
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_2.xml",
+          "size": 1640,
+          "sha256": "a2ee92ee6171dce7a98e592808b5d8090ff636bf520f613de64f0c5fa5e8e887"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldTitleHeight_3",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_3/Ext/Form.xml",
+          "size": 1359,
+          "sha256": "d24ce899fd488477515a752fbe01ade14e51647f0e59043b109acba6b8a9d290"
+        },
+        {
+          "path": "CommonForms/CovInputFieldTitleHeight_3.xml",
+          "size": 1640,
+          "sha256": "410a8b1afa91898bf38d674a75c1c7c5c958d1782c6828a7909ec6dcfac07130"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldToolTipRepresentation_Button",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldToolTipRepresentation_Button/Ext/Form.xml",
+          "size": 1384,
+          "sha256": "e58d1dad92250cf88f1c27d3447c8d2756cc5e43d809e3899e6ac32a371f30d2"
+        },
+        {
+          "path": "CommonForms/CovInputFieldToolTipRepresentation_Button.xml",
+          "size": 1655,
+          "sha256": "c0fcc3ccb3d96d30b04c7b1bba86069e630868a87b5d17bf6c0f3a4fba129ec1"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldToolTipRepresentation_ShowBottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldToolTipRepresentation_ShowBottom/Ext/Form.xml",
+          "size": 1388,
+          "sha256": "82cd3e5f271a2f64ec648f77f6ae35c5b0fd2424da24d67315fa0166e817c024"
+        },
+        {
+          "path": "CommonForms/CovInputFieldToolTipRepresentation_ShowBottom.xml",
+          "size": 1659,
+          "sha256": "55b813077d4bc58f30d03ac0b73725ffa5c1f243e95fbe792477a4fe7c898f85"
+        }
+      ]
+    },
+    {
+      "name": "CovInputFieldWarningOnEditRepresentation_Show",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovInputFieldWarningOnEditRepresentation_Show/Ext/Form.xml",
+          "size": 1394,
+          "sha256": "20995dda86f382de019b32a0cb49263b01d4848981237baa789a1a1fe83b3f80"
+        },
+        {
+          "path": "CommonForms/CovInputFieldWarningOnEditRepresentation_Show.xml",
+          "size": 1659,
+          "sha256": "ca7c149d7ee085c70f668ada07aa1f0b5fea8e5786c9d23cf54df7e5b2bd2118"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldAutoMaxHeight_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldAutoMaxHeight_false/Ext/Form.xml",
+          "size": 1367,
+          "sha256": "e91715469fc096495c373dd132c997081bec29e718834370c5fd0a59cfbd2f53"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldAutoMaxHeight_false.xml",
+          "size": 1646,
+          "sha256": "7a28526be911118bbfeb8af10823e466972bd59af5e13acefadb28412c10bf98"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldAutoMaxWidth_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldAutoMaxWidth_false/Ext/Form.xml",
+          "size": 1365,
+          "sha256": "c8fc62486eb6c2a5c89dc3bb9ef6b25a4bd10f85b35eba8b63532b5196aa82f3"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldAutoMaxWidth_false.xml",
+          "size": 1645,
+          "sha256": "8dc8e55b8d3ff74124cb0b1feaeecc921fd96686c006be01b3c39cfb228d152e"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldCellHyperlink_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldCellHyperlink_true/Ext/Form.xml",
+          "size": 1504,
+          "sha256": "0a9390cfa3b7f9b12255e358ff8372fc62b30fc896eca1d589a0511c1aa0b9ae"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldCellHyperlink_true.xml",
+          "size": 1645,
+          "sha256": "a7e164bdfd597ab51f3450bade8888744f2657982ad1d6d75e0a74168691d6aa"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldGroupHorizontalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldGroupHorizontalAlign_Center/Ext/Form.xml",
+          "size": 1382,
+          "sha256": "d58f9ff64e92f69bc11be39cd44bde9fa8e80019710203d4a4e21dc19c630e97"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldGroupHorizontalAlign_Center.xml",
+          "size": 1654,
+          "sha256": "b87195181e4114ad2a49d5870b5959e3607e95a357fdb95df7f7e3a57a06ba3c"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldGroupVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldGroupVerticalAlign_Center/Ext/Form.xml",
+          "size": 1378,
+          "sha256": "39a6fbb4be77995a013cadcaf17bfe4e553c8f1f58812edc7052ef0787c92c65"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldGroupVerticalAlign_Center.xml",
+          "size": 1652,
+          "sha256": "e4490e95c5d7a56796e86105b0230a6176faf6739ec479cc4a2063e4e8255065"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHeight_1/Ext/Form.xml",
+          "size": 1349,
+          "sha256": "881b2570dd1a5153d4395c462f78fd3b3082d343b2d6813eec503259836be88c"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHeight_1.xml",
+          "size": 1635,
+          "sha256": "117ee59dec710300b605bfc9c0960e44d54f3997ba19f518425d2ea1ea37ed5d"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHeight_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHeight_2/Ext/Form.xml",
+          "size": 1349,
+          "sha256": "cd1dfd2e19170b59bf6fc2ac5d38b46752b7e7e612020eee01dd88f4abe1981c"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHeight_2.xml",
+          "size": 1635,
+          "sha256": "2695dc7e6c8d713136562446ea58f2b4776acf4bb603b7fe57dff554272d1f47"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHeight_4",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHeight_4/Ext/Form.xml",
+          "size": 1349,
+          "sha256": "784019b4116af593499ecf915c4fd0f6f1b90fb05302233df13cc99268971225"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHeight_4.xml",
+          "size": 1635,
+          "sha256": "1e483036076a8e7bfd8deddc4b500282e546a7caef350c65ee79ebd8b5d34d60"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHiperlink_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHiperlink_true/Ext/Form.xml",
+          "size": 1358,
+          "sha256": "177ce110d17d6372c8633c532c7be1bf1a7f0f24517005c9d0c3db61c9d4d6ff"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHiperlink_true.xml",
+          "size": 1641,
+          "sha256": "151c1674fb99979b5769eb0382f998f50374bef3dfbdafafa0c2fe0b79c8ec83"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHorizontalAlign_Left",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalAlign_Left/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "5546c87eca067772328a19ae1a52a8f27b2f0e42c5d7d46f76a5eee46a2208b9"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalAlign_Left.xml",
+          "size": 1647,
+          "sha256": "07d2976e81bffc9bb2408ccd1d60f160148979fe2d4cae55832a01f2d7a0e04c"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHorizontalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalStretch_false/Ext/Form.xml",
+          "size": 1375,
+          "sha256": "b556935613a634aa9cb5643a05b95d912b277f0369c45d74d0078ddb652f6794"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalStretch_false.xml",
+          "size": 1650,
+          "sha256": "7e4a621cfee406b7e67ac2c20bf5d4e066be1cf08db6ba3fb70ed9aec5233206"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldHorizontalStretch_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalStretch_true/Ext/Form.xml",
+          "size": 1374,
+          "sha256": "8087620d0362c2c7f6f1236752dd970da48734147e1f523fa8a912652e8816e2"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldHorizontalStretch_true.xml",
+          "size": 1649,
+          "sha256": "e8d85801df311e9b7def0e55ade436e6d724a8bf9f15391abe039ed52da59524"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxHeight_4",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxHeight_4/Ext/Form.xml",
+          "size": 1355,
+          "sha256": "dc4fb1c9c2369e76747ddca5de000130eba8bd96aac582ffc564c5e1e4283a79"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxHeight_4.xml",
+          "size": 1638,
+          "sha256": "7af36489d2e2836072a6ce0cbb58afacd3a1e9f5ecedf7341b3511fd7e94989e"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_10/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "c913ba6b6c1b4cddc39d8903e7338f5c636bc2ae1c0f3b245645be849be904d7"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_10.xml",
+          "size": 1638,
+          "sha256": "ccff01587edf693ee83e0461dd97baaa925ba48428e60c45ef62ee7fdfd794ab"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_15",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_15/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "aaeb164264cca8181d6437ebcad30ac9592e4d348d70a9d0182facc9219f5f7c"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_15.xml",
+          "size": 1638,
+          "sha256": "af26c4f7796d7d728f0133ef0c0e6550205244ebee27902e9ddc94e20e73edec"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_21",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_21/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "40713ff011468d91af4054d5234cca34841cfb53dd2768bc6d9ebf519f707167"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_21.xml",
+          "size": 1638,
+          "sha256": "73c75c4015ba055da23d9016a2dd4208a3b732e7ce06e4a791179fc4e2e61cbf"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_26",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_26/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "4c05f4b632893c56f27313d0d4f87f392e32f96331825100fec6eeb485d83b6b"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_26.xml",
+          "size": 1638,
+          "sha256": "a9033998bb8f601d293062950c8d3ee373a8fcec97576af66cb3acc77a7eb09f"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_29",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_29/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "dba11a33f215f15d92ca2ad36c36816a619fa080e143badbf273d1e00655a37d"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_29.xml",
+          "size": 1638,
+          "sha256": "d6413a00b149b67ecf50ed6a625498f5eb00aeb29f0ca15a9169712325cfea4a"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_5",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_5/Ext/Form.xml",
+          "size": 1353,
+          "sha256": "d4dcc0f50ec033afd951056176a2d89fc2e9bfa20359a663bdba94b3931b47b7"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_5.xml",
+          "size": 1637,
+          "sha256": "d2b40676f80e18e3bee2195fce3c64bd142d5a7e3fa9fe879e3dce3aaa2f5e7b"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_50",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_50/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "a237fb84e417cd6c73ddf5017fff9548c5c90236b890484f3a1705af6a7b672b"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_50.xml",
+          "size": 1638,
+          "sha256": "c3322b8bce7cdca6f356e197118d6ec4842936c06cea709e13a4b6b67240ca0b"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_60",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_60/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "f7104db860ba7e8ef1126252f323aa2df585e80e3949b4889fa68aaa750b5be1"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_60.xml",
+          "size": 1638,
+          "sha256": "d90378831e68151c1cb898426aa47630fcfd6bd41bd13e1eb1ed4740cb6b0b77"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldMaxWidth_96",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_96/Ext/Form.xml",
+          "size": 1354,
+          "sha256": "649a7fe1cece6a841e2ebdb52c323d1360fa78555bf824e31debdf67d9aca0b1"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldMaxWidth_96.xml",
+          "size": 1638,
+          "sha256": "5bb9d043868865f9836e1ba6cbc59f6d6dbeef68c6caa196cdecd4cbeed30e46"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldShowInFooter_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldShowInFooter_false/Ext/Form.xml",
+          "size": 1365,
+          "sha256": "8d0d152da6b06001d2482c91b2762f5e9079bb54eb7cae69b8fc88dcf14980e6"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldShowInFooter_false.xml",
+          "size": 1645,
+          "sha256": "cc4b5c26620c095a51d1a32dff7fbc459521a89f0907b4568f56447b34d686cb"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldTextColor_#162779",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldTextColor_#162779/Ext/Form.xml",
+          "size": 1361,
+          "sha256": "dc741bf30ef368138b1f53a5a638934fb855bf32686cfd9c11aee647d06f32e9"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldTextColor_#162779.xml",
+          "size": 1644,
+          "sha256": "2a8620c1e6a79f5ab1561cb9b46937e069fc6274cdc9a6d6fba7153c78d0079d"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldTitleHeight_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldTitleHeight_2/Ext/Form.xml",
+          "size": 1359,
+          "sha256": "778673aeaf678d93ef598132f57bc83c5a57716cd0dd067fabf8cacf91209d20"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldTitleHeight_2.xml",
+          "size": 1640,
+          "sha256": "7c7ade031092515577af6df19b9f8b8dc586993ec01796ffd532f2704ae498c4"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldToolTipRepresentation_Button",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldToolTipRepresentation_Button/Ext/Form.xml",
+          "size": 1384,
+          "sha256": "a5c9d4e0328f3054c6a8cbb1417f827cbef5dd0807697a23984cdfede89b78bb"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldToolTipRepresentation_Button.xml",
+          "size": 1655,
+          "sha256": "3c7c9453457b00e865a8a85c93439027fb21cfcb956c99dfa95a287fd14480d6"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldToolTipRepresentation_ShowBottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldToolTipRepresentation_ShowBottom/Ext/Form.xml",
+          "size": 1388,
+          "sha256": "e350444fdfadea5b048d10e2b63e607108cf5028a7bfa7fc45b278fc748625a2"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldToolTipRepresentation_ShowBottom.xml",
+          "size": 1659,
+          "sha256": "c006cb1ff1f1dd1c96ac5a7f91899859de930950fd39203bd24ad18a25c9fbb7"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldVerticalAlign_Bottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldVerticalAlign_Bottom/Ext/Form.xml",
+          "size": 1368,
+          "sha256": "b5959591e5a34addd9ac48dc0dfbace69346ee7117af0ecc6e44189a89d1a75a"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldVerticalAlign_Bottom.xml",
+          "size": 1647,
+          "sha256": "f1a89235bd19f43577e3d0ba0fb3e302ceafecca1de63a98a8e11f342810ef5b"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldVerticalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldVerticalStretch_false/Ext/Form.xml",
+          "size": 1371,
+          "sha256": "3d0e198947e3498cce57256fe067c10864fa9b58cdebc729d9b3487d282e556c"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldVerticalStretch_false.xml",
+          "size": 1648,
+          "sha256": "685d908f54b6f1d75fa6e9c72f75cb2c18b45dba219ccd2d06b3efd9d7f04f2a"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldVerticalStretch_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldVerticalStretch_true/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "5fd1fc6437a203be503baf4c5b17623fd37fee1b1d82cfdaed81f5551189759b"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldVerticalStretch_true.xml",
+          "size": 1647,
+          "sha256": "fbea46d9dd560d708ddc9c3fa627cd9cb4b5af5955b7760e1efdf201a5d1dc09"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_1/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "b9fadceeb61db8de62f932cf64525fb4526f9fa27d0a026ef83906a8f99bb028"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_1.xml",
+          "size": 1634,
+          "sha256": "bc02e4864298567e6f12796c1fa5d5777a16aacf0935f241d57bba4a5d8f5920"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_10/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "629dc112d9cc0f6d6004e59c331b8c65213355a7cdf22e5ef40ec1ff227094b6"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_10.xml",
+          "size": 1635,
+          "sha256": "3e4636930448c0c68582200da30592214c58c7bb118195964eff78291c71e8db"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_15",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_15/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "476893991b5df7a6c0b2294a9f8d7fbecb50260552103080606b0363806944d5"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_15.xml",
+          "size": 1635,
+          "sha256": "f25781336e6be840bc7b27acac35cc15ba5b14f043b201163688ddda6f1e0769"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_16",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_16/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "24ef66d563e7bb9e83cde6c0feaf8e4da97cbaca0237423230d73c901ce36c99"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_16.xml",
+          "size": 1635,
+          "sha256": "1ff0209ba4c617545e80f81cd92198f32882e50e5045da920ba7d81de9431cd7"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_17",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_17/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "4f08f35a9553995575a93315d65967cb288a0c6ed964901de965615976c80222"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_17.xml",
+          "size": 1635,
+          "sha256": "1cfea2ce2d2944c5eaa9df353cf571543a282fe9da81fa09e6dc6fe76ff73b43"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_18",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_18/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "d761dbfe68241043079c649b32c03e41690be2e7d8d2cd417197dc8a94bc30b9"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_18.xml",
+          "size": 1635,
+          "sha256": "7a97e371d6d701402d09244d590d00908a7b1da92a52a4b35152182d36e90089"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_2/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "4d86f5b31ae253ed6d2350bf65e045cfc6685d7f20db92a0aeb4631bf8ec4fa8"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_2.xml",
+          "size": 1634,
+          "sha256": "78ace6087c50041816c5f0537554767b7b811c47c0cb15badbe869e27531d387"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_20",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_20/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "ba012e0ce86a96885f4e5fbb90332c35f55de0c459c13a9eaff1c713d151c360"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_20.xml",
+          "size": 1635,
+          "sha256": "fcf42edcbf65ead1164f9859339a243a1031238b1e81e06615dba81f9e21537a"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_28",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_28/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "0a830d47c3c1c95c1e091cada94005c60a9a7be7eedc195912ea7dbb21fe465a"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_28.xml",
+          "size": 1635,
+          "sha256": "9741ae62d085b1f16503f0a265d551502a3dff7c2ad8c785575c0ac23ae10669"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_3",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_3/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "f2ba4e6b79f708b21e70932f6eb0bd0b82efa20714658ef11db1eafd64c87c43"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_3.xml",
+          "size": 1634,
+          "sha256": "2f9617e54f96978e5bbe2c32f8a21f373c8bcd3acfeb086213c149d6e7623dc6"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_30",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_30/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "04ee967df7174c28b96e85365c51c6475fec4a9c23190db59ac37da88ab4ed87"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_30.xml",
+          "size": 1635,
+          "sha256": "b1165fd5d6952268b64c5707525641f4fc96889b7b1d1bcbcc97c775a0457062"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_36",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_36/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "01bee20d89e43c9e7948b913f469f3cb1c74f97ada4c1895b760021656eeeff5"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_36.xml",
+          "size": 1635,
+          "sha256": "a5eb3ae30557003fc130dc8697677480bd6473a0262860f059891430de0abbf9"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_4",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_4/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "e7c2c93706ccb02e6b3ca10eb25d70dc394533d41ef3e30dc95399ace5b5a82f"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_4.xml",
+          "size": 1634,
+          "sha256": "1eb746419b13c356a05c45aaa1c8a4221ac8330d5010331b166c7de271b5837d"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_40",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_40/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "bbce8ce0673a600134f51fadee5028e28a4b4421f9896312c2d8d869511653a3"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_40.xml",
+          "size": 1635,
+          "sha256": "0ed335f0dde20b5967a4bc3586f33bd9396942e14ad61483b31a5851d878d7ee"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_50",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_50/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "a65317c53e3dedb59200a41c14f8200a1241c4a72af04497777d45884b6b13db"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_50.xml",
+          "size": 1635,
+          "sha256": "216b737db68e302dc5b1b562144b199a51812ebdaf3b5767345cf296e8d15a76"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_60",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_60/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "727b31c5d67e8c0001ed60863451cee305161260acda0e4142c6ec0a2b9a5a6a"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_60.xml",
+          "size": 1635,
+          "sha256": "83a6fcec0ed96cd9c625f7bb526537fb8e9ace92ad203b831319cde6503a5793"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_7",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_7/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "b4f59b27bf9f6f8a0c4434c673b52e97c12c95e5100ab859b29fe86ff449b5af"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_7.xml",
+          "size": 1634,
+          "sha256": "88a40bfd056797402f3ea5bfaff28bac74b27bc64cb6921c5415e3c738dc785d"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_70",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_70/Ext/Form.xml",
+          "size": 1348,
+          "sha256": "d41e762c05de8df9286125bbc4cf771aef8c3801141c22a82615185f38ee66d5"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_70.xml",
+          "size": 1635,
+          "sha256": "7985f41543af53c9a0111891694b930bf39802838e4ebb97dbdc63ed700119cd"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_8",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_8/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "4fca400375144e83af37bcf86aa17c6251464e44edf6d3c178d6925b59fb3630"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_8.xml",
+          "size": 1634,
+          "sha256": "e3fa7fd554172728e61833c3cc1fe7b8dd5de2f353fdcad8aaf822af388981ed"
+        }
+      ]
+    },
+    {
+      "name": "CovLabelFieldWidth_9",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovLabelFieldWidth_9/Ext/Form.xml",
+          "size": 1347,
+          "sha256": "baf4d0df0977e0e4340a4f5b73a5ae907ea8f7c583ce0ab3887ea36feb94283d"
+        },
+        {
+          "path": "CommonForms/CovLabelFieldWidth_9.xml",
+          "size": 1634,
+          "sha256": "b819cba66f7ec993ebbe078f06716fa26f34dd6948519219b24146df93dc5d38"
+        }
+      ]
+    },
+    {
+      "name": "CovPageChildrenAlign_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageChildrenAlign_None/Ext/Form.xml",
+          "size": 1457,
+          "sha256": "1ac1b966f91d2b5fee28664b5e2a78eee71e39d7f31da8b633e9bc47fdef88f9"
+        },
+        {
+          "path": "CommonForms/CovPageChildrenAlign_None.xml",
+          "size": 1639,
+          "sha256": "f9558604c5683796426c0cddb9fd05e0950b5da37c986ea8b28852723f336c9f"
+        }
+      ]
+    },
+    {
+      "name": "CovPageEnableContentChange_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageEnableContentChange_true/Ext/Form.xml",
+          "size": 1469,
+          "sha256": "2f0b925658b9926e9ffa9a6f98bbe656e73bd27a92768ff3d71a6ae17c76aa61"
+        },
+        {
+          "path": "CommonForms/CovPageEnableContentChange_true.xml",
+          "size": 1645,
+          "sha256": "f6247d7cafe43c109e7c9c96d7b484ead9a024495b3659c69243e7aeea2a4430"
+        }
+      ]
+    },
+    {
+      "name": "CovPageGroup_AlwaysHorizontal",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageGroup_AlwaysHorizontal/Ext/Form.xml",
+          "size": 1453,
+          "sha256": "feb927533e0f1000de344aa392a68fe0070ffd8866a76d973d6631cd63d398fd"
+        },
+        {
+          "path": "CommonForms/CovPageGroup_AlwaysHorizontal.xml",
+          "size": 1643,
+          "sha256": "be10a29f5aac8134eca37198f9ea9356703a9fdd7592853b786d3ad666a00418"
+        }
+      ]
+    },
+    {
+      "name": "CovPageGroup_Horizontal",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageGroup_Horizontal/Ext/Form.xml",
+          "size": 1447,
+          "sha256": "8374557aae8f51fec420f3ab2d1ea3a0ef94485e2c7d3fdd16104c2ca80295c3"
+        },
+        {
+          "path": "CommonForms/CovPageGroup_Horizontal.xml",
+          "size": 1637,
+          "sha256": "f626d5fb6e9e353175d0e0edf361f7f0597e24ee2496b39752dde2e77f40a514"
+        }
+      ]
+    },
+    {
+      "name": "CovPageHorizontalSpacing_Half",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageHorizontalSpacing_Half/Ext/Form.xml",
+          "size": 1465,
+          "sha256": "cdffacac3556749beb2243df7f69779e54fccdafa88f50b5d562eee3e271479b"
+        },
+        {
+          "path": "CommonForms/CovPageHorizontalSpacing_Half.xml",
+          "size": 1643,
+          "sha256": "e464c358e0b2aea86313486c0912b6e16b0b82500fed458d3592ad064e341ccb"
+        }
+      ]
+    },
+    {
+      "name": "CovPageHorizontalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageHorizontalStretch_false/Ext/Form.xml",
+          "size": 1466,
+          "sha256": "a08f58c18f170a7990395215c7214d81acf29f47b76068393322b5025ea8b9f1"
+        },
+        {
+          "path": "CommonForms/CovPageHorizontalStretch_false.xml",
+          "size": 1644,
+          "sha256": "bf40db26af54ba524725fddcd7d03f3c99bdde9c441f7d06ceca789ab66b243c"
+        }
+      ]
+    },
+    {
+      "name": "CovPageHorizontalStretch_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageHorizontalStretch_true/Ext/Form.xml",
+          "size": 1465,
+          "sha256": "3b3049fdc3b1a7348954d23796638aec8be17c1b13f2593bba0a4351b5028a3b"
+        },
+        {
+          "path": "CommonForms/CovPageHorizontalStretch_true.xml",
+          "size": 1643,
+          "sha256": "2307dba98939c3e386f9b239f4b0ea10c09ff7d4fb63fd35dc159f3c88d560a5"
+        }
+      ]
+    },
+    {
+      "name": "CovPageReadOnly_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageReadOnly_true/Ext/Form.xml",
+          "size": 1447,
+          "sha256": "3d1eb99b3e6419f3cf032b89b8b260b4232c2265eff71596908b55f8e00aed7e"
+        },
+        {
+          "path": "CommonForms/CovPageReadOnly_true.xml",
+          "size": 1634,
+          "sha256": "f8700d7def08bedadb6f64d069c38445f2e0b72e2cca99be8717880ed52eeac7"
+        }
+      ]
+    },
+    {
+      "name": "CovPageScrollOnCompress_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageScrollOnCompress_true/Ext/Form.xml",
+          "size": 1463,
+          "sha256": "a2761c076f5b944dc5ce56ad2ec50e2093e6cc9d22e4df3636d2feb0d2772427"
+        },
+        {
+          "path": "CommonForms/CovPageScrollOnCompress_true.xml",
+          "size": 1642,
+          "sha256": "32c259cfef9d5f9d35675761268a997ae6fea5c20f206d77001264213ef3d1ed"
+        }
+      ]
+    },
+    {
+      "name": "CovPageShowTitle_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageShowTitle_false/Ext/Form.xml",
+          "size": 1450,
+          "sha256": "3785871c3973910bee9bcd97f5791e3bc19cdeb665d674b9bb5b72056dfa938c"
+        },
+        {
+          "path": "CommonForms/CovPageShowTitle_false.xml",
+          "size": 1636,
+          "sha256": "289c78e7f943d0111ac581b983ea60959763e75ea657e19b3f8311ec11d717df"
+        }
+      ]
+    },
+    {
+      "name": "CovPageVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageVerticalAlign_Center/Ext/Form.xml",
+          "size": 1459,
+          "sha256": "15ae32ef43693136a4c74b874ddc42a5ee93ac16b34b7b3a808b3aa04d5d48a1"
+        },
+        {
+          "path": "CommonForms/CovPageVerticalAlign_Center.xml",
+          "size": 1641,
+          "sha256": "d2d1dfaa636479785e05eea329258e083b5dc59bd2cf583f1b937e69befd418a"
+        }
+      ]
+    },
+    {
+      "name": "CovPageVerticalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageVerticalStretch_false/Ext/Form.xml",
+          "size": 1462,
+          "sha256": "2fc426918925507356c361b6166d896035e116542c32d1944d9386fef9c3904b"
+        },
+        {
+          "path": "CommonForms/CovPageVerticalStretch_false.xml",
+          "size": 1642,
+          "sha256": "1fdd7bd5cc647173ca4457f2bb5d08f9975ab7de65fab5ba23d21e14abb43d7f"
+        }
+      ]
+    },
+    {
+      "name": "CovPageVerticalStretch_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPageVerticalStretch_true/Ext/Form.xml",
+          "size": 1461,
+          "sha256": "d718fcf507a892b43af88569fa38e995321429d82809768e8e823d1876a85d8b"
+        },
+        {
+          "path": "CommonForms/CovPageVerticalStretch_true.xml",
+          "size": 1641,
+          "sha256": "71b134b5c619f0e812b0e3418c92fefcd439f87e2f50ee8de8ebab0cc4dd78ee"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureDecorationHyperlink_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureDecorationHyperlink_true/Ext/Form.xml",
+          "size": 1372,
+          "sha256": "bd920c49f7b35b9464fe5b28a286fadc9dd1ef3260cb837cefad3de4734e07f7"
+        },
+        {
+          "path": "CommonForms/CovPictureDecorationHyperlink_true.xml",
+          "size": 1648,
+          "sha256": "3a1cd64232797c8caf3885c94ddeff063266e8faba5deffb8e33515ae07e13a0"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureDecorationPictureSize_ByFontSize",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureDecorationPictureSize_ByFontSize/Ext/Form.xml",
+          "size": 1382,
+          "sha256": "7d12ecb7af00c93b8bf8982964bf84146a26ec8dd225a70482adfb3bc317c441"
+        },
+        {
+          "path": "CommonForms/CovPictureDecorationPictureSize_ByFontSize.xml",
+          "size": 1656,
+          "sha256": "9fb34f8679f8dc0a63a981e2397dd21adb2a33544b74593ae04c8b8643b9eb51"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureDecorationPictureSize_Stretch",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureDecorationPictureSize_Stretch/Ext/Form.xml",
+          "size": 1379,
+          "sha256": "1806b7410d2a4317a21aa15e9696d0cd2351aefd9626bf9be9a20515047a3a4d"
+        },
+        {
+          "path": "CommonForms/CovPictureDecorationPictureSize_Stretch.xml",
+          "size": 1653,
+          "sha256": "3d5dfae82d644bf83b1a8aa405cd658686738ede538d6f8f91ca2ea07b732b1e"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldAutoMaxWidth_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldAutoMaxWidth_false/Ext/Form.xml",
+          "size": 1369,
+          "sha256": "9e156af447c98917b4a2cbaf9d4953d7c251da1ee8082946bc7629346e16e5f1"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldAutoMaxWidth_false.xml",
+          "size": 1647,
+          "sha256": "c2f669b0fa315e7b0338161a0696d2ef5e3774ffe968e10b7d49addaeef8b6c7"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldFileDragMode_AsFile",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldFileDragMode_AsFile/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "f05cf2fc5b2aa6b92c3048c99ef7b1fa15339927bc212d61a5d605640fd82b36"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldFileDragMode_AsFile.xml",
+          "size": 1648,
+          "sha256": "2d9b5baf521d1617dd554421312949373dd79d8ce09212b6dbedc82f39a16494"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldGroupVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldGroupVerticalAlign_Center/Ext/Form.xml",
+          "size": 1382,
+          "sha256": "c06e0cbe1ada8314f8853a89d60b93bd28b9be5c5bbbe46424212cf70aeacf1b"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldGroupVerticalAlign_Center.xml",
+          "size": 1654,
+          "sha256": "23e99671e9178bc87dd9486f250b6dda88aa5040eb3d46760addc1d64ed39e36"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldHeight_1/Ext/Form.xml",
+          "size": 1353,
+          "sha256": "b1db0af3cdb88a981e7bc6706fb9987c8e2c769dae35dc40f6c824e91ff8b7ff"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldHeight_1.xml",
+          "size": 1637,
+          "sha256": "7f2613444e4e42286eec0215d730f6098e57df08c1d21a6f0a11638b47270532"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldHeight_7",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldHeight_7/Ext/Form.xml",
+          "size": 1353,
+          "sha256": "45a3c9654d0fd3fadd6f4ce6985ab1e8004d5cb36fb2160165e76018f888480c"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldHeight_7.xml",
+          "size": 1637,
+          "sha256": "3df8eeb55711f93edc7bd8125cac5ef4681cfcd63c4a4722630fdcd874ddcb40"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldHorizontalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldHorizontalStretch_false/Ext/Form.xml",
+          "size": 1379,
+          "sha256": "ddcc969b02dbd66c89d3546f5ad4e0899154b784a50fef43c972b9f67f0f5870"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldHorizontalStretch_false.xml",
+          "size": 1652,
+          "sha256": "2689ed8801f69031002a13a3725ffcb1f9e02113a3277f75238357d5c4621fe2"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldHyperlink_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldHyperlink_true/Ext/Form.xml",
+          "size": 1362,
+          "sha256": "c8d1e8eb0017c8c3a38688fdd9cd6c3845771582cbd71c0cdc0879dc3daa7a7b"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldHyperlink_true.xml",
+          "size": 1643,
+          "sha256": "894e37d4b01bf540234dfc66ff5c3419f36c3c9dd81ae261b4b6626cbfd79b86"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldPictureSize_AutoSize",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldPictureSize_AutoSize/Ext/Form.xml",
+          "size": 1370,
+          "sha256": "1c4c8f89e3d423798745d44ee103711bdbdc1ef6039b68362a848b70a0cd955e"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldPictureSize_AutoSize.xml",
+          "size": 1649,
+          "sha256": "08b28ef097986d12025361715f80656892cc2978feb27e4e98aa95af9adc5b3f"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldPictureSize_Proportionally",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldPictureSize_Proportionally/Ext/Form.xml",
+          "size": 1376,
+          "sha256": "76c14b13cfef91278c65310cd83c8b2e4e088d85a6bcaa48cde57598e5c308ba"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldPictureSize_Proportionally.xml",
+          "size": 1655,
+          "sha256": "9f178ef642c59dacb96efe14b9f9948df41f1a9f77c8f38787212a723e3f3def"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldReadOnly_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldReadOnly_true/Ext/Form.xml",
+          "size": 1360,
+          "sha256": "6dd67bc4e3aa0b3247b61ff932beddf6c5370ba5634bfd2fd851ea184b6af650"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldReadOnly_true.xml",
+          "size": 1642,
+          "sha256": "accde982a6326e6988342815b1fbb0d470cb188e9ae151e363aca347317b16e3"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldSkipOnInput_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldSkipOnInput_true/Ext/Form.xml",
+          "size": 1366,
+          "sha256": "b9ab115c8fb1535d1b945458350950e834e3d3c4aba43acbed57f9570e490f06"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldSkipOnInput_true.xml",
+          "size": 1645,
+          "sha256": "e507cbf78d4181ae12085e7db28a5fef9246d74deeffd2535b9b632d56611e73"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldToolTipRepresentation_ShowBottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldToolTipRepresentation_ShowBottom/Ext/Form.xml",
+          "size": 1392,
+          "sha256": "ab1a559553bfeea6fd4b798eba20556787aab77468fc53c9a94245c435e9c4a5"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldToolTipRepresentation_ShowBottom.xml",
+          "size": 1661,
+          "sha256": "479d135b709262a001b7c62d487583f70a8b49766be25123d98c3d212fd44106"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldVerticalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldVerticalStretch_false/Ext/Form.xml",
+          "size": 1375,
+          "sha256": "3e13845060321960bbfd38fda2a48dfd794e15e504a277f5d08acc30535519fd"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldVerticalStretch_false.xml",
+          "size": 1650,
+          "sha256": "a933eea71a90f12534dfd05bcc3e0a0ad69bfde2ffff4933235c80387656d443"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldVisible_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldVisible_false/Ext/Form.xml",
+          "size": 1359,
+          "sha256": "b6790adf280a6e7a3c2ab54ee8f71c89a4eabda6415c2c9f531a0cdc867e493c"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldVisible_false.xml",
+          "size": 1642,
+          "sha256": "a898a550cfb229a0806e62e2c4bc820d7e7abb04cc42e3d549fdfa200ab0bb5e"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldWidth_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldWidth_2/Ext/Form.xml",
+          "size": 1351,
+          "sha256": "32781fe5428c6f0476677a2aa87decdbaa359531f87d92d29dece0c11a18b158"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldWidth_2.xml",
+          "size": 1636,
+          "sha256": "df38dbe5ea70d495dfcb4b54bdf038fdf4868843a1472014d084db2e6e4e91f7"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldWidth_41",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldWidth_41/Ext/Form.xml",
+          "size": 1352,
+          "sha256": "847a8cee883d7851e4a00e62b81fefd4152f9a8c5d48581ad996aec20c5f0cdd"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldWidth_41.xml",
+          "size": 1637,
+          "sha256": "1672f70fa1c95b87c48940bb5b2eb42b17297f78aed87152fdb4967f1a79d80d"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureFieldWidth_75",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureFieldWidth_75/Ext/Form.xml",
+          "size": 1352,
+          "sha256": "464de2c46504dc69960943491dbbc56fc2943b07d5474e5a8cbcc4aa539cf14d"
+        },
+        {
+          "path": "CommonForms/CovPictureFieldWidth_75.xml",
+          "size": 1637,
+          "sha256": "41c1cfa7ee30f74419fdf02fe7b6bc581dfc3d445a75768b797c74dcc79e8a29"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldColumnsCount_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldColumnsCount_1/Ext/Form.xml",
+          "size": 1417,
+          "sha256": "709634d31278c70a91eca872d8ce653b717956122c6b25b05d8756d5df4b29e4"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldColumnsCount_1.xml",
+          "size": 1647,
+          "sha256": "00e877954ff01abf1b3c5ea87038953fadd95606c496b79835da6ebe54fd5532"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldColumnsCount_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldColumnsCount_2/Ext/Form.xml",
+          "size": 1417,
+          "sha256": "6fcfd6ccbefe9253f2e0e4cf3e31a4f5db89e9d9f9747d35fcb861cc6f2e9566"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldColumnsCount_2.xml",
+          "size": 1647,
+          "sha256": "e2096ecbedbe03d461a06ba700d44a326f2d9376f27a0ba79d72f2bbfdd682c5"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldEqualColumnsWidth_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldEqualColumnsWidth_true/Ext/Form.xml",
+          "size": 1430,
+          "sha256": "5bbfa4f7027fababac5d7e6c734dede8913dde679db7a029268c095bf3d7c89d"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldEqualColumnsWidth_true.xml",
+          "size": 1655,
+          "sha256": "f55b74b027043726b91850b6d73c4f110b02f3ab29cd1ecd2d2999b4aa29abec"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldItemWidth_10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldItemWidth_10/Ext/Form.xml",
+          "size": 1412,
+          "sha256": "3b5dc4bb124fa96d59de93844c25ac912d575dff4a0d8eb00b72e52078457d30"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldItemWidth_10.xml",
+          "size": 1645,
+          "sha256": "dde4058a38067cd03f6fd09c4888a50b851b94c66ce812abb5a5db08030ba40e"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldRadioButtonType_Auto",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_Auto/Ext/Form.xml",
+          "size": 1382,
+          "sha256": "2030f8aa16314fb1aa8db0e7e963788a0ac5820fb22f63ea6931cd9d40b711ba"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_Auto.xml",
+          "size": 1653,
+          "sha256": "a9a71129d585bd7341b0a4747e5ec98ae13254ba3730431cf6d69bde9fdf5700"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldRadioButtonType_RadioButtons",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_RadioButtons/Ext/Form.xml",
+          "size": 1390,
+          "sha256": "5dd42337812a359c807d9a9510352e6545f738b05dec88ea3fa9dacf091f41dc"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_RadioButtons.xml",
+          "size": 1661,
+          "sha256": "cc50fa8d4e24adf972321c867ecd025f2099f2bc9dfaa82e87bd324abed59a0c"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldRadioButtonType_Tumbler",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_Tumbler/Ext/Form.xml",
+          "size": 1385,
+          "sha256": "9d98dc89c92549e22b1356e49c374068de7387209feafea9f711fa6991a95a27"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldRadioButtonType_Tumbler.xml",
+          "size": 1656,
+          "sha256": "cd1b7208027091f94cce8122a6ed1ecee0bd344264c8a9508ae82e1b6dd279a9"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldTitleHeight_3",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldTitleHeight_3/Ext/Form.xml",
+          "size": 1415,
+          "sha256": "a5d058179eec5906e7e649d6033cf32a9520230aa6e01c4e2675fda4754e27fb"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldTitleHeight_3.xml",
+          "size": 1646,
+          "sha256": "fa36e110657acf4ac9d8f3ca3d19644a8aaf057e196006c51e675ca711ebaf95"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldToolTipRepresentation_Button",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldToolTipRepresentation_Button/Ext/Form.xml",
+          "size": 1440,
+          "sha256": "345af851ac21ec963d2ffeb93feb79fe9784639e87d9cc7e119c64c1442d6ab1"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldToolTipRepresentation_Button.xml",
+          "size": 1661,
+          "sha256": "c029a65b9fb407b5304deff389019130c81ca89709f939fec4f19f96ebc07b39"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldToolTipRepresentation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldToolTipRepresentation_None/Ext/Form.xml",
+          "size": 1438,
+          "sha256": "9e2259efa94b935dab189d67ce928254c7066c7eee77c0f434b2a8a99239042a"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldToolTipRepresentation_None.xml",
+          "size": 1659,
+          "sha256": "2dd1837202b182f33faddd2f756ca4ac35d0b90003aa2c8451a53cc41d500183"
+        }
+      ]
+    },
+    {
+      "name": "CovRadioButtonFieldVisible_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovRadioButtonFieldVisible_false/Ext/Form.xml",
+          "size": 1411,
+          "sha256": "03f586b5d1ed358171eae4f9dff7f1f4f4145a0874c3e17c607a1fc6cddd9adc"
+        },
+        {
+          "path": "CommonForms/CovRadioButtonFieldVisible_false.xml",
+          "size": 1646,
+          "sha256": "f8005885bb43502d4d7a33a3bad3a13a1c00f712c7b3b5f391656b6d7d49c9d1"
+        }
+      ]
+    },
+    {
+      "name": "CovTableAutoAddIncomplete_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableAutoAddIncomplete_false/Ext/Form.xml",
+          "size": 2741,
+          "sha256": "3496b8f1e36994a835f7f149409af40e9ae95d9dd4d3eda6bd6fc715973c6d5b"
+        },
+        {
+          "path": "CommonForms/CovTableAutoAddIncomplete_false.xml",
+          "size": 1645,
+          "sha256": "442d5495984a36479cf85de0cbd76015d9b65bc76d7e370f532858ce0bb1beac"
+        }
+      ]
+    },
+    {
+      "name": "CovTableAutoInsertNewRow_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableAutoInsertNewRow_true/Ext/Form.xml",
+          "size": 2738,
+          "sha256": "8495b7c64cb4c2e3c2330d4d989872d6468827a4d7c05140f71794f196da960b"
+        },
+        {
+          "path": "CommonForms/CovTableAutoInsertNewRow_true.xml",
+          "size": 1643,
+          "sha256": "4a619ae84a2a978bcfdd5ddea551574b1dfe9beaece96aa6c21c06817f80eb15"
+        }
+      ]
+    },
+    {
+      "name": "CovTableChangeRowOrder_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableChangeRowOrder_false/Ext/Form.xml",
+          "size": 2735,
+          "sha256": "12074b80a3d9867eaa3e069a572aa3e28a1903e6e6e48eef41919afae7487188"
+        },
+        {
+          "path": "CommonForms/CovTableChangeRowOrder_false.xml",
+          "size": 1642,
+          "sha256": "c63213faeba9899575440956d0e2b1e5245edc375e6a33c96ffd858869c47d31"
+        }
+      ]
+    },
+    {
+      "name": "CovTableChangeRowSet_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableChangeRowSet_false/Ext/Form.xml",
+          "size": 2731,
+          "sha256": "87eefa7475eb10988d65ed63625417a721324c89769c5ec20cd4a1eda32163c9"
+        },
+        {
+          "path": "CommonForms/CovTableChangeRowSet_false.xml",
+          "size": 1640,
+          "sha256": "ec97864e04333831b025e8239013ed9bf5cf6be58fd1a5f8f00082f899c9f062"
+        }
+      ]
+    },
+    {
+      "name": "CovTableCommandBarLocation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableCommandBarLocation_None/Ext/Form.xml",
+          "size": 2742,
+          "sha256": "cae710522c81dfeb360bc2ad440ef9bc0b8668e1aa98afc647dec5a026ce8202"
+        },
+        {
+          "path": "CommonForms/CovTableCommandBarLocation_None.xml",
+          "size": 1645,
+          "sha256": "976a0868197f4f2032eadf53c941a132d94b8348fb09b0a869c682b79f9cb6c8"
+        }
+      ]
+    },
+    {
+      "name": "CovTableCurrentRowUse_SelectionPresentationAndChoice",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableCurrentRowUse_SelectionPresentationAndChoice/Ext/Form.xml",
+          "size": 2758,
+          "sha256": "97c6d7a5afee7ef824b995e7407c2ae66c9685f215b7cc0fa9d1cac79a7bce2b"
+        },
+        {
+          "path": "CommonForms/CovTableCurrentRowUse_SelectionPresentationAndChoice.xml",
+          "size": 1666,
+          "sha256": "b108b147d4a4d8b0beaec2f0cfdc3571150fa58417ea0cd5b837f1849d0d89f6"
+        }
+      ]
+    },
+    {
+      "name": "CovTableEnableDrag_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableEnableDrag_true/Ext/Form.xml",
+          "size": 2726,
+          "sha256": "0b1ef1c09cf29b4b7822cb7a6819495f130b43b619c8f5c99b521f53c0812ed2"
+        },
+        {
+          "path": "CommonForms/CovTableEnableDrag_true.xml",
+          "size": 1637,
+          "sha256": "ee0ac5fa92c667972eb37b0fe170357c8c422a37126c24372a4c4a680c82eed2"
+        }
+      ]
+    },
+    {
+      "name": "CovTableEnableStartDrag_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableEnableStartDrag_true/Ext/Form.xml",
+          "size": 2736,
+          "sha256": "3b27b52df5b627e5418bf6de6edd5db14671bed0e2ad6aac22bd8d5e6f0c119f"
+        },
+        {
+          "path": "CommonForms/CovTableEnableStartDrag_true.xml",
+          "size": 1642,
+          "sha256": "061d0263edb9d5ab998a01a85991c86799795c32601e7749aae99047f2263884"
+        }
+      ]
+    },
+    {
+      "name": "CovTableFooter_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableFooter_true/Ext/Form.xml",
+          "size": 2718,
+          "sha256": "4d4dedf768d541481df89c37ea97f733397f28d8f40d7e6f2a6f013bb9b26087"
+        },
+        {
+          "path": "CommonForms/CovTableFooter_true.xml",
+          "size": 1633,
+          "sha256": "1765484715ef60f89aaea84469593525a3f85a827da89e025ce5f7c036abf178"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHeader_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHeader_false/Ext/Form.xml",
+          "size": 2719,
+          "sha256": "4e3c7a390cdc4cad479bb13f8616141d350d9bfc5efdd98f16507a3ee9eb4fdd"
+        },
+        {
+          "path": "CommonForms/CovTableHeader_false.xml",
+          "size": 1634,
+          "sha256": "2e95c8bb5f235f6c76b1683ec8a8a418690980a261a0bf059f2ed60415468e41"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHeight_1/Ext/Form.xml",
+          "size": 2715,
+          "sha256": "001c1d38530e7efad6fee2ff140ee8e4dcd80445a7d158e79b4e12b264d80b8c"
+        },
+        {
+          "path": "CommonForms/CovTableHeight_1.xml",
+          "size": 1630,
+          "sha256": "c45f84fdf6df225364a11c160a07d79cad70fa8ad5bd14fb1eb331dbc3ea769f"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHeightControlVariant_UseContentHeight",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHeightControlVariant_UseContentHeight/Ext/Form.xml",
+          "size": 2758,
+          "sha256": "8f83640f4fabcae4125f6a5d57a44d828e9251eea1ce012ea4251ba87b8f73ef"
+        },
+        {
+          "path": "CommonForms/CovTableHeightControlVariant_UseContentHeight.xml",
+          "size": 1659,
+          "sha256": "68f4876c80336228641e4a063bc28a2b3e2048c386daee7a5ccccff2aac6b153"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHorizontalLines_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHorizontalLines_false/Ext/Form.xml",
+          "size": 2743,
+          "sha256": "ca1f445e98527d2d379869d343e46ef20b869b107632d82884a3c9c0295de4ab"
+        },
+        {
+          "path": "CommonForms/CovTableHorizontalLines_false.xml",
+          "size": 1643,
+          "sha256": "47ce049af08985c7273c2b5f8a74c4e1e4ea2635ae9eab410db5fd1b7dbb03b0"
+        }
+      ]
+    },
+    {
+      "name": "CovTableHorizontalScrollBar_DontUse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableHorizontalScrollBar_DontUse/Ext/Form.xml",
+          "size": 2747,
+          "sha256": "8a6ca1d8cdfa03cf877b641c7ced8edaad8fc21f3dbe7ff2fc26d6cd6a778007"
+        },
+        {
+          "path": "CommonForms/CovTableHorizontalScrollBar_DontUse.xml",
+          "size": 1649,
+          "sha256": "d3f1d41a447b04e07f164f010f178987a94b25047f717767d51a27dcb6c0f304"
+        }
+      ]
+    },
+    {
+      "name": "CovTableReadOnly_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableReadOnly_true/Ext/Form.xml",
+          "size": 2722,
+          "sha256": "653c9a4bc76bc87edee17389e16cc5c68411fb9fdfa3c784b36f8c3a680b888a"
+        },
+        {
+          "path": "CommonForms/CovTableReadOnly_true.xml",
+          "size": 1635,
+          "sha256": "49bd46f7ea0d61cd08bc595a4c64244a73d03604b24ea170b1fc67f2ad41c9f2"
+        }
+      ]
+    },
+    {
+      "name": "CovTableRepresentation_List",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableRepresentation_List/Ext/Form.xml",
+          "size": 2734,
+          "sha256": "732e21b897851dd33e24c7be6f0b2c4b9d02594201e307873aec73e33880866b"
+        },
+        {
+          "path": "CommonForms/CovTableRepresentation_List.xml",
+          "size": 1641,
+          "sha256": "ddbbc3ddd4ebb6797d8862ba630a1af2dbea5deb8377307d7a987ee019df271c"
+        }
+      ]
+    },
+    {
+      "name": "CovTableRowSelectionMode_Row",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableRowSelectionMode_Row/Ext/Form.xml",
+          "size": 2737,
+          "sha256": "f2ae8abb11a813887f26fad40ad916a6f00387457f4b2addd86f9485d4add583"
+        },
+        {
+          "path": "CommonForms/CovTableRowSelectionMode_Row.xml",
+          "size": 1642,
+          "sha256": "56d3eb46aeb318742b5e58e989fd492ca37e361530c3023bc2a1e07d831d35b1"
+        }
+      ]
+    },
+    {
+      "name": "CovTableSearchControlLocation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableSearchControlLocation_None/Ext/Form.xml",
+          "size": 2748,
+          "sha256": "cd2d51445c0cb57b79bb599cb6bf5c9bb08aac9550182a4ee8454c36f6b0ea8a"
+        },
+        {
+          "path": "CommonForms/CovTableSearchControlLocation_None.xml",
+          "size": 1648,
+          "sha256": "61d3d67150df143e0bf32d45aa521801502beb8a53660dee705f5813278da8dc"
+        }
+      ]
+    },
+    {
+      "name": "CovTableSearchStringLocation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableSearchStringLocation_None/Ext/Form.xml",
+          "size": 2746,
+          "sha256": "dac71e01d02a23acb397f7fdf52f5c65889b177693f1ebdf82f4c2abd85ce9c9"
+        },
+        {
+          "path": "CommonForms/CovTableSearchStringLocation_None.xml",
+          "size": 1647,
+          "sha256": "d2f24d3d9ecce49f73860fa9ad871c2c490aa253e98649dea0a8be03a20c6bb7"
+        }
+      ]
+    },
+    {
+      "name": "CovTableSelectionMode_SingleRow",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableSelectionMode_SingleRow/Ext/Form.xml",
+          "size": 2737,
+          "sha256": "37d33b38687d970bd3d6ec78c6ad1bbcbbdd3928a7c541fc5114ce7e06d9f71d"
+        },
+        {
+          "path": "CommonForms/CovTableSelectionMode_SingleRow.xml",
+          "size": 1645,
+          "sha256": "d891c7ce4ad3e0edf07d2f3d403758ce2de731262ee5e01fc5e710298e17dc77"
+        }
+      ]
+    },
+    {
+      "name": "CovTableSkipOnInput_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableSkipOnInput_false/Ext/Form.xml",
+          "size": 2729,
+          "sha256": "8dc7cdbc166b166542983718b345a4f3a09419964c9c7c02a3c8f0ef592c5b4a"
+        },
+        {
+          "path": "CommonForms/CovTableSkipOnInput_false.xml",
+          "size": 1639,
+          "sha256": "cdfdad3f5a6c5f25f02b2caf92e631c8f3bbdceffabdde814f443a934c8edf9e"
+        }
+      ]
+    },
+    {
+      "name": "CovTableTitleLocation_Top",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableTitleLocation_Top/Ext/Form.xml",
+          "size": 2731,
+          "sha256": "a6fec6e65026f71781047d76125500798247f807aba424e385551c3df51e5f6a"
+        },
+        {
+          "path": "CommonForms/CovTableTitleLocation_Top.xml",
+          "size": 1639,
+          "sha256": "be8c3e9be8037db692c9ecf577a6e6b87f0890732bca2cd73ee209adeca5b0e8"
+        }
+      ]
+    },
+    {
+      "name": "CovTableVerticalLines_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableVerticalLines_false/Ext/Form.xml",
+          "size": 2739,
+          "sha256": "ec3a312298c0f6217d8be7135c16bcd3ca736b8d1eeb2c96d47f042b9ec9ce9d"
+        },
+        {
+          "path": "CommonForms/CovTableVerticalLines_false.xml",
+          "size": 1641,
+          "sha256": "9cafebbfd11559a54602c8c97514b8346ef95b70a7100b7cb1ada769e263fba2"
+        }
+      ]
+    },
+    {
+      "name": "CovTableViewStatusLocation_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableViewStatusLocation_None/Ext/Form.xml",
+          "size": 2742,
+          "sha256": "4aeccbf6b907bf70e1f17450bf7a5445c9176a36b2bda480a5fdc57f1ef9b689"
+        },
+        {
+          "path": "CommonForms/CovTableViewStatusLocation_None.xml",
+          "size": 1645,
+          "sha256": "acb26917a77ebdce4717aaa10d6d1371adefcff610967139efba5a0bb6fe4730"
+        }
+      ]
+    },
+    {
+      "name": "CovTableVisible_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableVisible_false/Ext/Form.xml",
+          "size": 2721,
+          "sha256": "22ea4ef7691e86263ff31e7f88aa4d44edced7af28929d5956bc77eb2cb8046e"
+        },
+        {
+          "path": "CommonForms/CovTableVisible_false.xml",
+          "size": 1635,
+          "sha256": "89ed384fa69ace3d79852e7e76542606db6c6cf458be89933fd0e7b079d414e7"
+        }
+      ]
+    },
+    {
+      "name": "CovTableWidth_51",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovTableWidth_51/Ext/Form.xml",
+          "size": 2714,
+          "sha256": "03908d6cb41a86dec95999c91d534e968e714edc375b6b9d66bd7d2f09a4313d"
+        },
+        {
+          "path": "CommonForms/CovTableWidth_51.xml",
+          "size": 1630,
+          "sha256": "92ed2278ef6263bc2d86e7cd52e3d15ad2278bb53ed2644fbc47384275886767"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupBehavior_Collapsible",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_Collapsible/Ext/Form.xml",
+          "size": 1294,
+          "sha256": "a7661df4fbcdac954fde0e41f86d653615ee1a994baf6faf9b388c72f617832f"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_Collapsible.xml",
+          "size": 1647,
+          "sha256": "5b7979e99bf315335d9a386bf8a56d48867b4674419b15f8d7a219a9de509277"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupBehavior_PopUp",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_PopUp/Ext/Form.xml",
+          "size": 1288,
+          "sha256": "e066b2e978a9300532efa9305f71c2c563ddbe7c02e5fc84cce61f9173b7dcb0"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_PopUp.xml",
+          "size": 1641,
+          "sha256": "f91408f4bdcde6443d84790311d1995497d15fe537f443e75ca4039705911c5c"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupBehavior_Usual",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_Usual/Ext/Form.xml",
+          "size": 1288,
+          "sha256": "e482c9b2769d0af9f00e38829991d84e040f84cf83c01d9dfef2a53e2c4b2789"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupBehavior_Usual.xml",
+          "size": 1641,
+          "sha256": "98a9591a9132d353d4829f850485e1262ee093dd7f055e8c9e2f1c152fe48b45"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupChildItemsWidth_Equal",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupChildItemsWidth_Equal/Ext/Form.xml",
+          "size": 1302,
+          "sha256": "336efe6673b2e8a86fa468cef4ade449e192be585b4e42c6dee72ff70600bfe6"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupChildItemsWidth_Equal.xml",
+          "size": 1648,
+          "sha256": "7af518eeced03e06e347a9ecec3ddbbf79b22dc0599d129d07ac1dc7cd25ea2f"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupChildrenAlign_ItemsLeftTitlesLeft",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupChildrenAlign_ItemsLeftTitlesLeft/Ext/Form.xml",
+          "size": 1312,
+          "sha256": "87c84daff02a58520148d1c7e8eb4ee85bd4d406fa712967de857e0d02643670"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupChildrenAlign_ItemsLeftTitlesLeft.xml",
+          "size": 1660,
+          "sha256": "e2d0740148bed1b221b5a798b18000b4ca8837507d36ab3c8c746687bc91456a"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupCollapsed_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupCollapsed_true/Ext/Form.xml",
+          "size": 1289,
+          "sha256": "79e83075b74740a5efb00d5987435836ff5d86e50ed8c69629ce605d204c1312"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupCollapsed_true.xml",
+          "size": 1641,
+          "sha256": "e2308a0fefcc6fa389d022186e727bff6e116786a6d19b7942b8d6fa2347e2dd"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupControlRepresentation_Picture",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupControlRepresentation_Picture/Ext/Form.xml",
+          "size": 1315,
+          "sha256": "01c9a2979eda7af0cf0a35541a4cb885efcdf9b47ac2a91eab58433f6437c884"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupControlRepresentation_Picture.xml",
+          "size": 1656,
+          "sha256": "29f4da29c1a6c6f492ed1ca5775fab03e67ac301100a09496371f99c875c5918"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupEnableContentChange_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupEnableContentChange_true/Ext/Form.xml",
+          "size": 1309,
+          "sha256": "9ede980d38070b1e9d4a100a17cea25ee0c34ea19b40764252c41551809cc816"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupEnableContentChange_true.xml",
+          "size": 1651,
+          "sha256": "05d0df3870c0b07807085f90ac5a5c5de0121825f487935c91b98443d3e6c387"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupGroupHorizontalAlign_Left",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupGroupHorizontalAlign_Left/Ext/Form.xml",
+          "size": 1311,
+          "sha256": "40d903bc20901faf4bdb4f8d760edf7805f8859c765fe01fe1ef6525e2582211"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupGroupHorizontalAlign_Left.xml",
+          "size": 1652,
+          "sha256": "3b30eb58a8fb2062f09ca53feea3d922c85b19db122e71c50258a484bb4c183f"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupGroupHorizontalAlign_Right",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupGroupHorizontalAlign_Right/Ext/Form.xml",
+          "size": 1312,
+          "sha256": "395e6b189189bfd442d972f6f970b85a39406da90401dbc4217db9ebbfb736b3"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupGroupHorizontalAlign_Right.xml",
+          "size": 1653,
+          "sha256": "9d0ab23f98060d0998b435914309988ad4d0e228d03c416a8c4b5dc38103cf64"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupGroupVerticalAlign_Bottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupGroupVerticalAlign_Bottom/Ext/Form.xml",
+          "size": 1309,
+          "sha256": "a7ec33cd0295ce9747af992c573f84d7cb756aa96a2bf6f7c866a5a4c5e1b5a1"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupGroupVerticalAlign_Bottom.xml",
+          "size": 1652,
+          "sha256": "0e17c653ba4e9e15eafd35f8fd9915374a14826572f7fe1be47bbb9cfcac1fc5"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupGroupVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupGroupVerticalAlign_Center/Ext/Form.xml",
+          "size": 1309,
+          "sha256": "27626d9028c811e2a9e96588222b97721fbd619f03c01a0328274395b12c1268"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupGroupVerticalAlign_Center.xml",
+          "size": 1652,
+          "sha256": "4e02e63e5be63701536b106c2b2ffb461b72714b32a838c4a776fc861ee2d5f1"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHeight_1",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHeight_1/Ext/Form.xml",
+          "size": 1280,
+          "sha256": "2720494b23b235a8556364d998153f871b19af2efede31062e83ab30d6b19901"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHeight_1.xml",
+          "size": 1635,
+          "sha256": "97967c4cbd3cb411ebc2a9327cd7727f144a0eef58a0fa32baca773d501a11e8"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHeight_10",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHeight_10/Ext/Form.xml",
+          "size": 1281,
+          "sha256": "25a1654eae3260246a9cb47422d0e437176b18c017414c610ad8b8803252e7a1"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHeight_10.xml",
+          "size": 1636,
+          "sha256": "942d3f20cdc9b1e8e35b4792c6ae5dcb78082ea3d4073f9a83c8dc7c4ebc0324"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHeight_15",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHeight_15/Ext/Form.xml",
+          "size": 1281,
+          "sha256": "c8ea487aa84b3f25f65c334237918a74bf80040aeda1f471b9dc768a1741e6a0"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHeight_15.xml",
+          "size": 1636,
+          "sha256": "dc1c7487a26fdddf7cc80b7371f81182b584f45563f4c4dfde33879873d5a676"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHeight_2",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHeight_2/Ext/Form.xml",
+          "size": 1280,
+          "sha256": "62d3afc6e6879e6281aff84b049dd42038f1107c8b1ca9cd870a2fca6283048a"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHeight_2.xml",
+          "size": 1635,
+          "sha256": "db9e5b69836508b11354bf4c51f1c6682d3c4d88aa08f55e09c215fd2922ae16"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Center/Ext/Form.xml",
+          "size": 1303,
+          "sha256": "1df3365669443252324a220c7b63b7d06a8e39cc64de1aaa368ca0aa0237e747"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Center.xml",
+          "size": 1649,
+          "sha256": "74380839598aa037de539e56571dc50b966283c91b53efc3ad983b50fa4469eb"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalAlign_Left",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Left/Ext/Form.xml",
+          "size": 1301,
+          "sha256": "ba5a1e0213d0ab419b7f54243ebd04eeadc46b376344880c22b90c718e5b4595"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Left.xml",
+          "size": 1647,
+          "sha256": "4e764603c10b6a491485f40f98d20010a970633ad2bef1181c2db96dde54c6cc"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalAlign_Right",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Right/Ext/Form.xml",
+          "size": 1302,
+          "sha256": "ca6f9ae9818871aae10026d1027e0f866b691cd1ce4e6d1c966a997576a2204c"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalAlign_Right.xml",
+          "size": 1648,
+          "sha256": "887ee508a55ce423e2ee9f48c901ee555f4e0cd1b525000e9544da6b0c085e0c"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalSpacing_Double",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Double/Ext/Form.xml",
+          "size": 1307,
+          "sha256": "6b735bf3188f7cbf0b0d6bbc685d7430aec2a3634da9fcc46a1782dbcfb3fc35"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Double.xml",
+          "size": 1651,
+          "sha256": "7fac9aee38a70cc63c8bfb91a8473b0e08f24a45d6883bf3ca9bf73a22c1f8c8"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalSpacing_Half",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Half/Ext/Form.xml",
+          "size": 1305,
+          "sha256": "a3d2b91b40986845c3a7097f582b7979b7bc050378ee719129275b3976ae83e2"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Half.xml",
+          "size": 1649,
+          "sha256": "7f26b5ca9979774a040f978e369c02a41a98a66f62fed72e3d9e2ae07f688dc5"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalSpacing_None",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_None/Ext/Form.xml",
+          "size": 1305,
+          "sha256": "27d57b3cba09c440cfd781694b154dc4b327bb61523b6e0ee2c0712ac900923a"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_None.xml",
+          "size": 1649,
+          "sha256": "380b911aa19f4b98c7711184c2ee45788d454f94b5aebae5e961d0ef94912c50"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalSpacing_Single",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Single/Ext/Form.xml",
+          "size": 1307,
+          "sha256": "37e0d2b9c25da1c4909381fbecc7c2bf33aae3d4dcd5a996d5c55c5c63ea1c7b"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalSpacing_Single.xml",
+          "size": 1651,
+          "sha256": "5da6e58a6ba1a014e326438461ba69c39daa9108bf3f1a0d48495ec4bdc4b18e"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalStretch_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalStretch_false/Ext/Form.xml",
+          "size": 1306,
+          "sha256": "e2b960fa8fbc32286ed924ab6d8d2b7f1441137b2077d486caef9d94226aa55b"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalStretch_false.xml",
+          "size": 1650,
+          "sha256": "fcc0348436a298f74ea585508b3b0a8614c804bcc6070546b9638c7ab1a0f4cf"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupHorizontalStretch_true",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalStretch_true/Ext/Form.xml",
+          "size": 1305,
+          "sha256": "b450d205e6549bc53d62e56a4049cc7a86b03b0e88bdc1b60a68d1b0deed9e6d"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupHorizontalStretch_true.xml",
+          "size": 1649,
+          "sha256": "30561f6ed3b33096493863e86896ba512211eda97290d8555a3177224dea312d"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupShortcut_F5",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupShortcut_F5/Ext/Form.xml",
+          "size": 1285,
+          "sha256": "30ede21595d0727398ce3714bc1066cc9a7cb6e213e2d2755f16b288b5ce350a"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupShortcut_F5.xml",
+          "size": 1638,
+          "sha256": "0fb2e38a568fae1bcb05f9794f06c0ff625efdac014909419a5a427e11b89a16"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupShowLeftMargin_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupShowLeftMargin_false/Ext/Form.xml",
+          "size": 1300,
+          "sha256": "700a0c69ee709e5c324af13c0753d9a70200d6d43931d1ad431ae55ee691daed"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupShowLeftMargin_false.xml",
+          "size": 1647,
+          "sha256": "f160609ae8805c847a6c2d2472877215514bba805be4257465943e6fbc4fa319"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupShowTitle_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupShowTitle_false/Ext/Form.xml",
+          "size": 1290,
+          "sha256": "bc4bf0834e58607677b86f4b18a7a04d9de7a81c9931818c4a79232ddfdab612"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupShowTitle_false.xml",
+          "size": 1642,
+          "sha256": "53cc1e96a6d3cf33c7242ba5b408bd76f59f7a5dc4a1d58b545c0ece42186112"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupThroughAlign_DontUse",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupThroughAlign_DontUse/Ext/Form.xml",
+          "size": 1298,
+          "sha256": "d9ae7a6400ecca9db478ec6db6c00757c822ed8eab5f7432e06a0adca731647c"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupThroughAlign_DontUse.xml",
+          "size": 1647,
+          "sha256": "ed1118631189d0350c9a158705faa5697cbf59d0d85365e959a1a5eb4125dcc7"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupThroughAlign_Use",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupThroughAlign_Use/Ext/Form.xml",
+          "size": 1294,
+          "sha256": "54fbdf7ceecd177b842962e6d641ec23e4ea2d4ed2b2d390bc3147c66b76b027"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupThroughAlign_Use.xml",
+          "size": 1643,
+          "sha256": "15bbfe5fc46ef4369a96237b7529a530e3e19347e218c7256159edf6e53ea253"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupTitleTextColor_#333333",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupTitleTextColor_#333333/Ext/Form.xml",
+          "size": 1302,
+          "sha256": "3f2d875d2cb3bec04427c14227b316927688329ddb46c04a4492c923e3504086"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupTitleTextColor_#333333.xml",
+          "size": 1649,
+          "sha256": "edeffcb091e1a48b6663224229da9b7f62deacaef53bb33c91d7b8f8f3f6d63f"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupUnited_false",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupUnited_false/Ext/Form.xml",
+          "size": 1284,
+          "sha256": "aed939d241383f6c9a76dc2e8d25100c544f5aecdde1af911f4d795a0f4b0afa"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupUnited_false.xml",
+          "size": 1639,
+          "sha256": "f345bf58582fc0d9fda4aa4c29bc34404b3a60087d59969a7df071f917fa74e8"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupVerticalAlign_Bottom",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Bottom/Ext/Form.xml",
+          "size": 1299,
+          "sha256": "364023af77a21d8b67b9d293fa0142e4839c7f4676f59472364e6f969cdd9ad2"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Bottom.xml",
+          "size": 1647,
+          "sha256": "f0f9fc268e24509a4f5aab05e2822cb2ecebe052e8b820f7b32b78a9e7b7aa29"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupVerticalAlign_Center",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Center/Ext/Form.xml",
+          "size": 1299,
+          "sha256": "ead5576872eac80da64c05b7653f0b4bfca79feba892f79ec804fac0f7e0fa07"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Center.xml",
+          "size": 1647,
+          "sha256": "115edfd2255e46d88413516cf45453dcf0d3166fd1f169d82cb0237d7420a87a"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupVerticalAlign_Top",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Top/Ext/Form.xml",
+          "size": 1296,
+          "sha256": "8c1f76a98407d1fd2818b0bbc3e1e58f091c97b202a70d174e25740459fca1bf"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupVerticalAlign_Top.xml",
+          "size": 1644,
+          "sha256": "fba7312fb38175d3401a359234f04ebafe376e05a866361c446787efa9bcefae"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupVerticalSpacing_Half",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupVerticalSpacing_Half/Ext/Form.xml",
+          "size": 1301,
+          "sha256": "10c5065f684da6e0b58170b16cca2ecb07a2d0c7a2719ff3d54a371346d3a1d4"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupVerticalSpacing_Half.xml",
+          "size": 1647,
+          "sha256": "fae55464a2f17e1faa66a0da0a35f06fe47731e1482a03b0f11e17e1f117bbe5"
+        }
+      ]
+    },
+    {
+      "name": "CovUsualGroupVerticalSpacing_OneAndHalf",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "observed:typical-configurations; independently generated scalar property",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovUsualGroupVerticalSpacing_OneAndHalf/Ext/Form.xml",
+          "size": 1307,
+          "sha256": "22da67e4f4ec91370923b447de4a4c26b55bfa31ef762e7bb8c2cce5d841dd46"
+        },
+        {
+          "path": "CommonForms/CovUsualGroupVerticalSpacing_OneAndHalf.xml",
+          "size": 1653,
+          "sha256": "e5968501df6d7ef4cc345e5df491fef6d33ca5218bdcfe0baca41285b33d8040"
+        }
+      ]
+    }
+  ]
+}

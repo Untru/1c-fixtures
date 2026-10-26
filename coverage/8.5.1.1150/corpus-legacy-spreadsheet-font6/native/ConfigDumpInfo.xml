@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="CommonTemplate.CovSheetAppearanceCheckIcon" id="cd4601cb-3137-574c-ad13-fdab74fa57ff" configVersion="7c7d536cb0f2eb4dac1ca572ff0490c200000000"/>
+		<Metadata name="CommonTemplate.CovSheetAppearanceCheckIcon.Template" id="cd4601cb-3137-574c-ad13-fdab74fa57ff.0" configVersion="9271f92a99d3cd46b071ef65c6ca4d5100000000"/>
+		<Metadata name="CommonTemplate.CovSheetAutoFontHeight" id="beab300a-c191-5610-b1e1-257f7f07c732" configVersion="9eefbf027aa93843913cd091dc6e27c900000000"/>
+		<Metadata name="CommonTemplate.CovSheetAutoFontHeight.Template" id="beab300a-c191-5610-b1e1-257f7f07c732.0" configVersion="bd757a340163584abb0a1fddd6cc956d00000000"/>
+		<Metadata name="CommonTemplate.CovSheetDashDotted" id="562d76a3-f8fa-5663-bf70-881e747339e6" configVersion="ec6cb3fa2f8051439c70b6ebe9405ffc00000000"/>
+		<Metadata name="CommonTemplate.CovSheetDashDotted.Template" id="562d76a3-f8fa-5663-bf70-881e747339e6.0" configVersion="cbeac4bd9b2eee4eb83a27407ef80b4c00000000"/>
+		<Metadata name="CommonTemplate.CovSheetGapLine" id="96fcfe97-a834-526f-9a80-bb479cd819c4" configVersion="1ccf1fa7d8f50e47a007dba834e26a2700000000"/>
+		<Metadata name="CommonTemplate.CovSheetGapLine.Template" id="96fcfe97-a834-526f-9a80-bb479cd819c4.0" configVersion="7df182a0cf66c948951f44c33dc2d72400000000"/>
+		<Metadata name="CommonTemplate.CovSheetOEMFixedFont" id="6b755b5b-68b3-5c3c-8ca7-161a75f688b3" configVersion="4c1ae1ac9d68bb4ebae7a3700a011f7100000000"/>
+		<Metadata name="CommonTemplate.CovSheetOEMFixedFont.Template" id="6b755b5b-68b3-5c3c-8ca7-161a75f688b3.0" configVersion="ed95d83c6fe0554b9355e5742321c92b00000000"/>
+		<Metadata name="CommonTemplate.CovSheetPageSizeA4" id="e8d41075-ac0a-56d4-93d5-96c53032c411" configVersion="bd3d72e990dfe64eb9b86051ece622bd00000000"/>
+		<Metadata name="CommonTemplate.CovSheetPageSizeA4.Template" id="e8d41075-ac0a-56d4-93d5-96c53032c411.0" configVersion="040253056e7a314eb4899a2e93bc51bd00000000"/>
+		<Metadata name="CommonTemplate.CovSheetSandyBrown" id="15ecc5cd-8065-5f95-90f2-fc11676411a1" configVersion="f9280f577784ae4e88c51cd685cbff7600000000"/>
+		<Metadata name="CommonTemplate.CovSheetSandyBrown.Template" id="15ecc5cd-8065-5f95-90f2-fc11676411a1.0" configVersion="dca265bdd383e34e93b5ecac0a9776b000000000"/>
+		<Metadata name="CommonTemplate.CovSheetValueListDetail" id="6010b4c1-5200-5200-b1c9-d988691a9330" configVersion="5049682ceb82a44bac2fdd398a51e80800000000"/>
+		<Metadata name="CommonTemplate.CovSheetValueListDetail.Template" id="6010b4c1-5200-5200-b1c9-d988691a9330.0" configVersion="00c86a4275763c4b84f329bbe7821a2800000000"/>
+		<Metadata name="CommonTemplate.CovSheetVerticalPageBreak" id="17d04453-3bf4-5cc6-95d8-aecd890de0dd" configVersion="0796614f328efa4ba342a63ed62a3d0000000000"/>
+		<Metadata name="CommonTemplate.CovSheetVerticalPageBreak.Template" id="17d04453-3bf4-5cc6-95d8-aecd890de0dd.0" configVersion="111490a7ca4d5b419eba92f03bf2421700000000"/>
+		<Metadata name="CommonTemplate.CovSpreadsheetFacetTemplate" id="8354ade3-9c21-5454-9d32-b3bf79e84575" configVersion="3c07209abbb2ff49bbefc550133f974100000000"/>
+		<Metadata name="CommonTemplate.CovSpreadsheetFacetTemplate.Template" id="8354ade3-9c21-5454-9d32-b3bf79e84575.0" configVersion="8e62244f8c57694a91be80aa37ca3eac00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8d1149bf-0e92-48f6-b5f4-47f228e8f72b" configVersion="4430d50023d7134f88c3b6e81ba8424e00000000"/>
+		<Metadata name="Language.Русский" id="db362d72-069c-480d-b164-4ff212dfa117" configVersion="98c9b14712d2254a9582b240ad0e954600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

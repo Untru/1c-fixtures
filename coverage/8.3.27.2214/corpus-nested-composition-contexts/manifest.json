@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "set": "8.3.27.2214-xml-2.20-corpus-nested-composition-contexts",
+  "collection": "CommonTemplates",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.3.27.2214",
+    "source_version": "2.20",
+    "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "7c567d0b08dc1aee9029453f70afc377dd19e0c0d85371bc7f6bd896eb59b71e",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 112185,
+    "decoded_sha256": "b157b7d0d9946d198648ce8197906d19eb25281fa44a211608ef07a6c3fb4bf8",
+    "encoded_sha256": "e01bad0c00334d0dfe1307545311d51b42e7b2d36a48715bf32548b5daca0cd4"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11504,
+          "sha256": "4e37990babbcc4ee9826b2a9cbd5cef89861fc25d21716450be3dab66e3c628c"
+        },
+        {
+          "path": "Languages/English.xml",
+          "size": 1237,
+          "sha256": "f2a0133f8869b5aee9fceb8747ecc7113d20049f706f917f70d3e7a38d89d0c5"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1251,
+          "sha256": "a7e657ad0d2c679415df010765ca0b12d693369db0c73558837fe02650540a7b"
+        }
+      ]
+    },
+    {
+      "name": "CovNestedCompositionTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovNestedCompositionTemplate/Ext/Template.xml",
+          "size": 6999,
+          "sha256": "ccb9fb3d5de46e927df9e9a721c5ee65e3f80fc7f883fa0e9044f1f43f8d4b44"
+        },
+        {
+          "path": "CommonTemplates/CovNestedCompositionTemplate.xml",
+          "size": 1177,
+          "sha256": "1bd0e5f3d5b92d2ceae9347c17dfb2f05899ed517ada072f3a9f204a4ac48b85"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedOutput/Ext/Template.xml",
+          "size": 5449,
+          "sha256": "3e1a1e3161400ddfc1ef8d39ab47573c6772dc969d2f4ede1132561d65429c7f"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedOutput.xml",
+          "size": 1175,
+          "sha256": "b063e7500ff8fa0e6f523062cc3ed38c0a20ae46171317f1821d0e105b2ea38d"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedFieldAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedFieldAppearance/Ext/Template.xml",
+          "size": 9604,
+          "sha256": "7445a2dd751b107fc2014ef5b5142ec6340b80ae1f390d9c95ad3f15058a9aa0"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedFieldAppearance.xml",
+          "size": 1184,
+          "sha256": "02034505eb54173e84a1db19b6c0d27e8786789309828bdac97c8b11420dd22b"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedFieldInput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedFieldInput/Ext/Template.xml",
+          "size": 3525,
+          "sha256": "95c03a785de7627e6193bdc7dcaa31b54aef30bbcbb75d25cec35a4ca3383a1c"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedFieldInput.xml",
+          "size": 1179,
+          "sha256": "1791c4f9b39fd7cbf28f64a1066351511f61e34d19a82a6aa7cd54bc6cae8b04"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedCalculatedAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedCalculatedAppearance/Ext/Template.xml",
+          "size": 9298,
+          "sha256": "c2e549ea3256128f0b054a66c513f219422b6cd24622a6fa591b065a0fdf108c"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedCalculatedAppearance.xml",
+          "size": 1189,
+          "sha256": "88e655d317cf0673b11da079e88e8f047ae68ddf970000bfad3c1b3d5fb4fac5"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedConditionalAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedConditionalAppearance/Ext/Template.xml",
+          "size": 9722,
+          "sha256": "4eec4b4f598188dcb4fbc6a7052cbf0898fb7a397a1beaf3fb4fa29089019fc1"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedConditionalAppearance.xml",
+          "size": 1190,
+          "sha256": "5e79ce9ef6eb4290ba8ae45378793cfedf8a140225149a23c5f7b0b9f8270368"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionTableRowOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionTableRowOutput/Ext/Template.xml",
+          "size": 4306,
+          "sha256": "9891ab112759111686d9745195cfe8ebf829e4afa24dee346b9d9c497e75f5e7"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionTableRowOutput.xml",
+          "size": 1177,
+          "sha256": "8edf78342d9a951e1186e3ec5965e488dcbf33edec007e548d1e16cab6118be8"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionTableRowAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionTableRowAppearance/Ext/Template.xml",
+          "size": 9011,
+          "sha256": "e131faefab5e1c6c10484906f186a54eb9a6d1e4c476a8f1dbd2adf3354af4a7"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionTableRowAppearance.xml",
+          "size": 1181,
+          "sha256": "88ba9436246ed7d97d94259ba3c33d26b6b83a19c9e08a9f15551f4e3a4cd62c"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionTableColumnOutput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionTableColumnOutput/Ext/Template.xml",
+          "size": 4312,
+          "sha256": "d0ac10dd5db93c4e5aaec19050c5d3dc571b0cc52107dd72ea4ab1cc4490d37a"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionTableColumnOutput.xml",
+          "size": 1180,
+          "sha256": "6000d1ac86729a9b0c9645ffc941b1b59e2af1cdeeef5b5cc582eff470a89a66"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionTableColumnAppearance",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionTableColumnAppearance/Ext/Template.xml",
+          "size": 9017,
+          "sha256": "cd6da91ffa8d016a8a716473184661abcf06e0946606d3fb7d12050b0d0519ea"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionTableColumnAppearance.xml",
+          "size": 1184,
+          "sha256": "8a8ee2de09a55de37adf494e764a88220eee04baacd5680846e00cbedad0eaa5"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionChartPoint",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionChartPoint/Ext/Template.xml",
+          "size": 9500,
+          "sha256": "41b58fc59b289cd0dec7a75863880e762dc322f75d679563fdd1d9d2f9a447f8"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionChartPoint.xml",
+          "size": 1173,
+          "sha256": "c525c6a1e2be083d43cf2f630bb97c4b911c364d441c7908fb2bb86a02e4661c"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionChartSeries",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionChartSeries/Ext/Template.xml",
+          "size": 9502,
+          "sha256": "84baba82937c13505d4a7b612b104ff1a59eb7f022adc4667fda0d86a32ed3f1"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionChartSeries.xml",
+          "size": 1174,
+          "sha256": "54c6c6ad9907b4758f9a540b7da09cca7bb5177f26985a94c2df354f5bae4f87"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedObjectSettings",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedObjectSettings/Ext/Template.xml",
+          "size": 28727,
+          "sha256": "024e8b7217da643b510140501b0fe03eadd43ad33d2a1bd8c9ea472bf2686d87"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedObjectSettings.xml",
+          "size": 1183,
+          "sha256": "3d15f7a138527d99b5673b1ba4bfe163fa387ef88e344eebee4867163ff381fa"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionCalculatedInput",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionCalculatedInput/Ext/Template.xml",
+          "size": 2431,
+          "sha256": "60927d3db277c3ff6078da33afff098a21e86c674306d912bc59b663d7ddd862"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionCalculatedInput.xml",
+          "size": 1178,
+          "sha256": "b47ffffe0e71b2b9c26aa524b841388f173f1141479d87f458565e5cb019c30c"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionAreaTemplate",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionAreaTemplate/Ext/Template.xml",
+          "size": 6999,
+          "sha256": "ccb9fb3d5de46e927df9e9a721c5ee65e3f80fc7f883fa0e9044f1f43f8d4b44"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionAreaTemplate.xml",
+          "size": 1175,
+          "sha256": "ed585651042344375a55a0e992d0bfe204a18f01535af57fe1c95cb822e41ea6"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionNestedAreaTemplate",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionNestedAreaTemplate/Ext/Template.xml",
+          "size": 8111,
+          "sha256": "56cb2e104cfa719206424510475eee87262986592b5f1d67587a82610349b052"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionNestedAreaTemplate.xml",
+          "size": 1181,
+          "sha256": "b8a6883896ffda21e5f8562698749ac7ee18d6fb3943d421d4333d593f987d18"
+        }
+      ]
+    },
+    {
+      "name": "CovCompositionStandardPictures",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:standard composition keys and picture values in independent nested contexts",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonTemplates/CovCompositionStandardPictures/Ext/Template.xml",
+          "size": 2365,
+          "sha256": "972bc4cca3f7248f55a87b8ed9016262966d6dd828a6c1c54ad4600ab63cb12f"
+        },
+        {
+          "path": "CommonTemplates/CovCompositionStandardPictures.xml",
+          "size": 1179,
+          "sha256": "7b92cd86aaf952a670414903ef73ea586f9355a9aadcf54f5b3acb1c75950a98"
+        }
+      ]
+    }
+  ]
+}

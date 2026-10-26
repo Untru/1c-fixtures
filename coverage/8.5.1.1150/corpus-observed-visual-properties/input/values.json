@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovVisualGraphicalSchemaFieldBorderColor_0365cb28dc31",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualGraphicalSchemaFieldBorderColor_0365cb28dc31.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationTextColor_05ef0a3d94ff",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationTextColor_05ef0a3d94ff.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualButtonFont_06e0082249eb",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualButtonFont_06e0082249eb.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationTextColor_12684bcf3818",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationTextColor_12684bcf3818.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualInputFieldBackColor_14717535474a",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualInputFieldBackColor_14717535474a.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldBorder_23d763ecff98",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldBorder_23d763ecff98.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationTextColor_29a15d31da94",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationTextColor_29a15d31da94.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualInputFieldFooterFont_36d558302a14",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualInputFieldFooterFont_36d558302a14.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualHTMLDocumentFieldBorder_5254b71fa291",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualHTMLDocumentFieldBorder_5254b71fa291.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldFont_5747a0aa7553",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldFont_5747a0aa7553.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationFont_5be5224c3ca1",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationFont_5be5224c3ca1.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualUsualGroupBackColor_5f7b3807c46b",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualUsualGroupBackColor_5f7b3807c46b.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldTitleTextColor_601b47f044f4",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldTitleTextColor_601b47f044f4.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationFont_6351b0913aeb",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationFont_6351b0913aeb.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationFont_6acd95475d1b",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationFont_6acd95475d1b.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualUsualGroupTitleTextColor_7248b6a44595",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualUsualGroupTitleTextColor_7248b6a44595.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualInputFieldChoiceButtonPicture_79e7d5490618",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualInputFieldChoiceButtonPicture_79e7d5490618.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualInputFieldBackColor_7e2d4a4f491b",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualInputFieldBackColor_7e2d4a4f491b.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationFont_806a28ec2195",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationFont_806a28ec2195.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualUsualGroupBackColor_80b5f7fb6981",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualUsualGroupBackColor_80b5f7fb6981.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldFont_8fef89f2f50b",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldFont_8fef89f2f50b.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualInputFieldBackColor_900d6361efb2",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualInputFieldBackColor_900d6361efb2.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualButtonTextColor_99e20e36451f",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualButtonTextColor_99e20e36451f.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldTextColor_9a5b8315d03b",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldTextColor_9a5b8315d03b.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualButtonFont_a79201fc6d20",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualButtonFont_a79201fc6d20.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldTitleTextColor_b14664294682",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldTitleTextColor_b14664294682.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldTextColor_c210628e0abb",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldTextColor_c210628e0abb.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationFont_c7cb4e395323",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationFont_c7cb4e395323.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldFont_d0b19def54a8",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldFont_d0b19def54a8.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualUsualGroupBackColor_d5f89199443c",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualUsualGroupBackColor_d5f89199443c.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelFieldFont_e0bd259606ab",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelFieldFont_e0bd259606ab.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualUsualGroupBackColor_ee07b2501001",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualUsualGroupBackColor_ee07b2501001.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    },
+    {
+      "name": "CovVisualLabelDecorationTextColor_fd147c35c1cc",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/CovVisualLabelDecorationTextColor_fd147c35c1cc.xml"
+      },
+      "source": "observed:independent visual-property reproduction"
+    }
+  ]
+}

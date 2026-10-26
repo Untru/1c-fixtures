@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "set": "8.3.27.2214-xml-2.20-corpus-legacy-dynamic-table42",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-26",
+    "platform_version": "8.3.27.2214",
+    "source_version": "2.20",
+    "ibcmd_sha256": "11c77778927faef858fa4ab544ed627b9b6824a623ee7e5d6e6d5a0cf732d02b",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "native load/export/save/load/export; full tree equality outside ConfigDumpInfo.xml; altered body retained byte for byte",
+    "origin": "minimized sanitized legacy record with a complete public dynamic-list attribute",
+    "historical_writer": "unknown; the named target native oracle accepts and retains this profile, no older writer is claimed",
+    "xml_normalization": "separate native XML import/export retains the entire native tree and restores all four product properties; whole product tree is not claimed equal",
+    "storage_assembler": {
+      "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
+      "sha256": "1b161cea2f6afd75d139e6e7edb9316b913bdaa261bb8925f976c7325374e1ca",
+      "scope": "container assembly and extraction only; expected XML from native ibcmd"
+    }
+  },
+  "inputs_sha256": "a8a246b836ce7eb28c587209eebd451c6a7a40bcd785874d4ff22cd838ad77e0",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 79938,
+    "decoded_sha256": "9bf05d43378296cd2ddc9d368be90e2ab1f479171ea9b442798a163c1ac47f1e",
+    "encoded_sha256": "f554bfae2236e66dce70bc7be46cd1996aa7af6313c2774ec75a76c93b80801c"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 10411,
+          "sha256": "1b8c0eb0ead100f61e6603dcf05adddf71d28343c0998c516a8723db8a1570e9"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1251,
+          "sha256": "4307b3294744a891ded3a94cce374fc4b0757d45fde1b0ffe68998285dc33d87"
+        }
+      ]
+    },
+    {
+      "name": "CovDynamicTableTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableTemplate/Ext/Form.xml",
+          "size": 1035,
+          "sha256": "a82109b8f8731a3c9cb039d555e848f9cbe50e10777e075035183ef93db1ca5b"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableTemplate.xml",
+          "size": 1507,
+          "sha256": "e0d50b0eb594bf338c537077888e6660799370308cea1fcf2d8f54ed1a4f44a5"
+        }
+      ]
+    },
+    {
+      "name": "CovDynamicTableFolders",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:public dynamic-list query with explicit folder choice, row restoration and root permissions",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableFolders/Ext/Form.xml",
+          "size": 4372,
+          "sha256": "ae09c33a7822d4de335187eb011be355ca915221a2021bcd747324a700fa5e64"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableFolders.xml",
+          "size": 1506,
+          "sha256": "78295964412d97d4321e1d94cd90c56d7bb23b2d07ee21c85c2e06b18c9cf90a"
+        }
+      ]
+    }
+  ],
+  "kind": "stored_layout",
+  "sources": [
+    {
+      "set": "8.3.27.2214-xml-2.20-corpus-dynamic-list-table-values",
+      "path": "corpus-dynamic-list-table-values",
+      "manifest_sha256": "9aa4b465b66dbe506087c7691a7e818e1ff085d598f41b8bd9cf14dffbdc6a0e"
+    }
+  ]
+}

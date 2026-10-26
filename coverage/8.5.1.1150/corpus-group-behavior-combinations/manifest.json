@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-group-behavior-combinations",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-25",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "8eef81ea3e4b85ccbc0aec79cd568465c2d19112bebbf7429c723ebc586f8687",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 79897,
+    "decoded_sha256": "a07d2bf57bb618b41ee243d4103704e1d8dde6c087ac82fb58de58ee99cd75a2",
+    "encoded_sha256": "fbede80a3ea816236e1f0986880f6d7362972f4a8195044dff7a17904090eb0a"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11238,
+          "sha256": "7d35ec3773670c02a130c5058093097169a147b5c9da5f69b7dec943e833bb48"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "9af5a667de5ea34622b685dad6625c6fb1acccd6c0972373d272b93ed227a6f8"
+        }
+      ]
+    },
+    {
+      "name": "CovGroupBehaviorCombinationTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovGroupBehaviorCombinationTemplate.xml",
+          "size": 1649,
+          "sha256": "022e0047b991bc3921e641448195589feed1853c8b4a53db46fc217486ca9cf5"
+        }
+      ]
+    },
+    {
+      "name": "CovPictureUsualGroup",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovPictureUsualGroup/Ext/Form.xml",
+          "size": 1609,
+          "sha256": "1f22d864bdaf7ce03836289e4f7c2b576e6f3815fc725308b4de73f3a64158fb"
+        },
+        {
+          "path": "CommonForms/CovPictureUsualGroup.xml",
+          "size": 1634,
+          "sha256": "13b9237633995ef2088400cf06743140900c78990ff4a97b5b5ef5c5a4a3c6f7"
+        }
+      ]
+    },
+    {
+      "name": "CovCollapsedPictureUsualGroup",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:ordinary group behavior with picture representation, collapsed state and explicit default visibility; independently written XML",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup/Ext/Form.xml",
+          "size": 1787,
+          "sha256": "64945f61ffc801a696ab1996c53ad8771b303d7d8672d8f059aeb2b4e65626f3"
+        },
+        {
+          "path": "CommonForms/CovCollapsedPictureUsualGroup.xml",
+          "size": 1643,
+          "sha256": "a0075661950862048cd57007c1251717bba02dfb0fb84dc51154e2e4164690ed"
+        }
+      ]
+    }
+  ]
+}

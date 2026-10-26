@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "collection": "CommonTemplates",
+  "properties": [],
+  "configuration_properties": [
+    "DefaultLanguage",
+    "ScriptVariant"
+  ],
+  "template_files": {
+    "Ext/Template.xml": "bodies/Output.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovEnglishParametersOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/Output.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    },
+    {
+      "name": "CovEnglishParametersFieldAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/FieldAppearance.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    },
+    {
+      "name": "CovEnglishParametersFieldInput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/FieldInput.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    },
+    {
+      "name": "CovEnglishParametersCalculatedAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CalculatedAppearance.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    },
+    {
+      "name": "CovEnglishParametersParameterInput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/ParameterInput.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    },
+    {
+      "name": "CovEnglishParametersConditionalAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/ConditionalAppearance.xml"
+      },
+      "source": "generated:observed public parameter keys in independent English-script composition contexts"
+    }
+  ]
+}

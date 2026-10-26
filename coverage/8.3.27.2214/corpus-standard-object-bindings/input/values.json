@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "collection": "Catalogs",
+  "properties": [],
+  "combinations": [
+    {
+      "name": "CovStandardObjectBindings",
+      "set": {},
+      "template": "owner.xml",
+      "files": {
+        "Forms/InputForm.xml": "forms/InputForm.xml",
+        "Forms/InputForm/Ext/Form.xml": "forms/InputForm-body.xml",
+        "Forms/LabelForm.xml": "forms/LabelForm.xml",
+        "Forms/LabelForm/Ext/Form.xml": "forms/LabelForm-body.xml"
+      },
+      "source": "generated:public synthetic catalogue object with input and label fields bound to the standard Code property"
+    }
+  ]
+}

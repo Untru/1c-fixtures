@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "collection": "CommonTemplates",
+  "properties": [],
+  "configuration_properties": [
+    "DefaultLanguage",
+    "ScriptVariant"
+  ],
+  "template_files": {
+    "Ext/Template.xml": "bodies/CovStructuredGroupOutput.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovStructuredGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredNestedGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredNestedGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredTableRowGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredTableRowGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredTableColumnGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredTableColumnGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredChartPointGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredChartPointGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredChartSeriesGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredChartSeriesGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredNestedGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredNestedGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredTableRowGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredTableRowGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredTableColumnGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredTableColumnGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredChartPointGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredChartPointGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredChartSeriesGroupAppearance",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredChartSeriesGroupAppearance.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    },
+    {
+      "name": "CovStructuredMultipleSettingsGroupOutput",
+      "set": {},
+      "files": {
+        "Ext/Template.xml": "bodies/CovStructuredMultipleSettingsGroupOutput.xml"
+      },
+      "source": "generated:standard parameter keys inside explicit group items, row/column and chart group collections"
+    }
+  ]
+}
