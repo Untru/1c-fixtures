@@ -1131,6 +1131,8 @@
 			<CommonForm>CovContextTableReadOnly</CommonForm>
 			<CommonForm>CovContextTableReadOnlyColumns</CommonForm>
 			<CommonForm>CovContextHorizontalGroup</CommonForm>
+			<CommonForm>CovDynamicTableTemplate</CommonForm>
+			<CommonForm>CovDynamicTableFolders</CommonForm>
 			<CommonForm>CovFieldCombinationHeightLocationLeft</CommonForm>
 			<CommonForm>CovFieldCombinationHeightLocationNone</CommonForm>
 			<CommonForm>CovFieldCombinationHeightWidthBounds</CommonForm>

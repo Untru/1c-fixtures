@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "set": "8.5.1.1150-xml-2.21-corpus-dynamic-list-table-values",
+  "collection": "CommonForms",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-26",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "import -> export (1) -> config save -> load -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "73e8148b7992d5ec11ff2f6f5245e98d70e98c622f8db0b98b5f71980e727816",
+  "configuration_cf": {
+    "path": "configuration.cf.b64",
+    "decoded_size": 80228,
+    "decoded_sha256": "5a64438dc6e9f7787347ab32e6c28bfb290008ada50b9c9114b214defa296aa4",
+    "encoded_sha256": "4b289640c68ebb488554f42ef874fa67c662b91d71a3d8e8b0994191c4ea167a"
+  },
+  "variants": [
+    {
+      "name": "configuration",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "Configuration.xml",
+          "size": 11169,
+          "sha256": "2989412732f8dc536933ac596a685d5ab7b7479e5ee6d7524620d33372caec3e"
+        },
+        {
+          "path": "Languages/Русский.xml",
+          "size": 1306,
+          "sha256": "fccb5fff6933a6d35cc3fd89adee66e2bb72a8a8ac6ff4c4c849d935198eaaaf"
+        }
+      ]
+    },
+    {
+      "name": "CovDynamicTableTemplate",
+      "property": null,
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableTemplate/Ext/Form.xml",
+          "size": 1090,
+          "sha256": "2ec4f73b5ce4575ee6b49ff37548185055a3dff8c6dc079381cc90eae923e482"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableTemplate.xml",
+          "size": 1637,
+          "sha256": "dbae792dfb118240ac13670f8a834ff70a38310ab309ac2e5c85ffd06990bd99"
+        }
+      ]
+    },
+    {
+      "name": "CovDynamicTableFolders",
+      "property": [],
+      "kind": "combination",
+      "value": {},
+      "source": "generated:public dynamic-list query with explicit folder choice, row restoration and root permissions",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableFolders/Ext/Form.xml",
+          "size": 3708,
+          "sha256": "2b43dbc411bdd33e00816951d5b15815240c554118c99fb68e37b061105e60f6"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableFolders.xml",
+          "size": 1636,
+          "sha256": "545457179dfe9714741c74979a80863ae2c76460845369168da9e89a3335e36d"
+        }
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@
       "source_commit": "c3de80b00b69c864b07ab62d54eff71a7ed70aab",
       "scope": "CF extraction/container assembly only; native ibcmd provides all expected XML"
     },
-    "cache_validation": "all current source hashes verified against prior native form bytes, including the two public object-binding forms; all patches recomputed and compared; every native-saved body verified; every normalized body equals prior native zero-panel bytes",
+    "cache_validation": "all current source hashes verified against prior native form bytes, including prior public object-binding forms and two newly extracted dynamic-list forms; all patches recomputed and compared; every native-saved body verified; every normalized body equals prior native zero-panel bytes",
     "new_form_validation": [
       {
         "entry": "771410a8-67cc-55b9-bc13-b2483d76cf9c.0",
@@ -30,23 +30,35 @@
         "source_sha256": "72e9f409d3c07b782679a6eec143b1ba6925522f0cd3b6c75d06e28527542001",
         "stored_sha256": "72c1b572ddd7d6f782f331d75e547942b9890f30a1f853da222a9410dd1cbec3",
         "normalized_sha256": "8c81e343fe3e8aa2bd892adafd22beb969471b4ca332498d898a97a11ff6f0b1"
+      },
+      {
+        "entry": "d8126841-4429-5831-9536-3c74f68de40a.0",
+        "source_sha256": "5ff8babafaea65a9dc7bdeaa9035124043290cc6fe59c2f3874d81c436e8b141",
+        "stored_sha256": "015baafbbef3e8dbb8fcc40c36b0a1c9c2720e40bd261887e9735eb5f6dbdf18",
+        "normalized_sha256": "cfb3d9137c87a348a8d63669c2b1b5c0d11208e4099e9ca0a6fed2c20479acc9"
+      },
+      {
+        "entry": "e2cb8c01-5f77-535b-9f48-72470b32c3f6.0",
+        "source_sha256": "fb147c5e995a88dfd0486f43810b1cf7a1fd31958245db914683420e8619740a",
+        "stored_sha256": "badf84b43b988dcff8ee6af5a736cee07c2df12f0d7778904acc97f1fc0237d7",
+        "normalized_sha256": "78d2e0d83aee64bf2d901a2ded2dde77f11243a9354057554893a71bfb46ced1"
       }
     ],
-    "verified_form_count": 922
+    "verified_form_count": 924
   },
-  "inputs_sha256": "3a0b7348e157df2c607346798e8878151396b417f859da8e43fd90e3912247dd",
+  "inputs_sha256": "9088a395573f9bf948b683def1b8edfd4694cf944303a2c6a180713bc867584e",
   "sources": [
     {
       "set": "8.3.27.2214-xml-2.20-combined-native85-storage",
       "path": "combined-native85-storage",
-      "manifest_sha256": "3688ad55e24f9d3210c449837589f538ebb92d09672847d9672dd61b4ab7f445"
+      "manifest_sha256": "5e0ab1e24612d0b6b417bcbb7dc2ab26de47cfae19a621f2f92d897780dc4f39"
     }
   ],
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2499102,
-    "decoded_sha256": "e07f0ef66d5c8080400cf1bd1b2afe778f58ee08c27a8545284d7b53ed9c0f7f",
-    "encoded_sha256": "51dd669e4831bfe23c8499e782fa0b16935cfa75df85dd12fd6d935537ee5989"
+    "decoded_size": 2503418,
+    "decoded_sha256": "18c2ef4867b56b9241612cf9a9ff0ff05400f1b57d4e62f2f4047bab852b3275",
+    "encoded_sha256": "0f3e4d523c0151e0543722df91081d9da44c35b955cff3db433263e9da3c4ba2"
   },
   "variants": [
     {
@@ -10410,6 +10422,38 @@
       ]
     },
     {
+      "name": "CommonForms/CovDynamicTableFolders",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableFolders/Ext/Form.xml",
+          "size": 3366,
+          "sha256": "8625a0c3da51db6562656c4bb2cfc58e4eb4e272b1425681b13c9981ccc232b8"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableFolders.xml",
+          "size": 1506,
+          "sha256": "f173815f9401eda580e7c9aa7ad2af5b4638301ff7bd4acc84209713e2a23ea3"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovDynamicTableTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableTemplate/Ext/Form.xml",
+          "size": 1035,
+          "sha256": "a82109b8f8731a3c9cb039d555e848f9cbe50e10777e075035183ef93db1ca5b"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableTemplate.xml",
+          "size": 1507,
+          "sha256": "e0d50b0eb594bf338c537077888e6660799370308cea1fcf2d8f54ed1a4f44a5"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovEmbeddedSpreadsheetCells",
       "status": "platform_proven",
       "files": [
@@ -18405,8 +18449,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 71590,
-          "sha256": "086eb2b67d1b8a95ec82ea23011a73594708af59133d2490a061b4b7822a7e20"
+          "size": 71695,
+          "sha256": "94fdb927c96908098c6077a51e4c08921bcb9d76a0183ee5cfed680640a1a225"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",

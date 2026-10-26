@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "collection": "CommonForms",
+  "properties": [],
+  "template_files": {
+    "Ext/Form.xml": "bodies/default.xml"
+  },
+  "combinations": [
+    {
+      "name": "CovDynamicTableFolders",
+      "set": {},
+      "files": {
+        "Ext/Form.xml": "bodies/folders.xml"
+      },
+      "source": "generated:public dynamic-list query with explicit folder choice, row restoration and root permissions"
+    }
+  ]
+}

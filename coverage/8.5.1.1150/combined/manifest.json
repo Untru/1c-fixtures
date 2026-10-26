@@ -134,6 +134,11 @@
       "manifest_sha256": "47e038c33e656f5730de80b953c44827364e65b3ffa19f57e89554e57ff3ba46"
     },
     {
+      "set": "8.5.1.1150-xml-2.21-corpus-dynamic-list-table-values",
+      "path": "corpus-dynamic-list-table-values",
+      "manifest_sha256": "4cbe2c1360895c432daf777e9c26030b5c44c7e0cb5f5b17450d5c3f697c3658"
+    },
+    {
       "set": "8.5.1.1150-xml-2.21-corpus-english-composition",
       "path": "corpus-english-composition",
       "manifest_sha256": "2f2617b1397fc15a8244a1eb3d0808612ee4564a123f850f56f4c79481a2e31e"
@@ -490,9 +495,9 @@
   },
   "configuration_cf": {
     "path": "configuration.cf.b64",
-    "decoded_size": 2989522,
-    "decoded_sha256": "cc2c8c3cfafbd726cf2106c5ea2a713d0c7f3b938a1c64eb40c5b6d87cd9e056",
-    "encoded_sha256": "6ce19dafa3832105c81e032804cff56c1e71abe9a6a5f745f5fbf5b85838f51a"
+    "decoded_size": 2994141,
+    "decoded_sha256": "90097305481a44a5f457fd921dde948ca2bd464005a07d18eb4bc4b806f094e2",
+    "encoded_sha256": "f027d4a37493ac7436843a8399b2e61b686736f6b3ea58486a462771756a3b24"
   },
   "variants": [
     {
@@ -14252,6 +14257,38 @@
       ]
     },
     {
+      "name": "CommonForms/CovDynamicTableFolders",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableFolders/Ext/Form.xml",
+          "size": 3335,
+          "sha256": "6042679eeca08b39eddb4c96d61d5569e2b267965e260630c93c001f598df7b1"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableFolders.xml",
+          "size": 1636,
+          "sha256": "2ef6b0501d9536ba8be82f4b23099ec409aa5c868eed2ad36785e2e26453e886"
+        }
+      ]
+    },
+    {
+      "name": "CommonForms/CovDynamicTableTemplate",
+      "status": "platform_proven",
+      "files": [
+        {
+          "path": "CommonForms/CovDynamicTableTemplate/Ext/Form.xml",
+          "size": 1090,
+          "sha256": "2ec4f73b5ce4575ee6b49ff37548185055a3dff8c6dc079381cc90eae923e482"
+        },
+        {
+          "path": "CommonForms/CovDynamicTableTemplate.xml",
+          "size": 1637,
+          "sha256": "dbae792dfb118240ac13670f8a834ff70a38310ab309ac2e5c85ffd06990bd99"
+        }
+      ]
+    },
+    {
       "name": "CommonForms/CovEmbeddedSpreadsheetCells",
       "status": "platform_proven",
       "files": [
@@ -22829,8 +22866,8 @@
       "files": [
         {
           "path": "Configuration.xml",
-          "size": 88990,
-          "sha256": "69854c2cdcac9811e95e9179569349c342cd401a2943474444e9767a3c399185"
+          "size": 89095,
+          "sha256": "a875389ec9593d8c57952bc2bcd45d824ce5c042b7416e70bcd21cd2bd01559a"
         },
         {
           "path": "Ext/ClientApplicationInterface.xml",
