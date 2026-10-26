@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "kind": "extension",
+  "set": "8.5.1.1150-xml-2.21-extensions-restructuring",
+  "evidence": {
+    "status": "platform_proven",
+    "created_on": "2026-10-26",
+    "platform_version": "8.5.1.1150",
+    "source_version": "2.21",
+    "ibcmd_sha256": "61abac6d105bdcf7b3f5ffbdb9f83eaf7decc9dc457203d7a90c105c1ee57e1a",
+    "database_kind": "isolated_file_infobase",
+    "rounds": "fresh base -> build CFE from XML -> load/apply -> export (1) -> save CFE -> another fresh base -> load/apply CFE -> export (2); identical outside ConfigDumpInfo.xml"
+  },
+  "inputs_sha256": "24de612bfe5dd0315c0b5da5b9797d50a38ae22e2a83037f36a18d8c475eb29b",
+  "proven_inputs_sha256": {
+    "input/base": "8fdeea7aae1d16396f39fdc43be39c28c3829ff418a3ded574cd7a70a97577d9",
+    "input/baseline": "f76edd262f5bc4f472315cfaf558df1a08e235fed340fad187603bd21fa6c90c",
+    "input/update": "f58f3bade8af38993170a3dd6621e1d77baf87afa2a811b31f4ce2c87caf4fb4",
+    "input/two-jobs": "ed127f7f68423ba4f4b8272848c47af5f45b38cc2d9eb12275235fbb1af88458",
+    "input/two-plain-jobs": "42d67aa881bd0e79878bdc844400b0dc9372575e35f7a2da50c57e661fec9535",
+    "input/dialog-baseline": "da9b00da0c53ba808ea7a43f866ca90e2bf6ec45814087f8336ac2fee9ea7d63",
+    "input/dialog-update": "6e8b3dad60e16fdc63c04dfb203721da0c165e2126af712191ece734fd56e49a",
+    "input/dialog-defaults": "dfb1aebeb0034ee3a2d567bccb862556bce81fdf179793bdf1c0231ea9f75bae"
+  },
+  "sources": [],
+  "variants": [
+    {
+      "name": "CovRestructureBaseline",
+      "property": "SchemaUpdate",
+      "value": "baseline",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureBaseline.cfe.b64",
+        "decoded_sha256": "0716178e2346d5458e1ffa3d473df87e7c6e43594ce3c0705cb836ba9451153d"
+      },
+      "files": [
+        {
+          "path": "CovRestructureBaseline/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureBaseline/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureBaseline/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureBaseline/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureBaseline/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureBaseline/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureBaseline/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureBaseline/Configuration.xml",
+          "size": 3609,
+          "sha256": "94f010bd41c37c93aea370e777b724e2da4304ceb90e1ec3144054e130aa58ea"
+        },
+        {
+          "path": "CovRestructureBaseline/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureBaseline/Documents/Cov_ExistingDoc.xml",
+          "size": 10913,
+          "sha256": "f2df3a17d60f85a6c0e22032f1cc7a0b4d3f7ec3c6996bd0e010b393d082140a"
+        },
+        {
+          "path": "CovRestructureBaseline/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureBaseline/Enums/Cov_Provider.xml",
+          "size": 4793,
+          "sha256": "811a88c5730527062e1b29985d535e8a415a8dd70105cb621b99454386e77523"
+        },
+        {
+          "path": "CovRestructureBaseline/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureBaseline/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureBaseline/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureUpdate",
+      "property": "SchemaUpdate",
+      "value": "update",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureUpdate.cfe.b64",
+        "decoded_sha256": "50c8a869f18ee603c6c84192cd71b6967572953b5f0068cc49f7b7f85ed923cc"
+      },
+      "files": [
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Connections/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Connections.xml",
+          "size": 19040,
+          "sha256": "3c5d00c8e29fb570efa2899343a5d238be1d7cb8d725f4d1a01523439260a10b"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Routes/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/Cov_Routes.xml",
+          "size": 17856,
+          "sha256": "ada9f6bdd9495242bc82dfe7863347d986a5578d5f9e1fb6cd3b642ee1262801"
+        },
+        {
+          "path": "CovRestructureUpdate/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonModules/Cov_Companions/Ext/Module.bsl",
+          "size": 186,
+          "sha256": "74839d97c2c82bc5fc768050cacf487dd2b39e8d76ede90b89fbbe5c5c62f2d0"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonModules/Cov_Companions.xml",
+          "size": 1630,
+          "sha256": "391f0f0a27de6f2ed8e186e7ec5f853aa3b3f16c782efcc83758a9f6400068d1"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureUpdate/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureUpdate/Configuration.xml",
+          "size": 4115,
+          "sha256": "7c6cd486d53c33cdeafe9d409cacc232e6b31f541c5ae6b5995c0ddc2baa050e"
+        },
+        {
+          "path": "CovRestructureUpdate/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/Documents/Cov_ExistingDoc.xml",
+          "size": 12323,
+          "sha256": "29e3b554b50c6f0f617ef8f9933233e9f3836b320b2e914586fe9dc2b2dac880"
+        },
+        {
+          "path": "CovRestructureUpdate/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/Enums/Cov_Provider.xml",
+          "size": 5112,
+          "sha256": "38ab04cff979650e52e91c7d1c08b5a95c0283186eff9e00dfa3e068296c28cb"
+        },
+        {
+          "path": "CovRestructureUpdate/HTTPServices/Cov_CompanionAPI/Ext/Module.bsl",
+          "size": 248,
+          "sha256": "ef1abb22ce73d079d623db20f7f7b4c268c3ffb7858dbccae083708816262246"
+        },
+        {
+          "path": "CovRestructureUpdate/HTTPServices/Cov_CompanionAPI.xml",
+          "size": 2190,
+          "sha256": "7f2f66e8909b886da497a009d4e25f147af0afd2b79cc628382121677006ea47"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Authors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Authors.xml",
+          "size": 13539,
+          "sha256": "5bac5234b1deb80fe8edc83d3255bacfcb57e92c5af0e4f8dee1e7d2ccdd5e45"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Cursors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Cursors.xml",
+          "size": 15175,
+          "sha256": "49ad279c662337126396bdb6b3357aa2fd2a3ded5a1d2da8a67cdbf81f32587d"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Delivery/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Delivery.xml",
+          "size": 15063,
+          "sha256": "31c367087c9f4c06bfb78ed2aeae2f211d9083ac33d75b49996c1fdc972f2ca1"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Journal/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureUpdate/InformationRegisters/Cov_Journal.xml",
+          "size": 15042,
+          "sha256": "90922314f95f3bf008b8f120cc8b283234d104e25664a5c982d4f659fc253823"
+        },
+        {
+          "path": "CovRestructureUpdate/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        },
+        {
+          "path": "CovRestructureUpdate/ScheduledJobs/Cov_CompanionJob.xml",
+          "size": 1574,
+          "sha256": "2821f4d867aa64ad3682beeb48014d49ea817d922e6cbde983e75e897451a67e"
+        },
+        {
+          "path": "CovRestructureUpdate/Subsystems/Cov_CompanionSubsystem.xml",
+          "size": 2004,
+          "sha256": "bc3424a6b87275eff883abed949ef6d13bfb5e4a0d2f31056d2193f389798826"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureTwoJobs",
+      "property": "SchemaUpdate",
+      "value": "two-jobs",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureTwoJobs.cfe.b64",
+        "decoded_sha256": "8c290ac37f8b706895f787b156ec5006654967db8b8d2da136b90ce5d1d9a6f0"
+      },
+      "files": [
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Connections/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Connections.xml",
+          "size": 19040,
+          "sha256": "3c5d00c8e29fb570efa2899343a5d238be1d7cb8d725f4d1a01523439260a10b"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Routes/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/Cov_Routes.xml",
+          "size": 17856,
+          "sha256": "ada9f6bdd9495242bc82dfe7863347d986a5578d5f9e1fb6cd3b642ee1262801"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonModules/Cov_Companions/Ext/Module.bsl",
+          "size": 186,
+          "sha256": "74839d97c2c82bc5fc768050cacf487dd2b39e8d76ede90b89fbbe5c5c62f2d0"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonModules/Cov_Companions.xml",
+          "size": 1630,
+          "sha256": "391f0f0a27de6f2ed8e186e7ec5f853aa3b3f16c782efcc83758a9f6400068d1"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureTwoJobs/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Configuration.xml",
+          "size": 4171,
+          "sha256": "6677c6da5434bbee3703108c6dd6ef1ca43fead8228e908a56cdc2461bc0eef3"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Documents/Cov_ExistingDoc.xml",
+          "size": 12323,
+          "sha256": "29e3b554b50c6f0f617ef8f9933233e9f3836b320b2e914586fe9dc2b2dac880"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Enums/Cov_Provider.xml",
+          "size": 5112,
+          "sha256": "38ab04cff979650e52e91c7d1c08b5a95c0283186eff9e00dfa3e068296c28cb"
+        },
+        {
+          "path": "CovRestructureTwoJobs/HTTPServices/Cov_CompanionAPI/Ext/Module.bsl",
+          "size": 248,
+          "sha256": "ef1abb22ce73d079d623db20f7f7b4c268c3ffb7858dbccae083708816262246"
+        },
+        {
+          "path": "CovRestructureTwoJobs/HTTPServices/Cov_CompanionAPI.xml",
+          "size": 2190,
+          "sha256": "7f2f66e8909b886da497a009d4e25f147af0afd2b79cc628382121677006ea47"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Authors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Authors.xml",
+          "size": 13539,
+          "sha256": "5bac5234b1deb80fe8edc83d3255bacfcb57e92c5af0e4f8dee1e7d2ccdd5e45"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Cursors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Cursors.xml",
+          "size": 15175,
+          "sha256": "49ad279c662337126396bdb6b3357aa2fd2a3ded5a1d2da8a67cdbf81f32587d"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Delivery/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Delivery.xml",
+          "size": 15063,
+          "sha256": "31c367087c9f4c06bfb78ed2aeae2f211d9083ac33d75b49996c1fdc972f2ca1"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Journal/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoJobs/InformationRegisters/Cov_Journal.xml",
+          "size": 15042,
+          "sha256": "90922314f95f3bf008b8f120cc8b283234d104e25664a5c982d4f659fc253823"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        },
+        {
+          "path": "CovRestructureTwoJobs/ScheduledJobs/Cov_CompanionJob.xml",
+          "size": 1574,
+          "sha256": "2821f4d867aa64ad3682beeb48014d49ea817d922e6cbde983e75e897451a67e"
+        },
+        {
+          "path": "CovRestructureTwoJobs/ScheduledJobs/Cov_CompanionJobSecond.xml",
+          "size": 1593,
+          "sha256": "8743ed3e77ce6933b1f341bc39bf2efa2c471fa9d0c10a77f927b60035f7a4ff"
+        },
+        {
+          "path": "CovRestructureTwoJobs/Subsystems/Cov_CompanionSubsystem.xml",
+          "size": 2004,
+          "sha256": "bc3424a6b87275eff883abed949ef6d13bfb5e4a0d2f31056d2193f389798826"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureTwoPlainJobs",
+      "property": "SchemaUpdate",
+      "value": "two-plain-jobs",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureTwoPlainJobs.cfe.b64",
+        "decoded_sha256": "6e819b9a199b1ee1bdd0aee7ef1b760971b54e2d8c155fe31ac33d6d346f95a1"
+      },
+      "files": [
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Connections/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Connections.xml",
+          "size": 19040,
+          "sha256": "3c5d00c8e29fb570efa2899343a5d238be1d7cb8d725f4d1a01523439260a10b"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Routes/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/Cov_Routes.xml",
+          "size": 17856,
+          "sha256": "ada9f6bdd9495242bc82dfe7863347d986a5578d5f9e1fb6cd3b642ee1262801"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonModules/Cov_Companions/Ext/Module.bsl",
+          "size": 186,
+          "sha256": "74839d97c2c82bc5fc768050cacf487dd2b39e8d76ede90b89fbbe5c5c62f2d0"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonModules/Cov_Companions.xml",
+          "size": 1630,
+          "sha256": "391f0f0a27de6f2ed8e186e7ec5f853aa3b3f16c782efcc83758a9f6400068d1"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Configuration.xml",
+          "size": 4171,
+          "sha256": "521fb81dd7a17afd47155441820c2c4e866040dba18f1f5bd8373befed338411"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Documents/Cov_ExistingDoc.xml",
+          "size": 12323,
+          "sha256": "29e3b554b50c6f0f617ef8f9933233e9f3836b320b2e914586fe9dc2b2dac880"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Enums/Cov_Provider.xml",
+          "size": 5112,
+          "sha256": "38ab04cff979650e52e91c7d1c08b5a95c0283186eff9e00dfa3e068296c28cb"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/HTTPServices/Cov_CompanionAPI/Ext/Module.bsl",
+          "size": 248,
+          "sha256": "ef1abb22ce73d079d623db20f7f7b4c268c3ffb7858dbccae083708816262246"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/HTTPServices/Cov_CompanionAPI.xml",
+          "size": 2190,
+          "sha256": "7f2f66e8909b886da497a009d4e25f147af0afd2b79cc628382121677006ea47"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Authors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Authors.xml",
+          "size": 13539,
+          "sha256": "5bac5234b1deb80fe8edc83d3255bacfcb57e92c5af0e4f8dee1e7d2ccdd5e45"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Cursors/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Cursors.xml",
+          "size": 15175,
+          "sha256": "49ad279c662337126396bdb6b3357aa2fd2a3ded5a1d2da8a67cdbf81f32587d"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Delivery/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Delivery.xml",
+          "size": 15063,
+          "sha256": "31c367087c9f4c06bfb78ed2aeae2f211d9083ac33d75b49996c1fdc972f2ca1"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Journal/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/InformationRegisters/Cov_Journal.xml",
+          "size": 15042,
+          "sha256": "90922314f95f3bf008b8f120cc8b283234d104e25664a5c982d4f659fc253823"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/ScheduledJobs/Cov_CompanionJob.xml",
+          "size": 1574,
+          "sha256": "2821f4d867aa64ad3682beeb48014d49ea817d922e6cbde983e75e897451a67e"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/ScheduledJobs/Cov_CompanionJobSecond.xml",
+          "size": 1594,
+          "sha256": "75be5113d2fc714239ead89664979144a3964da69d3b80ad937c358913c44c02"
+        },
+        {
+          "path": "CovRestructureTwoPlainJobs/Subsystems/Cov_CompanionSubsystem.xml",
+          "size": 2004,
+          "sha256": "bc3424a6b87275eff883abed949ef6d13bfb5e4a0d2f31056d2193f389798826"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureDialogBaseline",
+      "property": "SchemaUpdate",
+      "value": "dialog-baseline",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureDialogBaseline.cfe.b64",
+        "decoded_sha256": "a2a3775f68fccd842172a7867194e89e5a4228f4d0cb6b69f665f4e3e81e8e75"
+      },
+      "files": [
+        {
+          "path": "CovRestructureDialogBaseline/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Configuration.xml",
+          "size": 3660,
+          "sha256": "822fe1e2bf0e4442febf503875ec6b8372dfc4c9131f10a23006c35049bba120"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form/Module.bsl",
+          "size": 492,
+          "sha256": "a484a6eb7807068684a82463043cad6a07666e4903c44c509f7bfd16cbee9805"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form.xml",
+          "size": 1316,
+          "sha256": "3109147d22578b98904196638b558c5da7503bfb3ab91b944b472a5384f92c75"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools/Forms/Main.xml",
+          "size": 1658,
+          "sha256": "4086a81946165b32b9548630eece0593694d97a297455674bb2bb6c964d7b848"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/DataProcessors/Cov_ImportTools.xml",
+          "size": 2115,
+          "sha256": "cb0335af7ac42581239b8206b65ab970c143e08a4565ad2cdcc17d450a7a09fb"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Documents/Cov_ExistingDoc.xml",
+          "size": 10913,
+          "sha256": "f2df3a17d60f85a6c0e22032f1cc7a0b4d3f7ec3c6996bd0e010b393d082140a"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Enums/Cov_Provider.xml",
+          "size": 4793,
+          "sha256": "811a88c5730527062e1b29985d535e8a415a8dd70105cb621b99454386e77523"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureDialogBaseline/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureDialogUpdate",
+      "property": "SchemaUpdate",
+      "value": "dialog-update",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureDialogUpdate.cfe.b64",
+        "decoded_sha256": "31dc21d08d807e918db89c48178474785968d2b739cce3bf5d3868856ff81d63"
+      },
+      "files": [
+        {
+          "path": "CovRestructureDialogUpdate/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonModules/Cov_DialogSupport/Ext/Module.bsl",
+          "size": 70,
+          "sha256": "bc3605d49d4841c5564db2c6b8bcabc36af43e28bcefcb49e5324510166bae73"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonModules/Cov_DialogSupport.xml",
+          "size": 1642,
+          "sha256": "187d66808fd53dcf66772e966de42d0bd170fc5ff60ceb7dd177e0b55ea716fb"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Configuration.xml",
+          "size": 3711,
+          "sha256": "f88ae270d1e28f73e484eeadf1b59ad62f099d76acb82734862e0f46141eeaeb"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form/Module.bsl",
+          "size": 182,
+          "sha256": "9a5045a4a41ac6d12c35dea1cbee40f5cd506fee47572edb53a956a422629abe"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form.xml",
+          "size": 2730,
+          "sha256": "c1515317fb04e181fa08dfd33d2d3f3a7d32e6a294fa6732bce40f9fa0c863ca"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/ImportDialog.xml",
+          "size": 1670,
+          "sha256": "38ef515a50e5286163954944762def7b2afb4ac1c7202559cc592ebfbcefcc02"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form/Module.bsl",
+          "size": 492,
+          "sha256": "a484a6eb7807068684a82463043cad6a07666e4903c44c509f7bfd16cbee9805"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form.xml",
+          "size": 1316,
+          "sha256": "3109147d22578b98904196638b558c5da7503bfb3ab91b944b472a5384f92c75"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools/Forms/Main.xml",
+          "size": 1658,
+          "sha256": "4086a81946165b32b9548630eece0593694d97a297455674bb2bb6c964d7b848"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/DataProcessors/Cov_ImportTools.xml",
+          "size": 2145,
+          "sha256": "7b66038b30e63788196c5077b00f639d0dca59db1629417054c8be839a58f098"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Documents/Cov_ExistingDoc.xml",
+          "size": 10913,
+          "sha256": "f2df3a17d60f85a6c0e22032f1cc7a0b4d3f7ec3c6996bd0e010b393d082140a"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Enums/Cov_Provider.xml",
+          "size": 4793,
+          "sha256": "811a88c5730527062e1b29985d535e8a415a8dd70105cb621b99454386e77523"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureDialogUpdate/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        }
+      ]
+    },
+    {
+      "name": "CovRestructureDialogDefaults",
+      "property": "SchemaUpdate",
+      "value": "dialog-defaults",
+      "source": "generated",
+      "status": "platform_proven",
+      "file": {
+        "path": "variants/CovRestructureDialogDefaults.cfe.b64",
+        "decoded_sha256": "74ad54d5b7754e2302d98c2530e0fc68051f2c96b0abcde8d8ce914060c84f29"
+      },
+      "files": [
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/Cov_Own/Ext/ObjectModule.bsl",
+          "size": 126,
+          "sha256": "9820abfc09ea22890f93d86007841d04d47737e6c3aa0beb8b658e394525924b"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/Cov_Own.xml",
+          "size": 4513,
+          "sha256": "c7e97fa0ecb2d8cd150955fb27c2880cbdb25f90182d191aee771b859cbdb4ab"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Catalogs/CovTemplate.xml",
+          "size": 2742,
+          "sha256": "2e49eaa64ae47e91c7fc3067087a7e5d5d8de558ae952401dd1a5e46e7764504"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonForms/Cov_ActivationForm/Ext/Form.xml",
+          "size": 1295,
+          "sha256": "021bf04636f05f67af34072959205ab3cf4cf7c589382840725d67492b468e58"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonForms/Cov_ActivationForm.xml",
+          "size": 1632,
+          "sha256": "b0218625452b90c9eb32495b5a0d05c130f502eb98f8ac4ed0ce8fc768a19b03"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonModules/Cov_DialogSupport/Ext/Module.bsl",
+          "size": 70,
+          "sha256": "bc3605d49d4841c5564db2c6b8bcabc36af43e28bcefcb49e5324510166bae73"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonModules/Cov_DialogSupport.xml",
+          "size": 1642,
+          "sha256": "187d66808fd53dcf66772e966de42d0bd170fc5ff60ceb7dd177e0b55ea716fb"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonTemplates/Cov_ActivationText/Ext/Template.txt",
+          "size": 35,
+          "sha256": "d96bb9cbe370a4c64e56dfcab4381c9209507def5aef5d43faac775374eb541c"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/CommonTemplates/Cov_ActivationText.xml",
+          "size": 1213,
+          "sha256": "33658da10efcc32871018eec07aa5f4a9f0ffce6d6f997f56770486d2aa441c9"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Configuration.xml",
+          "size": 3711,
+          "sha256": "df30852cf9f140a7afccd106af528018aa8f19544014658c2891841329e09d6d"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form/Module.bsl",
+          "size": 182,
+          "sha256": "9a5045a4a41ac6d12c35dea1cbee40f5cd506fee47572edb53a956a422629abe"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog/Ext/Form.xml",
+          "size": 3303,
+          "sha256": "81a48b56d9bd14d61fb907c542b99338b98a81dbd8a73964fc49352d8f1c63d5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/ImportDialog.xml",
+          "size": 1670,
+          "sha256": "38ef515a50e5286163954944762def7b2afb4ac1c7202559cc592ebfbcefcc02"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form/Module.bsl",
+          "size": 492,
+          "sha256": "a484a6eb7807068684a82463043cad6a07666e4903c44c509f7bfd16cbee9805"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main/Ext/Form.xml",
+          "size": 1316,
+          "sha256": "3109147d22578b98904196638b558c5da7503bfb3ab91b944b472a5384f92c75"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools/Forms/Main.xml",
+          "size": 1658,
+          "sha256": "4086a81946165b32b9548630eece0593694d97a297455674bb2bb6c964d7b848"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/DataProcessors/Cov_ImportTools.xml",
+          "size": 2145,
+          "sha256": "7b66038b30e63788196c5077b00f639d0dca59db1629417054c8be839a58f098"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Documents/Cov_ExistingDoc/Ext/ObjectModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Documents/Cov_ExistingDoc.xml",
+          "size": 10913,
+          "sha256": "f2df3a17d60f85a6c0e22032f1cc7a0b4d3f7ec3c6996bd0e010b393d082140a"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Enums/Cov_Provider/Ext/ManagerModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Enums/Cov_Provider.xml",
+          "size": 4793,
+          "sha256": "811a88c5730527062e1b29985d535e8a415a8dd70105cb621b99454386e77523"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/InformationRegisters/Cov_Existing/Ext/RecordSetModule.bsl",
+          "size": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/InformationRegisters/Cov_Existing.xml",
+          "size": 13542,
+          "sha256": "640ab007fce92296af78abe931df374c6b9e160feee8f782889d171bd03742d8"
+        },
+        {
+          "path": "CovRestructureDialogDefaults/Roles/ОсновнаяРоль.xml",
+          "size": 1153,
+          "sha256": "5650401e4b11c8d040a6e2f5ab7b221fe2b125c2f43c3df23f1ff2e0cf083948"
+        }
+      ]
+    }
+  ]
+}

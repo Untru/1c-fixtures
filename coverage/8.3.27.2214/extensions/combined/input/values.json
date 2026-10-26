@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "extension",
+  "sources": [
+    {
+      "set": "8.3.27.2342-xml-2.20-extensions-basic",
+      "path": "../../8.3.27.2342/extensions/basic",
+      "manifest_sha256": "2a558f491a353bc8ecc3f9bf085ad95ce6f773394ba98611fe7d339f634cce03"
+    },
+    {
+      "set": "8.3.27.2214-xml-2.20-extensions-restructuring",
+      "path": "restructuring",
+      "manifest_sha256": "6f86f88405bef12e0a65913ed6d8cd429a170ba0902f04d633b57891d450b182"
+    }
+  ],
+  "variants": [
+    "CovCombined"
+  ],
+  "previous_combined_manifest_sha256": "40c1cfc3306945af27e2320f3e1cef8ee4821c5f1bd90b5bd60f712e7e9fd1db",
+  "identity_adaptations": [
+    {
+      "kind": "Role",
+      "reason": "same role name in independently generated seeds; target role identity is used before native re-proof"
+    }
+  ],
+  "target_version": "1.2.0.6",
+  "dialog_source": "restructuring/input/dialog-defaults"
+}

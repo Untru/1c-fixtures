@@ -1,0 +1,34 @@
+{
+  "title": "Coverage import dialog",
+  "properties": {
+    "autoTitle": false
+  },
+  "events": {
+    "OnOpen": "OnOpen"
+  },
+  "elements": [
+    {
+      "input": "SourceName",
+      "path": "SourceName",
+      "title": "Source"
+    },
+    {
+      "button": "Confirm",
+      "command": "ConfirmSelection",
+      "title": "Confirm"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "SourceName",
+      "type": "string(100)"
+    }
+  ],
+  "commands": [
+    {
+      "name": "ConfirmSelection",
+      "action": "ConfirmSelection",
+      "title": "Confirm"
+    }
+  ]
+}
